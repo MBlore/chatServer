@@ -26,14 +26,11 @@ func onHandlePacket(s *server.TCPServer, c net.Conn, p server.Packet) {
 
 	switch p.ID {
 	case packetAudio:
-		// Reply the packet to other connected clients.
 		s.BroadcastPacket(server.Packet{
 			ID:   packetAudio,
 			Data: p.Data,
 		}, c)
-
 	case packetChat:
-		// Send the chat to the other clients.
 		s.BroadcastPacket(server.Packet{
 			ID:   packetChat,
 			Data: p.Data,
