@@ -1,6 +1,7 @@
 package server
 
 import (
+	"errors"
 	"io"
 	"log"
 	"net"
@@ -20,9 +21,17 @@ func (c *client) readPacket() (packet *Packet, err error) {
 		return nil, e
 	}
 
+	if packetType < 1 {
+		return nil, errors.New("invalid packet id")
+	}
+
 	packetLength, e := readFourBytes(c)
 	if e != nil {
 		return nil, e
+	}
+
+	if packetLength > maxPacketLength {
+		return nil, errors.New("packet length above maximum allowed")
 	}
 
 	packetData, e := readPacketData(c, packetLength)
