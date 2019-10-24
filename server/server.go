@@ -3,47 +3,38 @@
 package server
 
 import (
-	"encoding/binary"
-	"io"
 	"log"
 	"net"
 	"sync"
 	"time"
 )
 
-// Packet represents a received packet from a client connection.
-type Packet struct {
-	ID   int64
-	Data []byte
-}
-
 // OnHandlePacket is used as an event for when a packet is received from a client.
-type OnHandlePacket func(s *TCPServer, c net.Conn, p Packet)
+type OnHandlePacket func(s *TCPServer, c net.Conn, p *Packet)
 
 // OnClientConnect is used as event for when a new client has connected.
 type OnClientConnect func(s *TCPServer, c net.Conn, addr string)
 
-// A wrapper for connected clients as later we will store more information around a connected socket.
-type client struct {
-	conn net.Conn
-	name string
-}
+// OnClientDisconnect is used as event for when a client has disconnected.
+type OnClientDisconnect func(s *TCPServer, c net.Conn, addr string)
 
 // TCPServer represents the listening socket and all connected clients.
 type TCPServer struct {
-	listener        net.Listener
-	clients         []*client
-	mutex           *sync.Mutex
-	onHandlePacket  OnHandlePacket
-	onClientConnect OnClientConnect
+	listener           net.Listener
+	clients            []*client
+	mutex              *sync.Mutex
+	onHandlePacket     OnHandlePacket
+	onClientConnect    OnClientConnect
+	onClientDisconnect OnClientDisconnect
 }
 
 // NewTCPServer creates a new TCPServer instance.
-func NewTCPServer(h OnHandlePacket, c OnClientConnect) *TCPServer {
+func NewTCPServer(h OnHandlePacket, c OnClientConnect, d OnClientDisconnect) *TCPServer {
 	return &TCPServer{
-		mutex:           &sync.Mutex{},
-		onHandlePacket:  h,
-		onClientConnect: c,
+		mutex:              &sync.Mutex{},
+		onHandlePacket:     h,
+		onClientConnect:    c,
+		onClientDisconnect: d,
 	}
 }
 
@@ -84,19 +75,10 @@ func (s *TCPServer) Run() {
 func (s *TCPServer) BroadcastPacket(p Packet, c net.Conn) {
 	for _, client := range s.clients {
 		if client.conn != c {
-			packetIDBytes := make([]byte, 4)
-			packetLengthBytes := make([]byte, 4)
+			bytes := p.toBytes()
 
-			binary.LittleEndian.PutUint32(packetIDBytes, uint32(p.ID))
-			binary.LittleEndian.PutUint32(packetLengthBytes, uint32(len(p.Data)))
-
-			buffer := append(packetIDBytes, packetLengthBytes...)
-			buffer = append(buffer, p.Data...)
-
-			timeoutDuration := 30 * time.Second
-			client.conn.SetWriteDeadline(time.Now().Add(timeoutDuration))
-
-			client.conn.Write(buffer)
+			client.conn.SetWriteDeadline(time.Now().Add(writeTimeoutDuration))
+			client.conn.Write(*bytes)
 		}
 	}
 }
@@ -126,11 +108,7 @@ func (s *TCPServer) remove(client *client) {
 		}
 	}
 
-	log.Printf(
-		"Closing connection from %v",
-		client.conn.RemoteAddr().String())
-
-	// TODO: Raise a client disconnected event here.
+	s.onClientDisconnect(s, client.conn, client.conn.RemoteAddr().String())
 
 	client.conn.Close()
 }
@@ -138,64 +116,12 @@ func (s *TCPServer) remove(client *client) {
 func (s *TCPServer) serve(client *client) {
 	defer s.remove(client)
 
-	timeoutDuration := 60 * time.Second
-
 	for {
-		// TODO: Move this in to some kind of packet parser package...
-
-		packetTypeBytes := make([]byte, 4)
-		packetLengthBytes := make([]byte, 4)
-
-		client.conn.SetReadDeadline(time.Now().Add(timeoutDuration))
-
-		intReader := io.LimitReader(client.conn, 4)
-		_, err := intReader.Read(packetTypeBytes)
+		packet, err := client.readPacket()
 		if err != nil {
-			log.Printf("Packet type read error: %v", err)
 			break
 		}
 
-		client.conn.SetReadDeadline(time.Now().Add(timeoutDuration))
-
-		intReader = io.LimitReader(client.conn, 4)
-		_, err = intReader.Read(packetLengthBytes)
-		if err != nil {
-			log.Printf("Packet length read error: %v", err)
-			break
-		}
-
-		// Packet header values are 32-bit, so convert them.
-		packetType := bytesToInt64(packetTypeBytes)
-		packetLength := bytesToInt64(packetLengthBytes)
-
-		packetData := make([]byte, packetLength)
-		valueReader := io.LimitReader(client.conn, packetLength)
-
-		// Read the packet body.
-		if packetLength > 0 {
-			client.conn.SetReadDeadline(time.Now().Add(timeoutDuration))
-
-			_, err = valueReader.Read(packetData)
-			if err != nil {
-				log.Printf("Packet data read error: %v", err)
-				break
-			}
-		}
-
-		s.onHandlePacket(s, client.conn, Packet{
-			ID:   packetType,
-			Data: packetData,
-		})
+		s.onHandlePacket(s, client.conn, packet)
 	}
-}
-
-func bytesToInt64(b []byte) int64 {
-	var val int64
-
-	val |= int64(b[0])
-	val |= int64(b[1]) << 8
-	val |= int64(b[2]) << 16
-	val |= int64(b[3]) << 24
-
-	return val
 }

@@ -16,12 +16,16 @@ const (
 func main() {
 	log.SetOutput(os.Stdout)
 
-	serv := server.NewTCPServer(onHandlePacket, onClientConnect)
+	serv := server.NewTCPServer(
+		onHandlePacket,
+		onClientConnect,
+		onClientDisconnect)
+
 	serv.Listen(":80")
 	serv.Run()
 }
 
-func onHandlePacket(s *server.TCPServer, c net.Conn, p server.Packet) {
+func onHandlePacket(s *server.TCPServer, c net.Conn, p *server.Packet) {
 	// TODO: Make packet handler interface and have handlers in their own files, maybe?
 
 	switch p.ID {
@@ -41,4 +45,8 @@ func onHandlePacket(s *server.TCPServer, c net.Conn, p server.Packet) {
 func onClientConnect(s *server.TCPServer, c net.Conn, addr string) {
 	// When clients connect, we may want to perform a handshake such as sending info about the server.
 	log.Printf("Client connected from %v", addr)
+}
+
+func onClientDisconnect(s *server.TCPServer, c net.Conn, addr string) {
+	log.Printf("Client disconnected from %v", addr)
 }
