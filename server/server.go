@@ -6,22 +6,21 @@ import (
 	"log"
 	"net"
 	"sync"
-	"time"
 )
 
 // OnHandlePacket is used as an event for when a packet is received from a client.
-type OnHandlePacket func(s *TCPServer, c net.Conn, p *Packet)
+type OnHandlePacket func(s *TCPServer, c *Client, p *Packet)
 
 // OnClientConnect is used as event for when a new client has connected.
-type OnClientConnect func(s *TCPServer, c net.Conn, addr string)
+type OnClientConnect func(s *TCPServer, c *Client, addr string)
 
 // OnClientDisconnect is used as event for when a client has disconnected.
-type OnClientDisconnect func(s *TCPServer, c net.Conn, addr string)
+type OnClientDisconnect func(s *TCPServer, c *Client, addr string)
 
 // TCPServer represents the listening socket and all connected clients.
 type TCPServer struct {
 	listener           net.Listener
-	clients            []*client
+	clients            []*Client
 	mutex              *sync.Mutex
 	onHandlePacket     OnHandlePacket
 	onClientConnect    OnClientConnect
@@ -72,33 +71,31 @@ func (s *TCPServer) Run() {
 }
 
 // BroadcastPacket will send the specified packet to all connected clients except the specified client connection.
-func (s *TCPServer) BroadcastPacket(p Packet, c net.Conn) {
+func (s *TCPServer) BroadcastPacket(p *Packet, c *Client) {
 	for _, client := range s.clients {
-		if client.conn != c {
-			bytes := p.toBytes()
-
-			client.conn.SetWriteDeadline(time.Now().Add(writeTimeoutDuration))
-			client.conn.Write(*bytes)
+		if client != c {
+			client.SendPacket(p)
 		}
 	}
 }
 
-func (s *TCPServer) accept(c net.Conn) *client {
-	s.onClientConnect(s, c, c.RemoteAddr().String())
-
+func (s *TCPServer) accept(c net.Conn) *Client {
 	s.mutex.Lock()
-	defer s.mutex.Unlock()
 
-	client := &client{
+	client := &Client{
 		conn: c,
 	}
 
 	s.clients = append(s.clients, client)
 
+	s.mutex.Unlock()
+
+	s.onClientConnect(s, client, c.RemoteAddr().String())
+
 	return client
 }
 
-func (s *TCPServer) remove(client *client) {
+func (s *TCPServer) remove(client *Client) {
 	s.mutex.Lock()
 	defer s.mutex.Unlock()
 
@@ -108,20 +105,21 @@ func (s *TCPServer) remove(client *client) {
 		}
 	}
 
-	s.onClientDisconnect(s, client.conn, client.conn.RemoteAddr().String())
+	s.onClientDisconnect(s, client, client.conn.RemoteAddr().String())
 
 	client.conn.Close()
 }
 
-func (s *TCPServer) serve(client *client) {
+func (s *TCPServer) serve(client *Client) {
 	defer s.remove(client)
 
 	for {
 		packet, err := client.readPacket()
 		if err != nil {
+			log.Print(err)
 			break
 		}
 
-		s.onHandlePacket(s, client.conn, packet)
+		s.onHandlePacket(s, client, packet)
 	}
 }

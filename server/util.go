@@ -1,5 +1,6 @@
 package server
 
+// Converts little endian bytes to an int64.
 func bytesToInt64(b []byte) int64 {
 	var val int64
 

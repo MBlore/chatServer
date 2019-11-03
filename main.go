@@ -3,14 +3,8 @@ package main
 import (
 	"chatServer/server"
 	"log"
-	"net"
 	"os"
-)
-
-// Packet types supported in our client/server protocol.
-const (
-	packetAudio = 1
-	packetChat  = 2
+	"strings"
 )
 
 func main() {
@@ -25,28 +19,54 @@ func main() {
 	serv.Run()
 }
 
-func onHandlePacket(s *server.TCPServer, c net.Conn, p *server.Packet) {
-	// TODO: Make packet handler interface and have handlers in their own files, maybe?
+func onHandlePacket(s *server.TCPServer, client *server.Client, packet *server.Packet) {
+	if !client.LoggedIn && packet.ID == PacketIDLogin {
+		parts := strings.Split(string(*packet.Data), "\n")
+		username := parts[0]
+		password := parts[1]
 
-	switch p.ID {
-	case packetAudio:
-		s.BroadcastPacket(server.Packet{
-			ID:   packetAudio,
-			Data: p.Data,
-		}, c)
-	case packetChat:
-		s.BroadcastPacket(server.Packet{
-			ID:   packetChat,
-			Data: p.Data,
-		}, c)
+		// TODO: Is user logged in already.
+		// TODO: Validate the user from DB.
+		// TODO: Yep, we definitly want our handlers in their own files.
+
+		loggedIn := false
+
+		if password == "pass" {
+			loggedIn = true
+			client.Username = username
+			client.LoggedIn = true
+			log.Printf("User '%v' logged in.", username)
+		} else {
+			log.Printf("User '%v' login denied.", username)
+		}
+
+		client.SendPacket(NewLoginResultPacket(loggedIn))
+		return
+	}
+
+	// Logged in packet handlers...
+	if client.LoggedIn {
+		switch packet.ID {
+		case PacketIDAudio:
+			s.BroadcastPacket(&server.Packet{
+				ID:   PacketIDAudio,
+				Data: packet.Data,
+			}, client)
+		case PacketIDChat:
+			if packet.Data != nil {
+				s.BroadcastPacket(&server.Packet{
+					ID:   PacketIDChat,
+					Data: packet.Data,
+				}, nil)
+			}
+		}
 	}
 }
 
-func onClientConnect(s *server.TCPServer, c net.Conn, addr string) {
-	// When clients connect, we may want to perform a handshake such as sending info about the server.
+func onClientConnect(s *server.TCPServer, c *server.Client, addr string) {
 	log.Printf("Client connected from %v", addr)
 }
 
-func onClientDisconnect(s *server.TCPServer, c net.Conn, addr string) {
+func onClientDisconnect(s *server.TCPServer, c *server.Client, addr string) {
 	log.Printf("Client disconnected from %v", addr)
 }
