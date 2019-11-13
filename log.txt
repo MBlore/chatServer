@@ -1,0 +1,2835 @@
+2019/11/08 16:03:06 Listening on :80
+2019/11/08 16:26:00 Listening on :80
+2019/11/08 16:29:57 Client connected from 81.157.236.207:63966 (1 clients)
+2019/11/08 16:29:57 User 'meshy' logged in.
+2019/11/08 16:30:57 Read error: read tcp 192.168.1.92:80->81.157.236.207:63966: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/08 16:30:57 read tcp 192.168.1.92:80->81.157.236.207:63966: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/08 16:30:57 Client 'meshy' disconnected from 81.157.236.207:63966
+2019/11/08 16:31:44 Client connected from 81.157.236.207:64030 (1 clients)
+2019/11/08 16:31:44 User 'meshy' logged in.
+2019/11/08 16:35:44 Read error: EOF
+2019/11/08 16:35:44 EOF
+2019/11/08 16:35:44 Client 'meshy' disconnected from 81.157.236.207:64030
+2019/11/08 16:42:49 Client connected from 81.157.236.207:59208 (1 clients)
+2019/11/08 16:42:49 User 'meshy' logged in.
+2019/11/08 16:43:31 Read error: EOF
+2019/11/08 16:43:31 EOF
+2019/11/08 16:43:31 Client 'meshy' disconnected from 81.157.236.207:59208
+2019/11/08 16:50:59 Client connected from 81.157.236.207:59540 (1 clients)
+2019/11/08 16:50:59 User 'meshy' logged in.
+2019/11/08 16:51:34 Read error: EOF
+2019/11/08 16:51:34 EOF
+2019/11/08 16:51:34 Client 'meshy' disconnected from 81.157.236.207:59540
+2019/11/08 16:53:04 Client connected from 81.157.236.207:59611 (1 clients)
+2019/11/08 16:53:04 User 'meshy' logged in.
+2019/11/08 16:56:54 Client connected from 179.111.84.2:38301 (2 clients)
+2019/11/08 16:56:54 packet length above maximum allowed
+2019/11/08 16:56:55 Client '' disconnected from 179.111.84.2:38301
+2019/11/08 17:34:07 Client connected from 193.239.124.192:48456 (2 clients)
+2019/11/08 17:34:07 packet length above maximum allowed
+2019/11/08 17:34:07 Client '' disconnected from 193.239.124.192:48456
+2019/11/08 17:54:46 Listening on :80
+2019/11/08 17:56:43 Client connected from 37.49.230.18:58438 (1 clients)
+2019/11/08 17:56:43 Read error: read tcp 192.168.1.92:80->37.49.230.18:58438: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/08 17:56:43 read tcp 192.168.1.92:80->37.49.230.18:58438: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/08 17:56:43 Client '' disconnected from 37.49.230.18:58438 (0 clients)
+2019/11/08 17:56:44 Client connected from 37.49.230.18:58520 (1 clients)
+2019/11/08 17:56:44 packet length above maximum allowed
+2019/11/08 17:56:44 Client '' disconnected from 37.49.230.18:58520 (0 clients)
+2019/11/08 18:12:07 Client connected from 114.35.191.203:40799 (1 clients)
+2019/11/08 18:12:07 packet length above maximum allowed
+2019/11/08 18:12:07 Client '' disconnected from 114.35.191.203:40799 (0 clients)
+2019/11/08 18:32:52 Client connected from 47.103.44.50:38932 (1 clients)
+2019/11/08 18:32:52 packet length above maximum allowed
+2019/11/08 18:32:52 Client '' disconnected from 47.103.44.50:38932 (0 clients)
+2019/11/08 18:40:35 Client connected from 80.241.221.67:61000 (1 clients)
+2019/11/08 18:40:37 packet length above maximum allowed
+2019/11/08 18:40:37 Client '' disconnected from 80.241.221.67:61000 (0 clients)
+2019/11/08 18:55:24 Client connected from 45.143.220.23:59273 (1 clients)
+2019/11/08 18:55:24 packet length above maximum allowed
+2019/11/08 18:55:24 Client '' disconnected from 45.143.220.23:59273 (0 clients)
+2019/11/08 18:55:24 Client connected from 45.143.220.23:59359 (1 clients)
+2019/11/08 18:55:24 packet length above maximum allowed
+2019/11/08 18:55:24 Client '' disconnected from 45.143.220.23:59359 (0 clients)
+2019/11/08 18:58:04 Listening on :80
+2019/11/08 18:58:18 Client connected from 81.157.236.207:59098 (1 clients)
+2019/11/08 18:58:18 User 'meshy' logged in.
+2019/11/08 18:58:41 Read error: EOF
+2019/11/08 18:58:41 EOF
+2019/11/08 18:58:41 Client 'meshy' disconnected from 81.157.236.207:59098 (0 clients)
+2019/11/08 19:15:03 Client connected from 45.143.220.23:55901 (1 clients)
+2019/11/08 19:15:03 packet length above maximum allowed
+2019/11/08 19:15:03 Client '' disconnected from 45.143.220.23:55901 (0 clients)
+2019/11/08 19:15:03 Client connected from 45.143.220.23:55997 (1 clients)
+2019/11/08 19:15:03 packet length above maximum allowed
+2019/11/08 19:15:03 Client '' disconnected from 45.143.220.23:55997 (0 clients)
+2019/11/08 19:26:10 Client connected from 81.157.236.207:63591 (1 clients)
+2019/11/08 19:26:10 User 'meshy' logged in.
+2019/11/08 19:26:38 Read error: EOF
+2019/11/08 19:26:38 EOF
+2019/11/08 19:26:38 Client 'meshy' disconnected from 81.157.236.207:63591 (0 clients)
+2019/11/08 19:29:52 Client connected from 81.157.236.207:63732 (1 clients)
+2019/11/08 19:29:52 User 'meshy' logged in.
+2019/11/08 19:30:25 Client connected from 81.157.236.207:63756 (2 clients)
+2019/11/08 19:30:25 User 'meshy' logged in.
+2019/11/08 19:30:52 Read error: read tcp 192.168.1.92:80->81.157.236.207:63732: i/o timeout
+2019/11/08 19:30:52 read tcp 192.168.1.92:80->81.157.236.207:63732: i/o timeout
+2019/11/08 19:30:52 Client 'meshy' disconnected from 81.157.236.207:63732 (1 clients)
+2019/11/08 19:31:21 Read error: EOF
+2019/11/08 19:31:21 EOF
+2019/11/08 19:31:21 Client 'meshy' disconnected from 81.157.236.207:63756 (0 clients)
+2019/11/08 19:31:28 Client connected from 81.157.236.207:63792 (1 clients)
+2019/11/08 19:31:28 User 'meshy' logged in.
+2019/11/08 19:31:36 Read error: EOF
+2019/11/08 19:31:36 EOF
+2019/11/08 19:31:36 Client 'meshy' disconnected from 81.157.236.207:63792 (0 clients)
+2019/11/08 19:32:39 Client connected from 81.157.236.207:63833 (1 clients)
+2019/11/08 19:32:39 User 'meshy' logged in.
+2019/11/08 19:32:54 Read error: EOF
+2019/11/08 19:32:54 EOF
+2019/11/08 19:32:54 Client 'meshy' disconnected from 81.157.236.207:63833 (0 clients)
+2019/11/08 19:35:03 Listening on :80
+2019/11/08 19:35:38 Client connected from 81.157.236.207:63950 (1 clients)
+2019/11/08 19:35:38 User 'meshy' logged in.
+2019/11/08 19:35:38 Length: 10
+2019/11/08 19:35:41 Read error: EOF
+2019/11/08 19:35:41 EOF
+2019/11/08 19:35:41 Client 'meshy' disconnected from 81.157.236.207:63950 (0 clients)
+2019/11/08 19:36:14 Client connected from 81.157.236.207:63979 (1 clients)
+2019/11/08 19:36:14 User 'meshy' logged in.
+2019/11/08 19:36:14 Length: 10
+2019/11/08 19:41:50 Read error: EOF
+2019/11/08 19:41:50 EOF
+2019/11/08 19:41:50 Client 'meshy' disconnected from 81.157.236.207:63979 (0 clients)
+2019/11/08 19:42:21 Listening on :80
+2019/11/08 19:55:59 Client connected from 81.157.236.207:52237 (1 clients)
+2019/11/08 19:55:59 User 'meshy' logged in.
+2019/11/08 19:58:14 Read error: EOF
+2019/11/08 19:58:14 EOF
+2019/11/08 19:58:14 Client 'meshy' disconnected from 81.157.236.207:52237 (0 clients)
+2019/11/08 19:59:11 Client connected from 81.157.236.207:52379 (1 clients)
+2019/11/08 19:59:11 User 'meshy' logged in.
+2019/11/08 19:59:18 Client connected from 81.157.236.207:52383 (2 clients)
+2019/11/08 19:59:18 User 'tester' logged in.
+2019/11/08 19:59:35 Read error: EOF
+2019/11/08 19:59:35 EOF
+2019/11/08 19:59:35 Client 'meshy' disconnected from 81.157.236.207:52379 (1 clients)
+2019/11/08 19:59:36 Read error: EOF
+2019/11/08 19:59:36 EOF
+2019/11/08 19:59:36 Client 'tester' disconnected from 81.157.236.207:52383 (0 clients)
+2019/11/08 20:01:41 Listening on :80
+2019/11/08 20:01:50 Client connected from 81.157.236.207:52493 (1 clients)
+2019/11/08 20:01:50 User 'meshy' logged in.
+2019/11/08 20:02:51 Read error: EOF
+2019/11/08 20:02:51 EOF
+2019/11/08 20:02:51 Client 'meshy' disconnected from 81.157.236.207:52493 (0 clients)
+2019/11/08 20:03:02 Client connected from 81.157.236.207:52541 (1 clients)
+2019/11/08 20:03:02 User 'meshy' logged in.
+2019/11/08 20:06:00 Read error: EOF
+2019/11/08 20:06:00 EOF
+2019/11/08 20:06:00 Client 'meshy' disconnected from 81.157.236.207:52541 (0 clients)
+2019/11/08 20:06:10 Client connected from 81.157.236.207:56199 (1 clients)
+2019/11/08 20:06:10 User 'meshy' logged in.
+2019/11/08 20:06:24 Read error: EOF
+2019/11/08 20:06:24 EOF
+2019/11/08 20:06:24 Client 'meshy' disconnected from 81.157.236.207:56199 (0 clients)
+2019/11/08 20:06:39 Listening on :80
+2019/11/08 20:07:43 Client connected from 81.157.236.207:56258 (1 clients)
+2019/11/08 20:07:43 User 'mesh' logged in.
+2019/11/08 20:07:50 Client connected from 81.157.236.207:56263 (2 clients)
+2019/11/08 20:07:50 User 'tester' logged in.
+2019/11/08 20:08:18 Read error: EOF
+2019/11/08 20:08:18 EOF
+2019/11/08 20:08:18 Client 'mesh' disconnected from 81.157.236.207:56258 (1 clients)
+2019/11/08 20:08:19 Read error: EOF
+2019/11/08 20:08:19 EOF
+2019/11/08 20:08:19 Client 'tester' disconnected from 81.157.236.207:56263 (0 clients)
+2019/11/08 20:09:21 Client connected from 45.221.35.248:49605 (1 clients)
+2019/11/08 20:09:21 packet length above maximum allowed
+2019/11/08 20:09:21 Client '' disconnected from 45.221.35.248:49605 (0 clients)
+2019/11/08 20:24:31 Client connected from 81.157.236.207:55584 (1 clients)
+2019/11/08 20:24:31 User 'Meshy' logged in.
+2019/11/08 20:26:25 Client connected from 68.81.163.167:51259 (2 clients)
+2019/11/08 20:26:25 User 'fly' logged in.
+2019/11/08 20:46:23 Read error: EOF
+2019/11/08 20:46:23 EOF
+2019/11/08 20:46:23 Client 'fly' disconnected from 68.81.163.167:51259 (1 clients)
+2019/11/08 20:47:34 Client connected from 68.81.163.167:52011 (2 clients)
+2019/11/08 20:47:34 User 'FlyMario' logged in.
+2019/11/08 20:55:46 Client connected from 94.236.200.230:60672 (3 clients)
+2019/11/08 20:55:46 packet length above maximum allowed
+2019/11/08 20:55:46 Client '' disconnected from 94.236.200.230:60672 (2 clients)
+2019/11/08 21:48:35 Client connected from 149.129.243.159:61000 (3 clients)
+2019/11/08 21:48:37 packet length above maximum allowed
+2019/11/08 21:48:37 Client '' disconnected from 149.129.243.159:61000 (2 clients)
+2019/11/08 21:56:51 Client connected from 198.108.67.80:34176 (3 clients)
+2019/11/08 21:57:06 Read error: EOF
+2019/11/08 21:57:06 EOF
+2019/11/08 21:57:06 Client '' disconnected from 198.108.67.80:34176 (2 clients)
+2019/11/08 22:07:00 Client connected from 198.108.67.80:41454 (3 clients)
+2019/11/08 22:07:15 Read error: EOF
+2019/11/08 22:07:15 EOF
+2019/11/08 22:07:15 Client '' disconnected from 198.108.67.80:41454 (2 clients)
+2019/11/08 22:07:16 Read error: EOF
+2019/11/08 22:07:16 EOF
+2019/11/08 22:07:16 Client 'Meshy' disconnected from 81.157.236.207:55584 (1 clients)
+2019/11/08 22:33:32 Listening on :80
+2019/11/08 22:34:31 Client connected from 81.157.236.207:50188 (1 clients)
+2019/11/08 22:34:31 User 'meshy' logged in.
+2019/11/08 22:34:46 Read error: EOF
+2019/11/08 22:34:46 EOF
+2019/11/08 22:34:46 Client 'meshy' disconnected from 81.157.236.207:50188 (0 clients)
+2019/11/08 22:36:45 Listening on :80
+2019/11/08 22:36:59 Client connected from 81.157.236.207:65406 (1 clients)
+2019/11/08 22:36:59 User 'meshy' logged in.
+2019/11/08 22:37:07 Set display name to: Meshy
+2019/11/08 22:37:20 Listening on :80
+2019/11/08 22:37:28 Client connected from 81.157.236.207:65429 (1 clients)
+2019/11/08 22:37:28 User 'meshy' logged in.
+2019/11/08 22:37:34 Set display name to: MeshyMan
+2019/11/08 22:37:38 Read error: EOF
+2019/11/08 22:37:38 EOF
+2019/11/08 22:37:38 Client 'meshy' disconnected from 81.157.236.207:65429 (0 clients)
+2019/11/08 22:38:21 Client connected from 211.150.70.18:45297 (1 clients)
+2019/11/08 22:38:21 packet length above maximum allowed
+2019/11/08 22:38:21 Client '' disconnected from 211.150.70.18:45297 (0 clients)
+2019/11/08 22:38:39 Listening on :80
+2019/11/08 22:38:48 Client connected from 81.157.236.207:65487 (1 clients)
+2019/11/08 22:38:48 User 'meshy' logged in.
+2019/11/08 22:38:53 Set display name to: Test
+2019/11/08 22:38:53 Current display name: meshy
+2019/11/08 22:38:53 Is now: Test
+2019/11/08 22:38:58 Read error: EOF
+2019/11/08 22:38:58 EOF
+2019/11/08 22:38:58 Client 'meshy' disconnected from 81.157.236.207:65487 (0 clients)
+2019/11/08 22:41:43 Client connected from 81.157.236.207:49202 (1 clients)
+2019/11/08 22:41:43 User 'meshy' logged in.
+2019/11/08 22:44:00 Read error: EOF
+2019/11/08 22:44:00 EOF
+2019/11/08 22:44:00 Client 'meshy' disconnected from 81.157.236.207:49202 (0 clients)
+2019/11/08 22:46:17 Client connected from 81.157.236.207:49365 (1 clients)
+2019/11/08 22:46:17 User 'meshy' logged in.
+2019/11/08 22:46:23 Set display name to: Meshyman
+2019/11/08 22:46:23 Current display name: meshy
+2019/11/08 22:46:23 Is now: Meshyman
+2019/11/08 22:46:25 Read error: EOF
+2019/11/08 22:46:25 EOF
+2019/11/08 22:46:25 Client 'meshy' disconnected from 81.157.236.207:49365 (0 clients)
+2019/11/08 22:46:48 Client connected from 81.157.236.207:49387 (1 clients)
+2019/11/08 22:46:48 User 'meshy' logged in.
+2019/11/08 22:46:57 Set display name to: MeshyMan
+2019/11/08 22:46:57 Current display name: meshy
+2019/11/08 22:46:57 Is now: MeshyMan
+2019/11/08 22:47:07 Read error: EOF
+2019/11/08 22:47:07 EOF
+2019/11/08 22:47:07 Client 'meshy' disconnected from 81.157.236.207:49387 (0 clients)
+2019/11/08 22:50:37 Client connected from 81.157.236.207:49534 (1 clients)
+2019/11/08 22:50:37 User 'meshy' logged in.
+2019/11/08 22:50:52 Set display name to: MeshyMan
+2019/11/08 22:50:52 Current display name: meshy
+2019/11/08 22:50:52 Is now: MeshyMan
+2019/11/08 23:20:03 Read error: EOF
+2019/11/08 23:20:03 EOF
+2019/11/08 23:20:03 Client 'meshy' disconnected from 81.157.236.207:49534 (0 clients)
+2019/11/08 23:30:28 Client connected from 36.76.163.57:59162 (1 clients)
+2019/11/08 23:30:28 packet length above maximum allowed
+2019/11/08 23:30:28 Client '' disconnected from 36.76.163.57:59162 (0 clients)
+2019/11/08 23:30:29 Client connected from 36.76.163.57:58728 (1 clients)
+2019/11/08 23:30:29 packet length above maximum allowed
+2019/11/08 23:30:29 Client '' disconnected from 36.76.163.57:58728 (0 clients)
+2019/11/08 23:31:39 Client connected from 81.157.236.207:53777 (1 clients)
+2019/11/08 23:31:39 User 'meshy' logged in.
+2019/11/08 23:31:48 Read error: EOF
+2019/11/08 23:31:48 EOF
+2019/11/08 23:31:48 Client 'meshy' disconnected from 81.157.236.207:53777 (0 clients)
+2019/11/08 23:35:33 Client connected from 81.157.236.207:53930 (1 clients)
+2019/11/08 23:35:33 User 'meshy' logged in.
+2019/11/08 23:36:06 Read error: EOF
+2019/11/08 23:36:06 EOF
+2019/11/08 23:36:06 Client 'meshy' disconnected from 81.157.236.207:53930 (0 clients)
+2019/11/08 23:51:35 Client connected from 81.157.236.207:54515 (1 clients)
+2019/11/08 23:51:35 User 'meshy' logged in.
+2019/11/08 23:51:46 Read error: EOF
+2019/11/08 23:51:46 EOF
+2019/11/08 23:51:46 Client 'meshy' disconnected from 81.157.236.207:54515 (0 clients)
+2019/11/09 00:08:08 Client connected from 81.157.236.207:58436 (1 clients)
+2019/11/09 00:08:08 User 'meshy' logged in.
+2019/11/09 00:08:15 Set display name to: Meshy
+2019/11/09 00:08:15 Current display name: meshy
+2019/11/09 00:08:15 Is now: Meshy
+2019/11/09 00:08:24 Read error: EOF
+2019/11/09 00:08:24 EOF
+2019/11/09 00:08:24 Client 'meshy' disconnected from 81.157.236.207:58436 (0 clients)
+2019/11/09 00:42:05 Client connected from 68.81.163.167:50930 (1 clients)
+2019/11/09 00:42:05 User 'Fly_Mario' logged in.
+2019/11/09 00:43:02 Client connected from 81.157.236.207:53516 (2 clients)
+2019/11/09 00:43:02 User 'meshy' logged in.
+2019/11/09 00:43:25 Set display name to: MeshyMan
+2019/11/09 00:43:25 Current display name: meshy
+2019/11/09 00:43:25 Is now: MeshyMan
+2019/11/09 01:01:35 Read error: EOF
+2019/11/09 01:01:35 EOF
+2019/11/09 01:01:35 Client 'meshy' disconnected from 81.157.236.207:53516 (1 clients)
+2019/11/09 01:16:31 Client connected from 45.143.220.44:57633 (2 clients)
+2019/11/09 01:16:31 Read error: EOF
+2019/11/09 01:16:31 EOF
+2019/11/09 01:16:31 Client '' disconnected from 45.143.220.44:57633 (1 clients)
+2019/11/09 01:16:31 Client connected from 45.143.220.44:59194 (2 clients)
+2019/11/09 01:16:31 packet length above maximum allowed
+2019/11/09 01:16:31 Client '' disconnected from 45.143.220.44:59194 (1 clients)
+2019/11/09 01:16:32 Client connected from 45.143.220.44:59122 (2 clients)
+2019/11/09 01:16:32 packet length above maximum allowed
+2019/11/09 01:16:32 Client '' disconnected from 45.143.220.44:59122 (1 clients)
+2019/11/09 01:16:32 Client connected from 45.143.220.44:59147 (2 clients)
+2019/11/09 01:16:32 packet length above maximum allowed
+2019/11/09 01:16:32 Client '' disconnected from 45.143.220.44:59147 (1 clients)
+2019/11/09 01:21:57 Client connected from 81.157.236.207:50144 (2 clients)
+2019/11/09 01:21:57 User 'meshy' logged in.
+2019/11/09 01:22:03 Read error: EOF
+2019/11/09 01:22:03 EOF
+2019/11/09 01:22:03 Client 'meshy' disconnected from 81.157.236.207:50144 (1 clients)
+2019/11/09 01:22:37 Client connected from 81.157.236.207:50172 (2 clients)
+2019/11/09 01:22:37 User 'meshy' logged in.
+2019/11/09 01:25:15 Read error: EOF
+2019/11/09 01:25:15 EOF
+2019/11/09 01:25:15 Client 'meshy' disconnected from 81.157.236.207:50172 (1 clients)
+2019/11/09 01:43:20 Client connected from 45.162.230.44:59942 (2 clients)
+2019/11/09 01:43:21 Read error: EOF
+2019/11/09 01:43:21 EOF
+2019/11/09 01:43:21 Client '' disconnected from 45.162.230.44:59942 (1 clients)
+2019/11/09 01:53:16 Client connected from 37.49.230.17:51758 (2 clients)
+2019/11/09 01:53:16 Read error: read tcp 192.168.1.92:80->37.49.230.17:51758: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/09 01:53:16 read tcp 192.168.1.92:80->37.49.230.17:51758: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/09 01:53:16 Client '' disconnected from 37.49.230.17:51758 (1 clients)
+2019/11/09 01:53:16 Client connected from 37.49.230.17:51770 (2 clients)
+2019/11/09 01:53:16 packet length above maximum allowed
+2019/11/09 01:53:16 Client '' disconnected from 37.49.230.17:51770 (1 clients)
+2019/11/09 14:20:16 Listening on :80
+2019/11/09 14:20:32 Client connected from 81.157.236.207:52047 (1 clients)
+2019/11/09 14:20:32 Client '' disconnected from 81.157.236.207:52047 (0 clients)
+2019/11/09 14:23:05 Listening on :80
+2019/11/09 14:23:09 Client connected from 81.157.236.207:52145 (1 clients)
+2019/11/09 14:23:09 Client '' disconnected from 81.157.236.207:52145 (0 clients)
+2019/11/09 14:23:52 Listening on :80
+2019/11/09 14:23:54 Client connected from 81.157.236.207:52176 (1 clients)
+2019/11/09 14:23:54 Client 'meshy' disconnected from 81.157.236.207:52176 (0 clients)
+2019/11/09 14:25:58 Listening on :80
+2019/11/09 14:25:59 Client connected from 81.157.236.207:52259 (1 clients)
+2019/11/09 14:25:59 User 'meshy' logged in.
+2019/11/09 14:26:59 Read error: read tcp 192.168.1.92:80->81.157.236.207:52259: i/o timeout
+2019/11/09 14:26:59 read tcp 192.168.1.92:80->81.157.236.207:52259: i/o timeout
+2019/11/09 14:26:59 Client 'meshy' disconnected from 81.157.236.207:52259 (0 clients)
+2019/11/09 14:27:19 Client connected from 81.157.236.207:52618 (1 clients)
+2019/11/09 14:27:19 User 'meshy' logged in.
+2019/11/09 14:27:24 Read error: EOF
+2019/11/09 14:27:24 EOF
+2019/11/09 14:27:24 Client 'meshy' disconnected from 81.157.236.207:52618 (0 clients)
+2019/11/09 14:27:29 Client connected from 81.157.236.207:52625 (1 clients)
+2019/11/09 14:27:29 User 'meshy' logged in.
+2019/11/09 14:27:34 Read error: EOF
+2019/11/09 14:27:34 EOF
+2019/11/09 14:27:34 Client 'meshy' disconnected from 81.157.236.207:52625 (0 clients)
+2019/11/09 14:28:10 Listening on :80
+2019/11/09 14:28:20 Client connected from 81.157.236.207:52672 (1 clients)
+2019/11/09 14:28:20 Client '' disconnected from 81.157.236.207:52672 (0 clients)
+2019/11/09 14:28:57 Listening on :80
+2019/11/09 14:29:01 Client connected from 81.157.236.207:52704 (1 clients)
+2019/11/09 14:29:01 User 'meshy2' login denied.
+2019/11/09 14:29:03 Read error: EOF
+2019/11/09 14:29:03 EOF
+2019/11/09 14:29:03 Client '' disconnected from 81.157.236.207:52704 (0 clients)
+2019/11/09 14:29:06 Client connected from 81.157.236.207:52710 (1 clients)
+2019/11/09 14:29:06 User 'meshy' logged in.
+2019/11/09 14:29:09 Read error: EOF
+2019/11/09 14:29:09 EOF
+2019/11/09 14:29:09 Client 'meshy' disconnected from 81.157.236.207:52710 (0 clients)
+2019/11/09 14:29:15 Client connected from 81.157.236.207:52714 (1 clients)
+2019/11/09 14:29:15 User 'meshy' login denied.
+2019/11/09 14:29:16 Read error: EOF
+2019/11/09 14:29:16 EOF
+2019/11/09 14:29:16 Client '' disconnected from 81.157.236.207:52714 (0 clients)
+2019/11/09 14:29:18 Client connected from 81.157.236.207:52718 (1 clients)
+2019/11/09 14:29:18 User 'meshy' login denied.
+2019/11/09 14:29:19 Read error: EOF
+2019/11/09 14:29:19 EOF
+2019/11/09 14:29:19 Client '' disconnected from 81.157.236.207:52718 (0 clients)
+2019/11/09 14:29:21 Client connected from 81.157.236.207:52720 (1 clients)
+2019/11/09 14:29:21 User 'meshy' logged in.
+2019/11/09 14:29:25 Read error: EOF
+2019/11/09 14:29:25 EOF
+2019/11/09 14:29:25 Client 'meshy' disconnected from 81.157.236.207:52720 (0 clients)
+2019/11/09 14:44:52 Client connected from 41.251.177.19:38047 (1 clients)
+2019/11/09 14:44:52 packet length above maximum allowed
+2019/11/09 14:44:52 Client '' disconnected from 41.251.177.19:38047 (0 clients)
+2019/11/09 15:36:41 Client connected from 62.173.141.18:62693 (1 clients)
+2019/11/09 15:36:41 packet length above maximum allowed
+2019/11/09 15:36:41 Client '' disconnected from 62.173.141.18:62693 (0 clients)
+2019/11/09 18:47:22 Hash: $2a$04$opjyDwOHajEF/KKZrHBut.QbJvGhBI73ncjjCzzpUkmi.hqAs4/JS
+2019/11/09 18:47:22 Compare: true
+2019/11/09 18:47:22 Listening on :80
+2019/11/09 18:47:53 Hash: $2a$04$fNJ7BuCik6T7oEMhKojQv.x3kfR5Od0B9Az.vJqpD7GkXMYCPUPvS
+2019/11/09 18:47:53 Compare: false
+2019/11/09 18:47:53 Listening on :80
+2019/11/09 18:48:59 Hash: $2a$04$.NHBzM0Oe8e/ru.NT1MbpudTgjHZH175Qmsy8yMdEnRF/5RL0k.3S
+2019/11/09 18:48:59 Compare: false
+2019/11/09 18:48:59 Listening on :80
+2019/11/09 18:49:25 Hash: $2a$04$OreWtcm/YvB8a4Tb4C72heA5R.CIKw7/GTy7fECKmyv83OiJjrRdi
+2019/11/09 18:49:25 Compare: false
+2019/11/09 18:49:25 Listening on :80
+2019/11/09 19:00:06 Hash: $2a$04$DnXQ1kw5APDpoEd/2H6adeJaKmip5ReKdySfLYa.M1YIEw1X.j4Ji
+2019/11/09 19:00:06 Compare: false
+2019/11/09 19:00:06 Listening on :80
+2019/11/09 19:00:26 Hash: $2a$04$y784a7X3bqP3GuwUfHVel.e9Cxp6mA2qdvAEBxtaiseFVDn/w996m
+2019/11/09 19:00:26 Compare: true
+2019/11/09 19:00:26 Listening on :80
+2019/11/09 19:02:46 Listening on :80
+2019/11/09 19:03:03 Client connected from 81.157.236.207:59136 (1 clients)
+2019/11/09 19:03:03 User 'meshy' login denied.
+2019/11/09 19:03:05 Read error: EOF
+2019/11/09 19:03:05 EOF
+2019/11/09 19:03:05 Client '' disconnected from 81.157.236.207:59136 (0 clients)
+2019/11/09 19:03:06 Client connected from 81.157.236.207:59139 (1 clients)
+2019/11/09 19:03:07 User 'meshy' login denied.
+2019/11/09 19:03:08 Read error: EOF
+2019/11/09 19:03:08 EOF
+2019/11/09 19:03:08 Client '' disconnected from 81.157.236.207:59139 (0 clients)
+2019/11/09 19:03:11 Client connected from 81.157.236.207:59144 (1 clients)
+2019/11/09 19:03:12 User 'meshy' login denied.
+2019/11/09 19:03:14 Read error: EOF
+2019/11/09 19:03:14 EOF
+2019/11/09 19:03:14 Client '' disconnected from 81.157.236.207:59144 (0 clients)
+2019/11/09 19:03:21 Client connected from 81.157.236.207:59149 (1 clients)
+2019/11/09 19:03:22 User 'meshy' logged in.
+2019/11/09 19:03:46 Read error: EOF
+2019/11/09 19:03:46 EOF
+2019/11/09 19:03:46 Client 'meshy' disconnected from 81.157.236.207:59149 (0 clients)
+2019/11/09 19:21:39 Listening on :80
+2019/11/09 19:21:59 Client connected from 81.157.236.207:59982 (1 clients)
+2019/11/09 19:21:59 User 'meshy' logged in.
+2019/11/09 19:22:17 Read error: EOF
+2019/11/09 19:22:17 EOF
+2019/11/09 19:22:17 Client 'meshy' disconnected from 81.157.236.207:59982 (0 clients)
+2019/11/09 19:27:13 Listening on :80
+2019/11/09 19:27:30 Client connected from 81.157.236.207:55168 (1 clients)
+2019/11/09 19:27:32 User 'meshy' logged in.
+2019/11/09 19:27:43 Read error: EOF
+2019/11/09 19:27:43 EOF
+2019/11/09 19:27:43 Client 'meshy' disconnected from 81.157.236.207:55168 (0 clients)
+2019/11/09 19:33:20 Client connected from 81.157.236.207:55374 (1 clients)
+2019/11/09 19:33:21 User 'meshy' logged in.
+2019/11/09 19:34:26 Client connected from 72.239.97.234:51395 (2 clients)
+2019/11/09 19:34:26 packet length above maximum allowed
+2019/11/09 19:34:26 Client '' disconnected from 72.239.97.234:51395 (1 clients)
+2019/11/09 20:11:27 Listening on :80
+2019/11/09 20:12:01 Client connected from 81.157.236.207:55610 (1 clients)
+2019/11/09 20:12:02 User 'meshy' login denied.
+2019/11/09 20:12:05 Read error: EOF
+2019/11/09 20:12:05 EOF
+2019/11/09 20:12:05 Client '' disconnected from 81.157.236.207:55610 (0 clients)
+2019/11/09 20:12:10 Client connected from 81.157.236.207:55618 (1 clients)
+2019/11/09 20:12:11 User 'meshy' login denied.
+2019/11/09 20:12:13 Read error: EOF
+2019/11/09 20:12:13 EOF
+2019/11/09 20:12:13 Client '' disconnected from 81.157.236.207:55618 (0 clients)
+2019/11/09 20:12:55 Client connected from 81.157.236.207:55647 (1 clients)
+2019/11/09 20:12:57 User 'meshy' logged in.
+2019/11/09 20:12:57 Friends: 1
+2019/11/09 20:14:18 Listening on :80
+2019/11/09 20:14:57 Client connected from 81.157.236.207:55733 (1 clients)
+2019/11/09 20:14:59 User 'meshy' logged in.
+2019/11/09 20:14:59 Friends: 1
+2019/11/09 20:14:59 flymario
+2019/11/09 20:15:11 Read error: EOF
+2019/11/09 20:15:11 EOF
+2019/11/09 20:15:12 Client 'meshy' disconnected from 81.157.236.207:55733 (0 clients)
+2019/11/09 20:28:00 Client connected from 125.162.107.83:49591 (1 clients)
+2019/11/09 20:28:00 packet length above maximum allowed
+2019/11/09 20:28:00 Client '' disconnected from 125.162.107.83:49591 (0 clients)
+2019/11/09 20:28:01 Client connected from 125.162.107.83:59925 (1 clients)
+2019/11/09 20:28:01 packet length above maximum allowed
+2019/11/09 20:28:01 Client '' disconnected from 125.162.107.83:59925 (0 clients)
+2019/11/09 20:41:26 Listening on :80
+2019/11/09 20:41:38 Client connected from 81.157.236.207:58677 (1 clients)
+2019/11/09 20:41:39 User 'meshy' logged in.
+2019/11/09 20:41:46 Read error: EOF
+2019/11/09 20:41:46 EOF
+2019/11/09 20:41:47 Client 'meshy' disconnected from 81.157.236.207:58677 (0 clients)
+2019/11/09 20:42:50 Client connected from 81.157.236.207:58726 (1 clients)
+2019/11/09 20:42:51 User 'meshy' logged in.
+2019/11/09 20:43:04 Read error: EOF
+2019/11/09 20:43:04 EOF
+2019/11/09 20:43:05 Client 'meshy' disconnected from 81.157.236.207:58726 (0 clients)
+2019/11/09 20:56:03 Client connected from 200.100.20.37:56849 (1 clients)
+2019/11/09 20:56:03 packet length above maximum allowed
+2019/11/09 20:56:03 Client '' disconnected from 200.100.20.37:56849 (0 clients)
+2019/11/09 21:00:52 Client connected from 81.157.236.207:59542 (1 clients)
+2019/11/09 21:00:53 User 'meshy' logged in.
+2019/11/09 21:01:11 Read error: EOF
+2019/11/09 21:01:11 EOF
+2019/11/09 21:01:12 Client 'meshy' disconnected from 81.157.236.207:59542 (0 clients)
+2019/11/09 21:04:52 Client connected from 81.157.236.207:59702 (1 clients)
+2019/11/09 21:04:53 User 'meshy' logged in.
+2019/11/09 21:05:03 Read error: EOF
+2019/11/09 21:05:03 EOF
+2019/11/09 21:05:04 Client 'meshy' disconnected from 81.157.236.207:59702 (0 clients)
+2019/11/09 21:05:26 Client connected from 81.157.236.207:59724 (1 clients)
+2019/11/09 21:05:27 User 'meshy' logged in.
+2019/11/09 21:06:18 Read error: EOF
+2019/11/09 21:06:18 EOF
+2019/11/09 21:06:19 Client 'meshy' disconnected from 81.157.236.207:59724 (0 clients)
+2019/11/09 21:06:26 Client connected from 81.157.236.207:50087 (1 clients)
+2019/11/09 21:06:27 User 'meshy' logged in.
+2019/11/09 21:06:29 Read error: EOF
+2019/11/09 21:06:29 EOF
+2019/11/09 21:06:30 Client 'meshy' disconnected from 81.157.236.207:50087 (0 clients)
+2019/11/09 21:06:47 Client connected from 81.157.236.207:50109 (1 clients)
+2019/11/09 21:06:48 User 'meshy' logged in.
+2019/11/09 21:06:52 Read error: EOF
+2019/11/09 21:06:52 EOF
+2019/11/09 21:06:53 Client 'meshy' disconnected from 81.157.236.207:50109 (0 clients)
+2019/11/09 21:16:34 Client connected from 81.157.236.207:51290 (1 clients)
+2019/11/09 21:16:35 User 'meshy' logged in.
+2019/11/09 21:16:43 Read error: EOF
+2019/11/09 21:16:43 EOF
+2019/11/09 21:16:44 Client 'meshy' disconnected from 81.157.236.207:51290 (0 clients)
+2019/11/09 21:17:47 Client connected from 81.157.236.207:51349 (1 clients)
+2019/11/09 21:17:48 User 'meshy' logged in.
+2019/11/09 21:17:54 Read error: EOF
+2019/11/09 21:17:54 EOF
+2019/11/09 21:17:55 Client 'meshy' disconnected from 81.157.236.207:51349 (0 clients)
+2019/11/09 21:18:30 Client connected from 81.157.236.207:51370 (1 clients)
+2019/11/09 21:18:31 User 'meshy' logged in.
+2019/11/09 21:18:33 Read error: EOF
+2019/11/09 21:18:33 EOF
+2019/11/09 21:18:34 Client 'meshy' disconnected from 81.157.236.207:51370 (0 clients)
+2019/11/09 21:24:47 Client connected from 81.157.236.207:51610 (1 clients)
+2019/11/09 21:24:48 User 'meshy' logged in.
+2019/11/09 21:25:28 Read error: EOF
+2019/11/09 21:25:28 EOF
+2019/11/09 21:25:28 Client 'meshy' disconnected from 81.157.236.207:51610 (0 clients)
+2019/11/09 21:28:58 Client connected from 81.157.236.207:65503 (1 clients)
+2019/11/09 21:28:59 User 'meshy' logged in.
+2019/11/09 21:29:39 Read error: EOF
+2019/11/09 21:29:39 EOF
+2019/11/09 21:29:40 Client 'meshy' disconnected from 81.157.236.207:65503 (0 clients)
+2019/11/09 21:29:46 Client connected from 81.157.236.207:49162 (1 clients)
+2019/11/09 21:29:47 User 'flymario' logged in.
+2019/11/09 21:30:01 Read error: EOF
+2019/11/09 21:30:01 EOF
+2019/11/09 21:30:02 Client 'flymario' disconnected from 81.157.236.207:49162 (0 clients)
+2019/11/09 21:49:59 Client connected from 81.157.236.207:49965 (1 clients)
+2019/11/09 21:50:00 User 'meshy' logged in.
+2019/11/09 21:56:05 Read error: EOF
+2019/11/09 21:56:05 EOF
+2019/11/09 21:56:06 Client 'meshy' disconnected from 81.157.236.207:49965 (0 clients)
+2019/11/09 21:57:17 Client connected from 81.157.236.207:50297 (1 clients)
+2019/11/09 21:57:18 User 'meshy' logged in.
+2019/11/09 21:58:39 Read error: EOF
+2019/11/09 21:58:39 EOF
+2019/11/09 21:58:40 Client 'meshy' disconnected from 81.157.236.207:50297 (0 clients)
+2019/11/09 21:58:56 Client connected from 81.157.236.207:50389 (1 clients)
+2019/11/09 21:58:57 User 'meshy' logged in.
+2019/11/09 22:00:42 Read error: EOF
+2019/11/09 22:00:42 EOF
+2019/11/09 22:00:43 Client 'meshy' disconnected from 81.157.236.207:50389 (0 clients)
+2019/11/09 22:00:55 Client connected from 81.157.236.207:50466 (1 clients)
+2019/11/09 22:00:56 User 'meshy' logged in.
+2019/11/09 22:01:11 Read error: EOF
+2019/11/09 22:01:11 EOF
+2019/11/09 22:01:12 Client 'meshy' disconnected from 81.157.236.207:50466 (0 clients)
+2019/11/09 22:02:36 Client connected from 81.157.236.207:50535 (1 clients)
+2019/11/09 22:02:37 User 'meshy' logged in.
+2019/11/09 22:21:34 Read error: EOF
+2019/11/09 22:21:34 EOF
+2019/11/09 22:21:35 Client 'meshy' disconnected from 81.157.236.207:50535 (0 clients)
+2019/11/09 22:21:50 Client connected from 81.157.236.207:59181 (1 clients)
+2019/11/09 22:21:51 User 'meshy' logged in.
+2019/11/09 22:24:45 Read error: EOF
+2019/11/09 22:24:45 EOF
+2019/11/09 22:24:45 Client 'meshy' disconnected from 81.157.236.207:59181 (0 clients)
+2019/11/09 22:24:59 Client connected from 81.157.236.207:59295 (1 clients)
+2019/11/09 22:25:00 User 'meshy' logged in.
+2019/11/09 22:32:21 Read error: EOF
+2019/11/09 22:32:21 EOF
+2019/11/09 22:32:22 Client 'meshy' disconnected from 81.157.236.207:59295 (0 clients)
+2019/11/09 22:32:34 Client connected from 81.157.236.207:59565 (1 clients)
+2019/11/09 22:32:35 User 'meshy' logged in.
+2019/11/09 22:33:31 Read error: EOF
+2019/11/09 22:33:31 EOF
+2019/11/09 22:33:32 Client 'meshy' disconnected from 81.157.236.207:59565 (0 clients)
+2019/11/09 22:33:38 Client connected from 81.157.236.207:59614 (1 clients)
+2019/11/09 22:33:39 User 'meshy' logged in.
+2019/11/09 22:38:10 Read error: EOF
+2019/11/09 22:38:10 EOF
+2019/11/09 22:38:11 Client 'meshy' disconnected from 81.157.236.207:59614 (0 clients)
+2019/11/09 22:38:20 Client connected from 81.157.236.207:59788 (1 clients)
+2019/11/09 22:38:21 User 'meshy' logged in.
+2019/11/09 22:40:22 Read error: EOF
+2019/11/09 22:40:22 EOF
+2019/11/09 22:40:22 Client 'meshy' disconnected from 81.157.236.207:59788 (0 clients)
+2019/11/09 22:40:28 Client connected from 81.157.236.207:59860 (1 clients)
+2019/11/09 22:40:29 User 'meshy' logged in.
+2019/11/09 22:48:48 Read error: EOF
+2019/11/09 22:48:48 EOF
+2019/11/09 22:48:49 Client 'meshy' disconnected from 81.157.236.207:59860 (0 clients)
+2019/11/09 22:50:09 Client connected from 81.157.236.207:60535 (1 clients)
+2019/11/09 22:50:10 User 'meshy' logged in.
+2019/11/09 22:50:18 Read error: EOF
+2019/11/09 22:50:18 EOF
+2019/11/09 22:50:18 Client 'meshy' disconnected from 81.157.236.207:60535 (0 clients)
+2019/11/09 22:50:43 Client connected from 81.157.236.207:60557 (1 clients)
+2019/11/09 22:50:44 User 'meshy' logged in.
+2019/11/09 22:50:52 Read error: EOF
+2019/11/09 22:50:52 EOF
+2019/11/09 22:50:52 Client 'meshy' disconnected from 81.157.236.207:60557 (0 clients)
+2019/11/09 22:53:00 Client connected from 81.157.236.207:60644 (1 clients)
+2019/11/09 22:53:01 User 'meshy' logged in.
+2019/11/09 22:54:02 Read error: EOF
+2019/11/09 22:54:02 EOF
+2019/11/09 22:54:02 Client 'meshy' disconnected from 81.157.236.207:60644 (0 clients)
+2019/11/09 22:54:43 Client connected from 81.157.236.207:60702 (1 clients)
+2019/11/09 22:54:44 User 'meshy' logged in.
+2019/11/09 22:55:09 Read error: EOF
+2019/11/09 22:55:09 EOF
+2019/11/09 22:55:10 Client 'meshy' disconnected from 81.157.236.207:60702 (0 clients)
+2019/11/09 23:18:34 Listening on :80
+2019/11/09 23:18:39 Listening on :80
+2019/11/09 23:19:00 Client connected from 81.157.236.207:55999 (1 clients)
+2019/11/09 23:19:01 User 'meshy' logged in.
+2019/11/09 23:19:10 Read error: EOF
+2019/11/09 23:19:10 EOF
+2019/11/09 23:19:11 Client 'meshy' disconnected from 81.157.236.207:55999 (0 clients)
+2019/11/09 23:29:59 Client connected from 81.157.236.207:61833 (1 clients)
+2019/11/09 23:30:00 User 'meshy' logged in.
+2019/11/09 23:30:11 Read error: EOF
+2019/11/09 23:30:11 EOF
+2019/11/09 23:30:12 Client 'meshy' disconnected from 81.157.236.207:61833 (0 clients)
+2019/11/09 23:30:52 Client connected from 81.157.236.207:61868 (1 clients)
+2019/11/09 23:30:53 User 'meshy' logged in.
+2019/11/09 23:31:03 Client connected from 81.157.236.207:61877 (2 clients)
+2019/11/09 23:31:04 User 'flymario' logged in.
+2019/11/09 23:31:26 Read error: EOF
+2019/11/09 23:31:26 EOF
+2019/11/09 23:31:27 Client 'meshy' disconnected from 81.157.236.207:61868 (1 clients)
+2019/11/09 23:31:35 Read error: EOF
+2019/11/09 23:31:35 EOF
+2019/11/09 23:31:35 Client 'flymario' disconnected from 81.157.236.207:61877 (0 clients)
+2019/11/09 23:33:06 Client connected from 81.157.236.207:61952 (1 clients)
+2019/11/09 23:33:07 User 'meshy' logged in.
+2019/11/09 23:33:44 Client connected from 81.157.236.207:61976 (2 clients)
+2019/11/09 23:33:46 User 'flymario' logged in.
+2019/11/09 23:33:58 Read error: EOF
+2019/11/09 23:33:58 EOF
+2019/11/09 23:33:58 Read error: EOF
+2019/11/09 23:33:58 EOF
+2019/11/09 23:33:59 Client 'flymario' disconnected from 81.157.236.207:61976 (1 clients)
+2019/11/09 23:33:59 Client 'meshy' disconnected from 81.157.236.207:61952 (0 clients)
+2019/11/09 23:36:19 Listening on :80
+2019/11/09 23:36:29 Client connected from 81.157.236.207:62086 (1 clients)
+2019/11/09 23:36:30 User 'meshy' logged in.
+2019/11/09 23:36:45 Client connected from 81.157.236.207:62103 (2 clients)
+2019/11/09 23:36:46 User 'flymario' logged in.
+2019/11/09 23:36:55 Read error: EOF
+2019/11/09 23:36:55 EOF
+2019/11/09 23:37:07 Read error: read tcp 192.168.1.92:80->81.157.236.207:62103: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/09 23:37:07 read tcp 192.168.1.92:80->81.157.236.207:62103: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/09 23:38:38 Listening on :80
+2019/11/09 23:38:45 Client connected from 81.157.236.207:62186 (1 clients)
+2019/11/09 23:38:46 User 'meshy' logged in.
+2019/11/09 23:39:11 Client connected from 81.157.236.207:62202 (2 clients)
+2019/11/09 23:39:12 User 'flymario' logged in.
+2019/11/09 23:39:19 Read error: EOF
+2019/11/09 23:39:19 EOF
+2019/11/09 23:41:06 Listening on :80
+2019/11/09 23:41:19 Client connected from 81.157.236.207:62282 (1 clients)
+2019/11/09 23:41:20 User 'meshy' logged in.
+2019/11/09 23:41:34 Client connected from 81.157.236.207:62293 (2 clients)
+2019/11/09 23:41:35 User 'flymario' logged in.
+2019/11/09 23:41:44 Read error: EOF
+2019/11/09 23:41:44 EOF
+2019/11/09 23:41:45 Client 'meshy' disconnected from 81.157.236.207:62282 (1 clients)
+2019/11/09 23:42:06 Client connected from 81.157.236.207:62317 (2 clients)
+2019/11/09 23:42:08 User 'meshy' logged in.
+2019/11/09 23:42:11 Read error: EOF
+2019/11/09 23:42:11 EOF
+2019/11/09 23:42:12 Read error: EOF
+2019/11/09 23:42:12 EOF
+2019/11/09 23:42:13 Client 'meshy' disconnected from 81.157.236.207:62317 (0 clients)
+2019/11/09 23:42:13 Client 'flymario' disconnected from 81.157.236.207:62293 (0 clients)
+2019/11/09 23:46:28 Listening on :80
+2019/11/09 23:46:50 Client connected from 81.157.236.207:53363 (1 clients)
+2019/11/09 23:46:51 User 'meshy' logged in.
+2019/11/09 23:47:03 Client connected from 81.157.236.207:53374 (2 clients)
+2019/11/09 23:47:04 User 'meshy' login denied.
+2019/11/09 23:47:05 Read error: EOF
+2019/11/09 23:47:05 EOF
+2019/11/09 23:47:05 Client '' disconnected from 81.157.236.207:53374 (1 clients)
+2019/11/09 23:47:09 Client connected from 81.157.236.207:53378 (2 clients)
+2019/11/09 23:47:10 User 'flymario' logged in.
+2019/11/09 23:47:35 Read error: EOF
+2019/11/09 23:47:35 EOF
+2019/11/09 23:47:36 Client 'meshy' disconnected from 81.157.236.207:53363 (1 clients)
+2019/11/09 23:47:52 Read error: EOF
+2019/11/09 23:47:52 EOF
+2019/11/09 23:47:53 Client 'flymario' disconnected from 81.157.236.207:53378 (0 clients)
+2019/11/10 00:02:32 Client connected from 47.92.124.69:47944 (1 clients)
+2019/11/10 00:02:38 packet length above maximum allowed
+2019/11/10 00:02:38 Client '' disconnected from 47.92.124.69:47944 (0 clients)
+2019/11/10 00:02:38 Client connected from 47.92.124.69:48530 (1 clients)
+2019/11/10 00:02:38 packet length above maximum allowed
+2019/11/10 00:02:38 Client '' disconnected from 47.92.124.69:48530 (0 clients)
+2019/11/10 00:02:38 Client connected from 47.92.124.69:48554 (1 clients)
+2019/11/10 00:02:38 packet length above maximum allowed
+2019/11/10 00:02:38 Client '' disconnected from 47.92.124.69:48554 (0 clients)
+2019/11/10 00:02:39 Client connected from 47.92.124.69:48596 (1 clients)
+2019/11/10 00:02:44 Read error: EOF
+2019/11/10 00:02:44 EOF
+2019/11/10 00:02:44 Client '' disconnected from 47.92.124.69:48596 (0 clients)
+2019/11/10 00:02:44 Client connected from 47.92.124.69:49200 (1 clients)
+2019/11/10 00:02:44 packet length above maximum allowed
+2019/11/10 00:02:44 Client '' disconnected from 47.92.124.69:49200 (0 clients)
+2019/11/10 00:02:44 Client connected from 47.92.124.69:49228 (1 clients)
+2019/11/10 00:02:49 Read error: EOF
+2019/11/10 00:02:49 EOF
+2019/11/10 00:02:49 Client '' disconnected from 47.92.124.69:49228 (0 clients)
+2019/11/10 00:02:50 Client connected from 47.92.124.69:49856 (1 clients)
+2019/11/10 00:02:50 packet length above maximum allowed
+2019/11/10 00:02:50 Client '' disconnected from 47.92.124.69:49856 (0 clients)
+2019/11/10 00:02:50 Client connected from 47.92.124.69:49926 (1 clients)
+2019/11/10 00:02:50 packet length above maximum allowed
+2019/11/10 00:02:50 Client '' disconnected from 47.92.124.69:49926 (0 clients)
+2019/11/10 00:02:50 Client connected from 47.92.124.69:49990 (1 clients)
+2019/11/10 00:02:55 Read error: EOF
+2019/11/10 00:02:55 EOF
+2019/11/10 00:02:55 Client '' disconnected from 47.92.124.69:49990 (0 clients)
+2019/11/10 00:02:55 Client connected from 47.92.124.69:50856 (1 clients)
+2019/11/10 00:03:03 Read error: EOF
+2019/11/10 00:03:03 EOF
+2019/11/10 00:03:03 Client '' disconnected from 47.92.124.69:50856 (0 clients)
+2019/11/10 00:03:03 Client connected from 47.92.124.69:51854 (1 clients)
+2019/11/10 00:03:08 Read error: EOF
+2019/11/10 00:03:08 EOF
+2019/11/10 00:03:08 Client '' disconnected from 47.92.124.69:51854 (0 clients)
+2019/11/10 00:03:08 Client connected from 47.92.124.69:52584 (1 clients)
+2019/11/10 00:03:13 Read error: EOF
+2019/11/10 00:03:13 EOF
+2019/11/10 00:03:13 Client '' disconnected from 47.92.124.69:52584 (0 clients)
+2019/11/10 00:03:13 Client connected from 47.92.124.69:53130 (1 clients)
+2019/11/10 00:03:13 packet length above maximum allowed
+2019/11/10 00:03:13 Client '' disconnected from 47.92.124.69:53130 (0 clients)
+2019/11/10 00:03:14 Client connected from 47.92.124.69:53168 (1 clients)
+2019/11/10 00:03:14 packet length above maximum allowed
+2019/11/10 00:03:14 Client '' disconnected from 47.92.124.69:53168 (0 clients)
+2019/11/10 00:03:14 Client connected from 47.92.124.69:53234 (1 clients)
+2019/11/10 00:03:14 packet length above maximum allowed
+2019/11/10 00:03:14 Client '' disconnected from 47.92.124.69:53234 (0 clients)
+2019/11/10 00:03:15 Client connected from 47.92.124.69:53288 (1 clients)
+2019/11/10 00:03:15 packet length above maximum allowed
+2019/11/10 00:03:15 Client '' disconnected from 47.92.124.69:53288 (0 clients)
+2019/11/10 00:03:15 Client connected from 47.92.124.69:53314 (1 clients)
+2019/11/10 00:03:15 packet length above maximum allowed
+2019/11/10 00:03:15 Client '' disconnected from 47.92.124.69:53314 (0 clients)
+2019/11/10 00:03:15 Client connected from 47.92.124.69:53378 (1 clients)
+2019/11/10 00:03:15 packet length above maximum allowed
+2019/11/10 00:03:15 Client '' disconnected from 47.92.124.69:53378 (0 clients)
+2019/11/10 00:03:16 Client connected from 47.92.124.69:53426 (1 clients)
+2019/11/10 00:03:21 Read error: EOF
+2019/11/10 00:03:21 EOF
+2019/11/10 00:03:21 Client '' disconnected from 47.92.124.69:53426 (0 clients)
+2019/11/10 00:03:21 Client connected from 47.92.124.69:54120 (1 clients)
+2019/11/10 00:03:26 Read error: EOF
+2019/11/10 00:03:26 EOF
+2019/11/10 00:03:26 Client '' disconnected from 47.92.124.69:54120 (0 clients)
+2019/11/10 00:03:26 Client connected from 47.92.124.69:54732 (1 clients)
+2019/11/10 00:03:26 packet length above maximum allowed
+2019/11/10 00:03:26 Client '' disconnected from 47.92.124.69:54732 (0 clients)
+2019/11/10 00:03:26 Client connected from 47.92.124.69:54764 (1 clients)
+2019/11/10 00:03:31 Read error: EOF
+2019/11/10 00:03:31 EOF
+2019/11/10 00:03:31 Client '' disconnected from 47.92.124.69:54764 (0 clients)
+2019/11/10 00:03:32 Client connected from 47.92.124.69:55190 (1 clients)
+2019/11/10 00:03:32 packet length above maximum allowed
+2019/11/10 00:03:32 Client '' disconnected from 47.92.124.69:55190 (0 clients)
+2019/11/10 00:03:32 Client connected from 47.92.124.69:55214 (1 clients)
+2019/11/10 00:03:32 packet length above maximum allowed
+2019/11/10 00:03:32 Client '' disconnected from 47.92.124.69:55214 (0 clients)
+2019/11/10 00:03:32 Client connected from 47.92.124.69:55230 (1 clients)
+2019/11/10 00:03:32 packet length above maximum allowed
+2019/11/10 00:03:32 Client '' disconnected from 47.92.124.69:55230 (0 clients)
+2019/11/10 00:03:33 Client connected from 47.92.124.69:55240 (1 clients)
+2019/11/10 00:03:33 packet length above maximum allowed
+2019/11/10 00:03:33 Client '' disconnected from 47.92.124.69:55240 (0 clients)
+2019/11/10 00:03:33 Client connected from 47.92.124.69:55262 (1 clients)
+2019/11/10 00:03:38 Read error: EOF
+2019/11/10 00:03:38 EOF
+2019/11/10 00:03:38 Client '' disconnected from 47.92.124.69:55262 (0 clients)
+2019/11/10 00:03:38 Client connected from 47.92.124.69:55618 (1 clients)
+2019/11/10 00:03:38 packet length above maximum allowed
+2019/11/10 00:03:38 Client '' disconnected from 47.92.124.69:55618 (0 clients)
+2019/11/10 00:03:48 Client connected from 47.92.124.69:56336 (1 clients)
+2019/11/10 00:03:48 Client connected from 47.92.124.69:56330 (2 clients)
+2019/11/10 00:03:48 Client connected from 47.92.124.69:56338 (3 clients)
+2019/11/10 00:03:48 Client connected from 47.92.124.69:56334 (4 clients)
+2019/11/10 00:03:48 packet length above maximum allowed
+2019/11/10 00:03:48 Client '' disconnected from 47.92.124.69:56334 (4 clients)
+2019/11/10 00:03:48 packet length above maximum allowed
+2019/11/10 00:03:48 Client '' disconnected from 47.92.124.69:56336 (3 clients)
+2019/11/10 00:03:48 Client connected from 47.92.124.69:56332 (5 clients)
+2019/11/10 00:03:48 packet length above maximum allowed
+2019/11/10 00:03:48 packet length above maximum allowed
+2019/11/10 00:03:48 Client '' disconnected from 47.92.124.69:56338 (2 clients)
+2019/11/10 00:03:48 Client '' disconnected from 47.92.124.69:56330 (1 clients)
+2019/11/10 00:03:48 Client connected from 47.92.124.69:56328 (2 clients)
+2019/11/10 00:03:48 packet length above maximum allowed
+2019/11/10 00:03:48 Client '' disconnected from 47.92.124.69:56328 (1 clients)
+2019/11/10 00:03:48 Client connected from 47.92.124.69:56376 (2 clients)
+2019/11/10 00:03:48 packet length above maximum allowed
+2019/11/10 00:03:48 Client '' disconnected from 47.92.124.69:56376 (2 clients)
+2019/11/10 00:03:48 Client connected from 47.92.124.69:56374 (3 clients)
+2019/11/10 00:03:48 packet length above maximum allowed
+2019/11/10 00:03:48 Client '' disconnected from 47.92.124.69:56374 (2 clients)
+2019/11/10 00:03:48 Client connected from 47.92.124.69:56372 (3 clients)
+2019/11/10 00:03:48 packet length above maximum allowed
+2019/11/10 00:03:48 Client '' disconnected from 47.92.124.69:56372 (1 clients)
+2019/11/10 00:03:49 Client connected from 47.92.124.69:56420 (2 clients)
+2019/11/10 00:03:49 packet length above maximum allowed
+2019/11/10 00:03:49 Client '' disconnected from 47.92.124.69:56420 (2 clients)
+2019/11/10 00:03:49 Client connected from 47.92.124.69:56422 (3 clients)
+2019/11/10 00:03:49 packet length above maximum allowed
+2019/11/10 00:03:49 Client '' disconnected from 47.92.124.69:56422 (1 clients)
+2019/11/10 00:03:49 Client connected from 47.92.124.69:56424 (2 clients)
+2019/11/10 00:03:49 packet length above maximum allowed
+2019/11/10 00:03:49 Client '' disconnected from 47.92.124.69:56424 (1 clients)
+2019/11/10 00:03:49 Client connected from 47.92.124.69:56448 (2 clients)
+2019/11/10 00:03:49 packet length above maximum allowed
+2019/11/10 00:03:49 Client '' disconnected from 47.92.124.69:56448 (1 clients)
+2019/11/10 00:03:49 Client connected from 47.92.124.69:56454 (2 clients)
+2019/11/10 00:03:49 packet length above maximum allowed
+2019/11/10 00:03:49 Client '' disconnected from 47.92.124.69:56454 (1 clients)
+2019/11/10 00:03:50 Client connected from 47.92.124.69:56494 (2 clients)
+2019/11/10 00:03:50 packet length above maximum allowed
+2019/11/10 00:03:50 Client '' disconnected from 47.92.124.69:56494 (1 clients)
+2019/11/10 00:03:50 Client connected from 47.92.124.69:56496 (2 clients)
+2019/11/10 00:03:50 packet length above maximum allowed
+2019/11/10 00:03:50 Client '' disconnected from 47.92.124.69:56496 (1 clients)
+2019/11/10 00:03:50 Client connected from 47.92.124.69:56514 (2 clients)
+2019/11/10 00:03:50 packet length above maximum allowed
+2019/11/10 00:03:50 Client '' disconnected from 47.92.124.69:56514 (1 clients)
+2019/11/10 00:03:50 Client connected from 47.92.124.69:56518 (2 clients)
+2019/11/10 00:03:50 packet length above maximum allowed
+2019/11/10 00:03:50 Client '' disconnected from 47.92.124.69:56518 (1 clients)
+2019/11/10 00:03:50 Client connected from 47.92.124.69:56574 (2 clients)
+2019/11/10 00:03:50 packet length above maximum allowed
+2019/11/10 00:03:50 Client '' disconnected from 47.92.124.69:56574 (1 clients)
+2019/11/10 00:03:51 Client connected from 47.92.124.69:56616 (2 clients)
+2019/11/10 00:03:51 packet length above maximum allowed
+2019/11/10 00:03:51 Client '' disconnected from 47.92.124.69:56616 (1 clients)
+2019/11/10 00:03:51 Client connected from 47.92.124.69:56654 (2 clients)
+2019/11/10 00:03:51 packet length above maximum allowed
+2019/11/10 00:03:51 Client '' disconnected from 47.92.124.69:56654 (1 clients)
+2019/11/10 00:03:58 Read error: EOF
+2019/11/10 00:03:58 EOF
+2019/11/10 00:03:58 Client '' disconnected from 47.92.124.69:56332 (0 clients)
+2019/11/10 00:03:58 Client connected from 47.92.124.69:57370 (1 clients)
+2019/11/10 00:03:58 packet length above maximum allowed
+2019/11/10 00:03:58 Client '' disconnected from 47.92.124.69:57370 (0 clients)
+2019/11/10 00:03:59 Client connected from 47.92.124.69:57410 (1 clients)
+2019/11/10 00:03:59 packet length above maximum allowed
+2019/11/10 00:03:59 Client '' disconnected from 47.92.124.69:57410 (0 clients)
+2019/11/10 00:03:59 Client connected from 47.92.124.69:20 (1 clients)
+2019/11/10 00:03:59 packet length above maximum allowed
+2019/11/10 00:03:59 Client '' disconnected from 47.92.124.69:20 (0 clients)
+2019/11/10 00:03:59 Client connected from 47.92.124.69:57506 (1 clients)
+2019/11/10 00:03:59 packet length above maximum allowed
+2019/11/10 00:03:59 Client '' disconnected from 47.92.124.69:57506 (0 clients)
+2019/11/10 00:14:37 Client connected from 61.219.11.153:61960 (1 clients)
+2019/11/10 00:14:39 packet length above maximum allowed
+2019/11/10 00:14:39 Client '' disconnected from 61.219.11.153:61960 (0 clients)
+2019/11/10 00:45:08 Client connected from 68.81.163.167:49885 (1 clients)
+2019/11/10 00:45:08 User 'Fly' login denied.
+2019/11/10 00:45:10 Read error: EOF
+2019/11/10 00:45:10 EOF
+2019/11/10 00:45:10 Client '' disconnected from 68.81.163.167:49885 (0 clients)
+2019/11/10 00:45:24 Client connected from 68.81.163.167:49897 (1 clients)
+2019/11/10 00:45:24 User 'Fly_Mario' login denied.
+2019/11/10 00:45:26 Read error: EOF
+2019/11/10 00:45:26 EOF
+2019/11/10 00:45:26 Client '' disconnected from 68.81.163.167:49897 (0 clients)
+2019/11/10 00:46:22 Client connected from 68.81.163.167:49927 (1 clients)
+2019/11/10 00:46:23 User 'flymario' logged in.
+2019/11/10 00:46:25 Client connected from 81.157.236.207:60380 (2 clients)
+2019/11/10 00:46:27 User 'meshy' logged in.
+2019/11/10 00:47:51 Read error: EOF
+2019/11/10 00:47:51 EOF
+2019/11/10 00:47:52 Client 'meshy' disconnected from 81.157.236.207:60380 (1 clients)
+2019/11/10 00:48:02 Client connected from 81.157.236.207:60441 (2 clients)
+2019/11/10 00:48:03 User 'meshy' logged in.
+2019/11/10 00:57:15 Client connected from 78.128.113.46:61000 (3 clients)
+2019/11/10 00:57:17 packet length above maximum allowed
+2019/11/10 00:57:17 Client '' disconnected from 78.128.113.46:61000 (2 clients)
+2019/11/10 01:47:48 Read error: EOF
+2019/11/10 01:47:48 EOF
+2019/11/10 01:47:49 Client 'meshy' disconnected from 81.157.236.207:60441 (1 clients)
+2019/11/10 01:48:25 Client connected from 81.157.236.207:57366 (2 clients)
+2019/11/10 01:48:27 User 'meshy' logged in.
+2019/11/10 01:49:24 Listening on :80
+2019/11/10 01:49:28 Client connected from 81.157.236.207:57406 (1 clients)
+2019/11/10 01:49:28 User 'meshy' login denied.
+2019/11/10 01:49:29 Read error: EOF
+2019/11/10 01:49:29 EOF
+2019/11/10 01:49:29 Client '' disconnected from 81.157.236.207:57406 (0 clients)
+2019/11/10 01:49:33 Client connected from 81.157.236.207:57411 (1 clients)
+2019/11/10 01:49:35 User 'meshy' logged in.
+2019/11/10 01:49:49 Read error: EOF
+2019/11/10 01:49:49 EOF
+2019/11/10 01:49:50 Client 'meshy' disconnected from 81.157.236.207:57411 (0 clients)
+2019/11/10 02:00:41 Listening on :80
+2019/11/10 02:01:15 Client connected from 81.157.236.207:54059 (1 clients)
+2019/11/10 02:01:16 User 'meshy' logged in.
+2019/11/10 02:01:20 Client 'meshy' disconnected from 81.157.236.207:54059 (0 clients)
+2019/11/10 02:01:20 Failed to handle packet - client disconnected: fake
+2019/11/10 02:01:58 Client connected from 81.157.236.207:54090 (1 clients)
+2019/11/10 02:02:00 User 'meshy' logged in.
+2019/11/10 02:02:03 Client 'meshy' disconnected from 81.157.236.207:54090 (0 clients)
+2019/11/10 02:02:03 Failed to handle packet - client disconnected: fake
+2019/11/10 02:02:52 Listening on :80
+2019/11/10 02:11:03 Listening on :80
+2019/11/10 02:12:00 Connecting to database...
+2019/11/10 02:12:00 Connected.
+2019/11/10 02:12:01 Starting server...
+2019/11/10 02:12:01 Listening on :80
+2019/11/10 02:14:55 Connecting to database...
+2019/11/10 02:14:55 Connected.
+2019/11/10 02:14:55 Starting server...
+2019/11/10 02:14:55 Listening on :80
+2019/11/10 02:23:07 Client connected from 81.157.236.207:60849 (1 clients)
+2019/11/10 02:23:08 User 'meshy' logged in.
+2019/11/10 02:31:39 Client connected from 68.81.163.167:53330 (2 clients)
+2019/11/10 02:31:40 User 'flymario' logged in.
+2019/11/10 02:54:34 Client connected from 159.203.193.243:38466 (3 clients)
+2019/11/10 02:54:34 packet length above maximum allowed
+2019/11/10 02:54:34 Client '' disconnected from 159.203.193.243:38466 (2 clients)
+2019/11/10 03:50:55 Client connected from 60.191.38.77:13771 (3 clients)
+2019/11/10 03:50:55 packet length above maximum allowed
+2019/11/10 03:50:55 Client '' disconnected from 60.191.38.77:13771 (2 clients)
+2019/11/10 03:53:21 Client connected from 54.153.82.203:36876 (3 clients)
+2019/11/10 03:53:22 packet length above maximum allowed
+2019/11/10 03:53:22 Client '' disconnected from 54.153.82.203:36876 (2 clients)
+2019/11/10 04:23:39 Read error: read tcp 192.168.1.92:80->81.157.236.207:60849: i/o timeout
+2019/11/10 04:23:39 read tcp 192.168.1.92:80->81.157.236.207:60849: i/o timeout
+2019/11/10 04:23:39 Client 'meshy' disconnected from 81.157.236.207:60849 (1 clients)
+2019/11/10 05:25:47 Client connected from 159.203.201.103:59098 (2 clients)
+2019/11/10 05:25:47 packet length above maximum allowed
+2019/11/10 05:25:47 Client '' disconnected from 159.203.201.103:59098 (1 clients)
+2019/11/10 06:31:48 Client connected from 219.153.49.223:49212 (2 clients)
+2019/11/10 06:31:48 Read error: EOF
+2019/11/10 06:31:48 EOF
+2019/11/10 06:31:48 Client '' disconnected from 219.153.49.223:49212 (1 clients)
+2019/11/10 07:15:38 Client connected from 222.171.81.7:38614 (2 clients)
+2019/11/10 07:15:40 Client connected from 222.171.81.7:38615 (3 clients)
+2019/11/10 07:15:40 packet length above maximum allowed
+2019/11/10 07:15:40 Client '' disconnected from 222.171.81.7:38615 (2 clients)
+2019/11/10 07:15:41 Client connected from 222.171.81.7:38616 (3 clients)
+2019/11/10 07:15:41 packet length above maximum allowed
+2019/11/10 07:15:41 Client '' disconnected from 222.171.81.7:38616 (2 clients)
+2019/11/10 07:15:42 Read error: EOF
+2019/11/10 07:15:42 EOF
+2019/11/10 07:15:42 Client '' disconnected from 222.171.81.7:38614 (1 clients)
+2019/11/10 08:56:57 Client connected from 122.228.19.80:2383 (2 clients)
+2019/11/10 08:56:57 packet length above maximum allowed
+2019/11/10 08:56:57 Client '' disconnected from 122.228.19.80:2383 (1 clients)
+2019/11/10 10:34:34 Client connected from 49.49.240.248:60852 (2 clients)
+2019/11/10 10:34:34 packet length above maximum allowed
+2019/11/10 10:34:34 Client '' disconnected from 49.49.240.248:60852 (1 clients)
+2019/11/10 10:34:34 Client connected from 49.49.240.248:62644 (2 clients)
+2019/11/10 10:34:34 packet length above maximum allowed
+2019/11/10 10:34:34 Client '' disconnected from 49.49.240.248:62644 (1 clients)
+2019/11/10 10:51:10 Client connected from 109.198.193.141:47556 (2 clients)
+2019/11/10 10:51:10 packet length above maximum allowed
+2019/11/10 10:51:10 Client '' disconnected from 109.198.193.141:47556 (1 clients)
+2019/11/10 11:08:25 Client connected from 81.157.236.207:55492 (2 clients)
+2019/11/10 11:08:26 User 'meshy' logged in.
+2019/11/10 11:48:02 Client connected from 39.63.10.153:47178 (3 clients)
+2019/11/10 11:48:02 packet length above maximum allowed
+2019/11/10 11:48:02 Client '' disconnected from 39.63.10.153:47178 (2 clients)
+2019/11/10 12:37:45 Client connected from 145.239.253.73:61000 (3 clients)
+2019/11/10 12:37:47 packet length above maximum allowed
+2019/11/10 12:37:47 Client '' disconnected from 145.239.253.73:61000 (2 clients)
+2019/11/10 12:37:48 Client connected from 145.239.253.73:61000 (3 clients)
+2019/11/10 12:37:50 packet length above maximum allowed
+2019/11/10 12:37:50 Client '' disconnected from 145.239.253.73:61000 (2 clients)
+2019/11/10 12:37:52 Client connected from 145.239.253.73:61000 (3 clients)
+2019/11/10 12:37:54 packet length above maximum allowed
+2019/11/10 12:37:54 Client '' disconnected from 145.239.253.73:61000 (2 clients)
+2019/11/10 12:41:58 Client connected from 122.155.11.55:61000 (3 clients)
+2019/11/10 12:42:00 packet length above maximum allowed
+2019/11/10 12:42:00 Client '' disconnected from 122.155.11.55:61000 (2 clients)
+2019/11/10 12:42:01 Client connected from 122.155.11.55:61000 (3 clients)
+2019/11/10 12:42:03 packet length above maximum allowed
+2019/11/10 12:42:03 Client '' disconnected from 122.155.11.55:61000 (2 clients)
+2019/11/10 12:42:04 Client connected from 122.155.11.55:61000 (3 clients)
+2019/11/10 12:42:06 packet length above maximum allowed
+2019/11/10 12:42:06 Client '' disconnected from 122.155.11.55:61000 (2 clients)
+2019/11/10 12:44:43 Client connected from 88.247.116.215:51827 (3 clients)
+2019/11/10 12:44:43 packet length above maximum allowed
+2019/11/10 12:44:43 Client '' disconnected from 88.247.116.215:51827 (2 clients)
+2019/11/10 13:00:04 Client connected from 169.197.108.38:39938 (3 clients)
+2019/11/10 13:00:04 packet length above maximum allowed
+2019/11/10 13:00:04 Client '' disconnected from 169.197.108.38:39938 (2 clients)
+2019/11/10 13:20:23 Client connected from 67.207.92.112:61000 (3 clients)
+2019/11/10 13:20:25 packet length above maximum allowed
+2019/11/10 13:20:25 Client '' disconnected from 67.207.92.112:61000 (2 clients)
+2019/11/10 13:20:26 Client connected from 67.207.92.112:61000 (3 clients)
+2019/11/10 13:20:28 packet length above maximum allowed
+2019/11/10 13:20:28 Client '' disconnected from 67.207.92.112:61000 (2 clients)
+2019/11/10 13:20:29 Client connected from 67.207.92.112:61000 (3 clients)
+2019/11/10 13:20:31 packet length above maximum allowed
+2019/11/10 13:20:31 Client '' disconnected from 67.207.92.112:61000 (2 clients)
+2019/11/10 14:35:16 Client connected from 187.101.67.55:37642 (3 clients)
+2019/11/10 14:35:16 packet length above maximum allowed
+2019/11/10 14:35:16 Client '' disconnected from 187.101.67.55:37642 (2 clients)
+2019/11/10 15:04:52 Client connected from 18.224.72.187:61000 (3 clients)
+2019/11/10 15:04:54 packet length above maximum allowed
+2019/11/10 15:04:54 Client '' disconnected from 18.224.72.187:61000 (2 clients)
+2019/11/10 15:04:55 Client connected from 18.224.72.187:61000 (3 clients)
+2019/11/10 15:04:57 packet length above maximum allowed
+2019/11/10 15:04:57 Client '' disconnected from 18.224.72.187:61000 (2 clients)
+2019/11/10 15:04:58 Client connected from 18.224.72.187:61000 (3 clients)
+2019/11/10 15:05:00 packet length above maximum allowed
+2019/11/10 15:05:00 Client '' disconnected from 18.224.72.187:61000 (2 clients)
+2019/11/10 16:02:34 Client connected from 206.189.237.232:61000 (3 clients)
+2019/11/10 16:02:36 packet length above maximum allowed
+2019/11/10 16:02:36 Client '' disconnected from 206.189.237.232:61000 (2 clients)
+2019/11/10 16:02:38 Client connected from 206.189.237.232:61000 (3 clients)
+2019/11/10 16:02:40 packet length above maximum allowed
+2019/11/10 16:02:40 Client '' disconnected from 206.189.237.232:61000 (2 clients)
+2019/11/10 16:02:41 Client connected from 206.189.237.232:61000 (3 clients)
+2019/11/10 16:02:43 packet length above maximum allowed
+2019/11/10 16:02:43 Client '' disconnected from 206.189.237.232:61000 (2 clients)
+2019/11/10 16:06:09 Read error: EOF
+2019/11/10 16:06:09 EOF
+2019/11/10 16:06:09 Client 'meshy' disconnected from 81.157.236.207:55492 (1 clients)
+2019/11/10 16:06:16 Client connected from 81.157.236.207:62954 (2 clients)
+2019/11/10 16:06:17 User 'meshy' logged in.
+2019/11/10 16:10:19 Read error: EOF
+2019/11/10 16:10:19 EOF
+2019/11/10 16:10:19 Client 'meshy' disconnected from 81.157.236.207:62954 (1 clients)
+2019/11/10 16:12:07 Client connected from 81.157.236.207:63153 (2 clients)
+2019/11/10 16:12:08 User 'meshy' logged in.
+2019/11/10 16:15:11 Read error: EOF
+2019/11/10 16:15:11 EOF
+2019/11/10 16:15:11 Client 'meshy' disconnected from 81.157.236.207:63153 (1 clients)
+2019/11/10 16:15:21 Client connected from 81.157.236.207:63262 (2 clients)
+2019/11/10 16:15:22 User 'meshy' logged in.
+2019/11/10 16:33:03 Read error: EOF
+2019/11/10 16:33:03 EOF
+2019/11/10 16:33:03 Client 'meshy' disconnected from 81.157.236.207:63262 (1 clients)
+2019/11/10 16:34:05 Client connected from 81.157.236.207:56987 (2 clients)
+2019/11/10 16:34:05 User 'meshy' login denied.
+2019/11/10 16:34:06 Read error: EOF
+2019/11/10 16:34:06 EOF
+2019/11/10 16:34:06 Client '' disconnected from 81.157.236.207:56987 (1 clients)
+2019/11/10 16:34:08 Client connected from 81.157.236.207:56989 (2 clients)
+2019/11/10 16:34:09 User 'meshy' logged in.
+2019/11/10 17:18:51 Client connected from 91.215.56.175:33319 (3 clients)
+2019/11/10 17:18:51 packet length above maximum allowed
+2019/11/10 17:18:51 Client '' disconnected from 91.215.56.175:33319 (2 clients)
+2019/11/10 17:19:49 Read error: EOF
+2019/11/10 17:19:49 EOF
+2019/11/10 17:19:49 Client 'meshy' disconnected from 81.157.236.207:56989 (1 clients)
+2019/11/10 17:20:12 Client connected from 81.157.236.207:55169 (2 clients)
+2019/11/10 17:20:13 User 'meshy' logged in.
+2019/11/10 17:20:23 Read error: EOF
+2019/11/10 17:20:23 EOF
+2019/11/10 17:20:23 Client 'meshy' disconnected from 81.157.236.207:55169 (1 clients)
+2019/11/10 17:20:59 Client connected from 81.157.236.207:55197 (2 clients)
+2019/11/10 17:21:00 User 'meshy' logged in.
+2019/11/10 17:21:22 Read error: EOF
+2019/11/10 17:21:22 EOF
+2019/11/10 17:21:22 Client 'meshy' disconnected from 81.157.236.207:55197 (1 clients)
+2019/11/10 17:52:31 Client connected from 81.157.236.207:54666 (2 clients)
+2019/11/10 17:52:32 User 'meshy' logged in.
+2019/11/10 17:53:12 Read error: EOF
+2019/11/10 17:53:12 EOF
+2019/11/10 17:53:12 Client 'meshy' disconnected from 81.157.236.207:54666 (1 clients)
+2019/11/10 17:54:07 Client connected from 81.157.236.207:54728 (2 clients)
+2019/11/10 17:54:07 User 'meshy' logged in.
+2019/11/10 17:54:17 Read error: EOF
+2019/11/10 17:54:17 EOF
+2019/11/10 17:54:17 Client 'meshy' disconnected from 81.157.236.207:54728 (1 clients)
+2019/11/10 17:55:12 Client connected from 81.157.236.207:54771 (2 clients)
+2019/11/10 17:55:13 User 'meshy' logged in.
+2019/11/10 17:58:02 Read error: EOF
+2019/11/10 17:58:02 EOF
+2019/11/10 17:58:02 Client 'meshy' disconnected from 81.157.236.207:54771 (1 clients)
+2019/11/10 17:58:19 Client connected from 81.157.236.207:50464 (2 clients)
+2019/11/10 17:58:20 User 'meshy' logged in.
+2019/11/10 17:59:25 Read error: EOF
+2019/11/10 17:59:25 EOF
+2019/11/10 17:59:25 Client 'meshy' disconnected from 81.157.236.207:50464 (1 clients)
+2019/11/10 18:09:31 Client connected from 104.248.163.158:61000 (2 clients)
+2019/11/10 18:09:33 packet length above maximum allowed
+2019/11/10 18:09:33 Client '' disconnected from 104.248.163.158:61000 (1 clients)
+2019/11/10 18:09:34 Client connected from 104.248.163.158:61000 (2 clients)
+2019/11/10 18:09:36 packet length above maximum allowed
+2019/11/10 18:09:36 Client '' disconnected from 104.248.163.158:61000 (1 clients)
+2019/11/10 18:09:37 Client connected from 104.248.163.158:61000 (2 clients)
+2019/11/10 18:09:39 packet length above maximum allowed
+2019/11/10 18:09:39 Client '' disconnected from 104.248.163.158:61000 (1 clients)
+2019/11/10 18:11:54 Client connected from 81.157.236.207:63037 (2 clients)
+2019/11/10 18:11:55 User 'meshy' logged in.
+2019/11/10 18:26:30 Read error: EOF
+2019/11/10 18:26:30 EOF
+2019/11/10 18:26:30 Client 'meshy' disconnected from 81.157.236.207:63037 (1 clients)
+2019/11/10 18:26:41 Client connected from 81.157.236.207:62021 (2 clients)
+2019/11/10 18:26:42 User 'meshy' logged in.
+2019/11/10 18:28:36 Read error: EOF
+2019/11/10 18:28:36 EOF
+2019/11/10 18:28:36 Client 'meshy' disconnected from 81.157.236.207:62021 (1 clients)
+2019/11/10 18:28:45 Client connected from 81.157.236.207:62097 (2 clients)
+2019/11/10 18:28:46 User 'meshy' logged in.
+2019/11/10 18:57:02 Client connected from 5.253.86.248:38624 (3 clients)
+2019/11/10 18:57:02 packet length above maximum allowed
+2019/11/10 18:57:02 Client '' disconnected from 5.253.86.248:38624 (2 clients)
+2019/11/10 19:48:10 Client connected from 178.73.215.171:41314 (3 clients)
+2019/11/10 19:48:10 packet length above maximum allowed
+2019/11/10 19:48:10 Client '' disconnected from 178.73.215.171:41314 (2 clients)
+2019/11/10 20:44:32 Connecting to database...
+2019/11/10 20:44:32 Connected.
+2019/11/10 20:44:33 Starting server...
+2019/11/10 20:44:33 Listening on :80
+2019/11/10 20:46:06 Client connected from 81.157.236.207:56474 (1 clients)
+2019/11/10 20:46:07 User 'meshy' logged in.
+2019/11/10 20:46:41 Client connected from 81.157.236.207:56492 (2 clients)
+2019/11/10 20:46:42 User 'test' logged in.
+2019/11/10 20:46:52 Read error: EOF
+2019/11/10 20:46:52 EOF
+2019/11/10 20:46:52 Client 'test' disconnected from 81.157.236.207:56492 (1 clients)
+2019/11/10 20:47:33 Client connected from 81.157.236.207:56531 (2 clients)
+2019/11/10 20:47:34 User 'test' logged in.
+2019/11/10 20:48:52 Read error: EOF
+2019/11/10 20:48:52 EOF
+2019/11/10 20:48:52 Client 'meshy' disconnected from 81.157.236.207:56474 (1 clients)
+2019/11/10 20:49:03 Client connected from 81.157.236.207:56592 (2 clients)
+2019/11/10 20:49:05 User 'meshy' logged in.
+2019/11/10 20:50:03 Client connected from 45.143.220.23:64168 (3 clients)
+2019/11/10 20:50:03 packet length above maximum allowed
+2019/11/10 20:50:03 Client '' disconnected from 45.143.220.23:64168 (2 clients)
+2019/11/10 20:50:03 Client connected from 45.143.220.23:51648 (3 clients)
+2019/11/10 20:50:03 packet length above maximum allowed
+2019/11/10 20:50:03 Client '' disconnected from 45.143.220.23:51648 (2 clients)
+2019/11/10 20:51:27 Read error: EOF
+2019/11/10 20:51:27 EOF
+2019/11/10 20:51:27 Client 'test' disconnected from 81.157.236.207:56531 (1 clients)
+2019/11/10 20:51:28 Read error: EOF
+2019/11/10 20:51:28 EOF
+2019/11/10 20:51:28 Client 'meshy' disconnected from 81.157.236.207:56592 (0 clients)
+2019/11/10 20:52:11 Connecting to database...
+2019/11/10 20:52:11 Connected.
+2019/11/10 20:52:11 Starting server...
+2019/11/10 20:52:11 Listening on :80
+2019/11/10 20:52:23 Client connected from 81.157.236.207:56709 (1 clients)
+2019/11/10 20:52:24 User 'meshy' logged in.
+2019/11/10 20:52:25 Client connected from 81.157.236.207:56714 (2 clients)
+2019/11/10 20:52:27 User 'test' logged in.
+2019/11/10 20:52:32 Sending!
+2019/11/10 20:52:37 Sending!
+2019/11/10 20:54:57 Read error: EOF
+2019/11/10 20:54:57 EOF
+2019/11/10 20:54:57 Client 'meshy' disconnected from 81.157.236.207:56709 (1 clients)
+2019/11/10 20:54:57 Read error: EOF
+2019/11/10 20:54:57 EOF
+2019/11/10 20:54:57 Client 'test' disconnected from 81.157.236.207:56714 (0 clients)
+2019/11/10 20:55:16 Client connected from 81.157.236.207:56823 (1 clients)
+2019/11/10 20:55:17 User 'meshy' logged in.
+2019/11/10 20:55:23 Client connected from 81.157.236.207:56830 (2 clients)
+2019/11/10 20:55:24 User 'test' logged in.
+2019/11/10 20:55:29 Sending!
+2019/11/10 20:55:35 Sending!
+2019/11/10 20:55:37 Read error: EOF
+2019/11/10 20:55:37 EOF
+2019/11/10 20:55:37 Client 'meshy' disconnected from 81.157.236.207:56823 (1 clients)
+2019/11/10 20:55:38 Read error: EOF
+2019/11/10 20:55:38 EOF
+2019/11/10 20:55:38 Client 'test' disconnected from 81.157.236.207:56830 (0 clients)
+2019/11/10 20:56:13 Connecting to database...
+2019/11/10 20:56:13 Connected.
+2019/11/10 20:56:14 Starting server...
+2019/11/10 20:56:14 Listening on :80
+2019/11/10 20:56:34 Client connected from 81.157.236.207:56896 (1 clients)
+2019/11/10 20:56:35 User 'meshy' logged in.
+2019/11/10 20:56:37 Client connected from 81.157.236.207:56899 (2 clients)
+2019/11/10 20:56:38 User 'test' logged in.
+2019/11/10 20:56:43 Sending!
+2019/11/10 20:56:51 Sending!
+2019/11/10 20:56:58 Sending!
+2019/11/10 20:57:07 Sending!
+2019/11/10 20:58:20 Sending!
+2019/11/10 20:58:22 Sending!
+2019/11/10 21:07:36 Read error: EOF
+2019/11/10 21:07:36 EOF
+2019/11/10 21:07:36 Client 'meshy' disconnected from 81.157.236.207:56896 (1 clients)
+2019/11/10 21:07:37 Read error: EOF
+2019/11/10 21:07:37 EOF
+2019/11/10 21:07:37 Client 'test' disconnected from 81.157.236.207:56899 (0 clients)
+2019/11/10 21:28:59 Connecting to database...
+2019/11/10 21:28:59 Connected.
+2019/11/10 21:29:00 Starting server...
+2019/11/10 21:29:00 Listening on :80
+2019/11/10 21:30:16 Client connected from 81.157.236.207:53552 (1 clients)
+2019/11/10 21:30:17 User 'meshy' logged in.
+2019/11/10 21:30:20 Client connected from 81.157.236.207:53555 (2 clients)
+2019/11/10 21:30:21 User 'test' logged in.
+2019/11/10 21:34:10 Read error: EOF
+2019/11/10 21:34:10 EOF
+2019/11/10 21:34:10 Client 'meshy' disconnected from 81.157.236.207:53552 (1 clients)
+2019/11/10 21:34:19 Read error: EOF
+2019/11/10 21:34:19 EOF
+2019/11/10 21:34:19 Client 'test' disconnected from 81.157.236.207:53555 (0 clients)
+2019/11/10 21:35:30 Client connected from 81.157.236.207:53758 (1 clients)
+2019/11/10 21:35:30 User 'meshy' logged in.
+2019/11/10 21:35:33 Client connected from 81.157.236.207:53761 (2 clients)
+2019/11/10 21:35:34 User 'test' logged in.
+2019/11/10 21:36:22 Connecting to database...
+2019/11/10 21:36:22 Connected.
+2019/11/10 21:36:23 Starting server...
+2019/11/10 21:36:23 Listening on :80
+2019/11/10 21:36:27 Client connected from 81.157.236.207:53808 (1 clients)
+2019/11/10 21:36:28 User 'meshy' logged in.
+2019/11/10 21:36:30 Client connected from 81.157.236.207:53812 (2 clients)
+2019/11/10 21:36:31 User 'test' logged in.
+2019/11/10 21:38:20 Read error: EOF
+2019/11/10 21:38:20 EOF
+2019/11/10 21:38:20 Client 'meshy' disconnected from 81.157.236.207:53808 (1 clients)
+2019/11/10 21:38:20 Read error: EOF
+2019/11/10 21:38:20 EOF
+2019/11/10 21:38:20 Client 'test' disconnected from 81.157.236.207:53812 (0 clients)
+2019/11/10 21:38:42 Client connected from 81.157.236.207:53906 (1 clients)
+2019/11/10 21:38:43 User 'meshy' logged in.
+2019/11/10 21:38:45 Client connected from 81.157.236.207:53909 (2 clients)
+2019/11/10 21:38:47 User 'test' logged in.
+2019/11/10 21:39:14 Read error: EOF
+2019/11/10 21:39:14 EOF
+2019/11/10 21:39:14 Client 'test' disconnected from 81.157.236.207:53909 (1 clients)
+2019/11/10 21:39:14 Read error: EOF
+2019/11/10 21:39:14 EOF
+2019/11/10 21:39:14 Client 'meshy' disconnected from 81.157.236.207:53906 (0 clients)
+2019/11/10 21:39:35 Client connected from 81.157.236.207:53944 (1 clients)
+2019/11/10 21:39:36 User 'meshy' logged in.
+2019/11/10 21:39:38 Client connected from 81.157.236.207:53947 (2 clients)
+2019/11/10 21:39:40 User 'test' logged in.
+2019/11/10 21:39:44 Sent!
+2019/11/10 21:39:53 Sent!
+2019/11/10 21:40:02 Sent!
+2019/11/10 21:40:12 Read error: EOF
+2019/11/10 21:40:12 EOF
+2019/11/10 21:40:12 Client 'test' disconnected from 81.157.236.207:53947 (1 clients)
+2019/11/10 21:40:13 Read error: EOF
+2019/11/10 21:40:13 EOF
+2019/11/10 21:40:13 Client 'meshy' disconnected from 81.157.236.207:53944 (0 clients)
+2019/11/10 21:40:51 Connecting to database...
+2019/11/10 21:40:51 Connected.
+2019/11/10 21:40:52 Starting server...
+2019/11/10 21:40:52 Listening on :80
+2019/11/10 21:41:07 Client connected from 81.157.236.207:54009 (1 clients)
+2019/11/10 21:41:08 User 'meshy' logged in.
+2019/11/10 21:41:11 Client connected from 81.157.236.207:54012 (2 clients)
+2019/11/10 21:41:12 User 'test' logged in.
+2019/11/10 21:41:28 Read error: EOF
+2019/11/10 21:41:28 EOF
+2019/11/10 21:41:28 Client 'meshy' disconnected from 81.157.236.207:54009 (1 clients)
+2019/11/10 21:41:31 Read error: EOF
+2019/11/10 21:41:31 EOF
+2019/11/10 21:41:31 Client 'test' disconnected from 81.157.236.207:54012 (0 clients)
+2019/11/10 22:07:52 Client connected from 81.157.236.207:56705 (1 clients)
+2019/11/10 22:07:53 User 'meshy' logged in.
+2019/11/10 22:07:58 Client connected from 81.157.236.207:56719 (2 clients)
+2019/11/10 22:07:59 User 'test' logged in.
+2019/11/10 22:08:35 Read error: EOF
+2019/11/10 22:08:35 EOF
+2019/11/10 22:08:35 Client 'test' disconnected from 81.157.236.207:56719 (1 clients)
+2019/11/10 22:08:35 Read error: EOF
+2019/11/10 22:08:35 EOF
+2019/11/10 22:08:35 Client 'meshy' disconnected from 81.157.236.207:56705 (0 clients)
+2019/11/10 22:11:56 Client connected from 81.157.236.207:56864 (1 clients)
+2019/11/10 22:11:57 User 'meshy' logged in.
+2019/11/10 22:12:00 Client connected from 81.157.236.207:56868 (2 clients)
+2019/11/10 22:12:01 User 'test' logged in.
+2019/11/10 22:13:02 Connecting to database...
+2019/11/10 22:13:02 Connected.
+2019/11/10 22:13:02 Starting server...
+2019/11/10 22:13:02 Listening on :80
+2019/11/10 22:13:08 Client connected from 81.157.236.207:56917 (1 clients)
+2019/11/10 22:13:09 User 'meshy' logged in.
+2019/11/10 22:13:11 Client connected from 81.157.236.207:56920 (2 clients)
+2019/11/10 22:13:12 User 'test' logged in.
+2019/11/10 22:14:21 Connecting to database...
+2019/11/10 22:14:21 Connected.
+2019/11/10 22:14:22 Starting server...
+2019/11/10 22:14:22 Listening on :80
+2019/11/10 22:14:27 Client connected from 81.157.236.207:56972 (1 clients)
+2019/11/10 22:14:27 User 'meshy' logged in.
+2019/11/10 22:14:32 Checking nudge.
+2019/11/10 22:15:06 Read error: EOF
+2019/11/10 22:15:06 EOF
+2019/11/10 22:15:06 Client 'meshy' disconnected from 81.157.236.207:56972 (0 clients)
+2019/11/10 22:15:22 Client connected from 81.157.236.207:57007 (1 clients)
+2019/11/10 22:15:23 User 'meshy' logged in.
+2019/11/10 22:15:25 Client connected from 81.157.236.207:57010 (2 clients)
+2019/11/10 22:15:26 User 'test' logged in.
+2019/11/10 22:15:34 Checking nudge.
+2019/11/10 22:15:34 Got nudge.
+2019/11/10 22:15:34 Sending nudge.
+2019/11/10 22:15:48 Checking nudge.
+2019/11/10 22:15:48 Got nudge.
+2019/11/10 22:15:48 Sending nudge.
+2019/11/10 22:16:13 Read error: EOF
+2019/11/10 22:16:13 EOF
+2019/11/10 22:16:13 Client 'meshy' disconnected from 81.157.236.207:57007 (1 clients)
+2019/11/10 22:16:14 Read error: EOF
+2019/11/10 22:16:14 EOF
+2019/11/10 22:16:14 Client 'test' disconnected from 81.157.236.207:57010 (0 clients)
+2019/11/10 22:25:19 Client connected from 81.157.236.207:57398 (1 clients)
+2019/11/10 22:25:19 User 'meshy' logged in.
+2019/11/10 22:25:22 Client connected from 81.157.236.207:57400 (2 clients)
+2019/11/10 22:25:23 User 'test' logged in.
+2019/11/10 22:25:39 Read error: EOF
+2019/11/10 22:25:39 EOF
+2019/11/10 22:25:39 Client 'test' disconnected from 81.157.236.207:57400 (1 clients)
+2019/11/10 22:25:41 Read error: EOF
+2019/11/10 22:25:41 EOF
+2019/11/10 22:25:41 Client 'meshy' disconnected from 81.157.236.207:57398 (0 clients)
+2019/11/10 22:26:31 Client connected from 81.157.236.207:57452 (1 clients)
+2019/11/10 22:26:32 User 'meshy' logged in.
+2019/11/10 22:26:34 Client connected from 81.157.236.207:57455 (2 clients)
+2019/11/10 22:26:35 User 'test' logged in.
+2019/11/10 22:26:49 Checking nudge.
+2019/11/10 22:26:49 Got nudge.
+2019/11/10 22:26:49 Sending nudge.
+2019/11/10 22:26:54 Checking nudge.
+2019/11/10 22:26:54 Got nudge.
+2019/11/10 22:26:54 Sending nudge.
+2019/11/10 22:28:38 Checking nudge.
+2019/11/10 22:28:38 Got nudge.
+2019/11/10 22:28:38 Sending nudge.
+2019/11/10 22:41:30 Connecting to database...
+2019/11/10 22:41:30 Connected.
+2019/11/10 22:41:30 Starting server...
+2019/11/10 22:41:30 Listening on :80
+2019/11/10 22:44:38 Client connected from 81.157.236.207:58162 (1 clients)
+2019/11/10 22:44:39 User 'test' logged in.
+2019/11/10 22:44:42 Client connected from 81.157.236.207:58166 (2 clients)
+2019/11/10 22:44:43 User 'meshy' logged in.
+2019/11/10 22:46:06 Client connected from 79.143.177.84:61000 (3 clients)
+2019/11/10 22:46:08 packet length above maximum allowed
+2019/11/10 22:46:08 Client '' disconnected from 79.143.177.84:61000 (2 clients)
+2019/11/10 22:46:45 Read error: EOF
+2019/11/10 22:46:45 EOF
+2019/11/10 22:46:45 Client 'test' disconnected from 81.157.236.207:58162 (1 clients)
+2019/11/10 22:46:45 Read error: EOF
+2019/11/10 22:46:45 EOF
+2019/11/10 22:46:45 Client 'meshy' disconnected from 81.157.236.207:58166 (0 clients)
+2019/11/10 22:47:00 Client connected from 81.157.236.207:58272 (1 clients)
+2019/11/10 22:47:01 User 'meshy' logged in.
+2019/11/10 22:47:48 Read error: EOF
+2019/11/10 22:47:48 EOF
+2019/11/10 22:47:48 Client 'meshy' disconnected from 81.157.236.207:58272 (0 clients)
+2019/11/10 22:47:58 Client connected from 81.157.236.207:58309 (1 clients)
+2019/11/10 22:47:59 User 'meshy' logged in.
+2019/11/10 22:48:01 Client connected from 81.157.236.207:58314 (2 clients)
+2019/11/10 22:48:02 User 'test' logged in.
+2019/11/10 22:48:22 Read error: EOF
+2019/11/10 22:48:22 EOF
+2019/11/10 22:48:22 Client 'meshy' disconnected from 81.157.236.207:58309 (1 clients)
+2019/11/10 22:48:23 Read error: EOF
+2019/11/10 22:48:23 EOF
+2019/11/10 22:48:23 Client 'test' disconnected from 81.157.236.207:58314 (0 clients)
+2019/11/10 22:52:11 Client connected from 81.157.236.207:58456 (1 clients)
+2019/11/10 22:52:12 User 'meshy' logged in.
+2019/11/10 22:52:21 Read error: EOF
+2019/11/10 22:52:21 EOF
+2019/11/10 22:52:21 Client 'meshy' disconnected from 81.157.236.207:58456 (0 clients)
+2019/11/10 23:02:03 Client connected from 81.157.236.207:58913 (1 clients)
+2019/11/10 23:02:04 Client connected from 81.157.236.207:58916 (2 clients)
+2019/11/10 23:02:04 User 'test' logged in.
+2019/11/10 23:02:05 User 'meshy' logged in.
+2019/11/10 23:02:16 Read error: EOF
+2019/11/10 23:02:16 EOF
+2019/11/10 23:02:16 Client 'meshy' disconnected from 81.157.236.207:58916 (1 clients)
+2019/11/10 23:02:17 Read error: EOF
+2019/11/10 23:02:17 EOF
+2019/11/10 23:02:17 Client 'test' disconnected from 81.157.236.207:58913 (0 clients)
+2019/11/10 23:05:03 Client connected from 81.157.236.207:59031 (1 clients)
+2019/11/10 23:05:04 User 'meshy' logged in.
+2019/11/10 23:05:34 Read error: EOF
+2019/11/10 23:05:34 EOF
+2019/11/10 23:05:34 Client 'meshy' disconnected from 81.157.236.207:59031 (0 clients)
+2019/11/10 23:06:19 Client connected from 81.157.236.207:59090 (1 clients)
+2019/11/10 23:06:20 User 'meshy' logged in.
+2019/11/10 23:07:45 Read error: EOF
+2019/11/10 23:07:45 EOF
+2019/11/10 23:07:45 Client 'meshy' disconnected from 81.157.236.207:59090 (0 clients)
+2019/11/10 23:08:30 Client connected from 81.157.236.207:59171 (1 clients)
+2019/11/10 23:08:31 User 'meshy' logged in.
+2019/11/10 23:09:06 Client connected from 81.157.236.207:59196 (2 clients)
+2019/11/10 23:09:07 User 'test' logged in.
+2019/11/10 23:09:50 Read error: EOF
+2019/11/10 23:09:50 EOF
+2019/11/10 23:09:50 Client 'test' disconnected from 81.157.236.207:59196 (1 clients)
+2019/11/10 23:09:50 Read error: EOF
+2019/11/10 23:09:50 EOF
+2019/11/10 23:09:50 Client 'meshy' disconnected from 81.157.236.207:59171 (0 clients)
+2019/11/10 23:10:11 Client connected from 81.157.236.207:59243 (1 clients)
+2019/11/10 23:10:12 User 'meshy' logged in.
+2019/11/10 23:10:19 Client connected from 81.157.236.207:59246 (2 clients)
+2019/11/10 23:10:21 User 'test' logged in.
+2019/11/10 23:30:03 Client connected from 182.72.154.10:52656 (3 clients)
+2019/11/10 23:30:03 packet length above maximum allowed
+2019/11/10 23:30:03 Client '' disconnected from 182.72.154.10:52656 (2 clients)
+2019/11/10 23:35:38 Client connected from 165.227.4.106:61000 (3 clients)
+2019/11/10 23:35:40 packet length above maximum allowed
+2019/11/10 23:35:40 Client '' disconnected from 165.227.4.106:61000 (2 clients)
+2019/11/10 23:35:42 Client connected from 165.227.4.106:61000 (3 clients)
+2019/11/10 23:35:44 packet length above maximum allowed
+2019/11/10 23:35:44 Client '' disconnected from 165.227.4.106:61000 (2 clients)
+2019/11/10 23:35:45 Client connected from 165.227.4.106:61000 (3 clients)
+2019/11/10 23:35:47 packet length above maximum allowed
+2019/11/10 23:35:47 Client '' disconnected from 165.227.4.106:61000 (2 clients)
+2019/11/10 23:47:56 Read error: EOF
+2019/11/10 23:47:56 EOF
+2019/11/10 23:47:56 Client 'test' disconnected from 81.157.236.207:59246 (1 clients)
+2019/11/10 23:49:57 Read error: EOF
+2019/11/10 23:49:57 EOF
+2019/11/10 23:49:57 Client 'meshy' disconnected from 81.157.236.207:59243 (0 clients)
+2019/11/11 00:01:03 Client connected from 68.81.163.167:56926 (1 clients)
+2019/11/11 00:01:04 User 'flymario' logged in.
+2019/11/11 00:01:05 Client connected from 81.157.236.207:60284 (2 clients)
+2019/11/11 00:01:06 User 'meshy' logged in.
+2019/11/11 00:01:46 Client connected from 81.157.236.207:60315 (3 clients)
+2019/11/11 00:01:47 User 'test' logged in.
+2019/11/11 00:05:53 Client connected from 87.27.216.17:58417 (4 clients)
+2019/11/11 00:05:53 packet length above maximum allowed
+2019/11/11 00:05:53 Client '' disconnected from 87.27.216.17:58417 (3 clients)
+2019/11/11 00:05:55 Client connected from 87.27.216.17:59947 (4 clients)
+2019/11/11 00:06:01 Read error: EOF
+2019/11/11 00:06:01 EOF
+2019/11/11 00:06:01 Client '' disconnected from 87.27.216.17:59947 (3 clients)
+2019/11/11 00:07:52 Read error: EOF
+2019/11/11 00:07:52 EOF
+2019/11/11 00:07:52 Client 'test' disconnected from 81.157.236.207:60315 (2 clients)
+2019/11/11 00:09:20 Client connected from 81.157.236.207:61405 (3 clients)
+2019/11/11 00:09:20 User 'test2' logged in.
+2019/11/11 00:26:59 Read error: EOF
+2019/11/11 00:26:59 EOF
+2019/11/11 00:26:59 Client 'test2' disconnected from 81.157.236.207:61405 (2 clients)
+2019/11/11 00:31:15 Client connected from 170.238.36.21:61000 (3 clients)
+2019/11/11 00:31:17 packet length above maximum allowed
+2019/11/11 00:31:17 Client '' disconnected from 170.238.36.21:61000 (2 clients)
+2019/11/11 00:31:19 Client connected from 170.238.36.21:61000 (3 clients)
+2019/11/11 00:31:21 packet length above maximum allowed
+2019/11/11 00:31:21 Client '' disconnected from 170.238.36.21:61000 (2 clients)
+2019/11/11 00:49:32 Client connected from 178.93.27.209:55741 (3 clients)
+2019/11/11 00:49:32 packet length above maximum allowed
+2019/11/11 00:49:32 Client '' disconnected from 178.93.27.209:55741 (2 clients)
+2019/11/11 02:19:34 Client connected from 173.249.6.245:61000 (3 clients)
+2019/11/11 02:19:36 packet length above maximum allowed
+2019/11/11 02:19:36 Client '' disconnected from 173.249.6.245:61000 (2 clients)
+2019/11/11 02:19:37 Client connected from 173.249.6.245:61000 (3 clients)
+2019/11/11 02:19:39 packet length above maximum allowed
+2019/11/11 02:19:39 Client '' disconnected from 173.249.6.245:61000 (2 clients)
+2019/11/11 04:23:45 Client connected from 142.93.187.70:61000 (3 clients)
+2019/11/11 04:23:47 packet length above maximum allowed
+2019/11/11 04:23:47 Client '' disconnected from 142.93.187.70:61000 (2 clients)
+2019/11/11 04:23:48 Client connected from 142.93.187.70:61000 (3 clients)
+2019/11/11 04:23:50 packet length above maximum allowed
+2019/11/11 04:23:50 Client '' disconnected from 142.93.187.70:61000 (2 clients)
+2019/11/11 04:23:51 Client connected from 142.93.187.70:61000 (3 clients)
+2019/11/11 04:23:53 packet length above maximum allowed
+2019/11/11 04:23:53 Client '' disconnected from 142.93.187.70:61000 (2 clients)
+2019/11/11 05:09:11 Client connected from 188.234.197.23:17255 (3 clients)
+2019/11/11 05:09:11 packet length above maximum allowed
+2019/11/11 05:09:11 Client '' disconnected from 188.234.197.23:17255 (2 clients)
+2019/11/11 05:26:29 Client connected from 193.70.33.60:61000 (3 clients)
+2019/11/11 05:26:31 packet length above maximum allowed
+2019/11/11 05:26:31 Client '' disconnected from 193.70.33.60:61000 (2 clients)
+2019/11/11 05:26:32 Client connected from 193.70.33.60:61000 (3 clients)
+2019/11/11 05:26:34 packet length above maximum allowed
+2019/11/11 05:26:34 Client '' disconnected from 193.70.33.60:61000 (2 clients)
+2019/11/11 05:26:35 Client connected from 193.70.33.60:61000 (3 clients)
+2019/11/11 05:26:37 packet length above maximum allowed
+2019/11/11 05:26:37 Client '' disconnected from 193.70.33.60:61000 (2 clients)
+2019/11/11 06:06:59 Client connected from 198.23.223.139:18758 (3 clients)
+2019/11/11 06:06:59 packet length above maximum allowed
+2019/11/11 06:06:59 Client '' disconnected from 198.23.223.139:18758 (2 clients)
+2019/11/11 06:32:49 Client connected from 138.59.74.144:61000 (3 clients)
+2019/11/11 06:32:51 packet length above maximum allowed
+2019/11/11 06:32:51 Client '' disconnected from 138.59.74.144:61000 (2 clients)
+2019/11/11 06:32:53 Client connected from 138.59.74.144:61000 (3 clients)
+2019/11/11 06:32:55 packet length above maximum allowed
+2019/11/11 06:32:55 Client '' disconnected from 138.59.74.144:61000 (2 clients)
+2019/11/11 06:32:56 Client connected from 138.59.74.144:61000 (3 clients)
+2019/11/11 06:32:58 packet length above maximum allowed
+2019/11/11 06:32:58 Client '' disconnected from 138.59.74.144:61000 (2 clients)
+2019/11/11 07:05:45 Client connected from 5.189.132.31:61000 (3 clients)
+2019/11/11 07:05:47 packet length above maximum allowed
+2019/11/11 07:05:47 Client '' disconnected from 5.189.132.31:61000 (2 clients)
+2019/11/11 07:05:49 Client connected from 5.189.132.31:61000 (3 clients)
+2019/11/11 07:05:51 packet length above maximum allowed
+2019/11/11 07:05:51 Client '' disconnected from 5.189.132.31:61000 (2 clients)
+2019/11/11 07:05:52 Client connected from 5.189.132.31:61000 (3 clients)
+2019/11/11 07:05:54 packet length above maximum allowed
+2019/11/11 07:05:54 Client '' disconnected from 5.189.132.31:61000 (2 clients)
+2019/11/11 07:16:36 Client connected from 173.212.212.52:61000 (3 clients)
+2019/11/11 07:16:38 packet length above maximum allowed
+2019/11/11 07:16:38 Client '' disconnected from 173.212.212.52:61000 (2 clients)
+2019/11/11 07:16:40 Client connected from 173.212.212.52:61000 (3 clients)
+2019/11/11 07:16:42 packet length above maximum allowed
+2019/11/11 07:16:42 Client '' disconnected from 173.212.212.52:61000 (2 clients)
+2019/11/11 07:16:43 Client connected from 173.212.212.52:61000 (3 clients)
+2019/11/11 07:16:45 packet length above maximum allowed
+2019/11/11 07:16:45 Client '' disconnected from 173.212.212.52:61000 (2 clients)
+2019/11/11 07:45:04 Client connected from 173.212.246.14:61000 (3 clients)
+2019/11/11 07:45:06 packet length above maximum allowed
+2019/11/11 07:45:06 Client '' disconnected from 173.212.246.14:61000 (2 clients)
+2019/11/11 07:45:08 Client connected from 173.212.246.14:61000 (3 clients)
+2019/11/11 07:45:10 packet length above maximum allowed
+2019/11/11 07:45:10 Client '' disconnected from 173.212.246.14:61000 (2 clients)
+2019/11/11 07:45:11 Client connected from 173.212.246.14:61000 (3 clients)
+2019/11/11 07:45:13 packet length above maximum allowed
+2019/11/11 07:45:13 Client '' disconnected from 173.212.246.14:61000 (2 clients)
+2019/11/11 07:58:43 Client connected from 187.56.235.180:48186 (3 clients)
+2019/11/11 07:58:43 packet length above maximum allowed
+2019/11/11 07:58:43 Client '' disconnected from 187.56.235.180:48186 (2 clients)
+2019/11/11 09:30:58 Client connected from 195.154.211.33:61000 (3 clients)
+2019/11/11 09:31:00 packet length above maximum allowed
+2019/11/11 09:31:00 Client '' disconnected from 195.154.211.33:61000 (2 clients)
+2019/11/11 09:31:01 Client connected from 195.154.211.33:61000 (3 clients)
+2019/11/11 09:31:03 packet length above maximum allowed
+2019/11/11 09:31:03 Client '' disconnected from 195.154.211.33:61000 (2 clients)
+2019/11/11 09:31:04 Client connected from 195.154.211.33:61000 (3 clients)
+2019/11/11 09:31:06 packet length above maximum allowed
+2019/11/11 09:31:06 Client '' disconnected from 195.154.211.33:61000 (2 clients)
+2019/11/11 09:56:44 Client connected from 51.68.124.104:61000 (3 clients)
+2019/11/11 09:56:46 packet length above maximum allowed
+2019/11/11 09:56:46 Client '' disconnected from 51.68.124.104:61000 (2 clients)
+2019/11/11 09:56:47 Client connected from 51.68.124.104:61000 (3 clients)
+2019/11/11 09:56:49 packet length above maximum allowed
+2019/11/11 09:56:49 Client '' disconnected from 51.68.124.104:61000 (2 clients)
+2019/11/11 09:56:50 Client connected from 51.68.124.104:61000 (3 clients)
+2019/11/11 09:56:52 packet length above maximum allowed
+2019/11/11 09:56:52 Client '' disconnected from 51.68.124.104:61000 (2 clients)
+2019/11/11 11:10:17 Client connected from 132.232.38.153:36124 (3 clients)
+2019/11/11 11:10:22 Read error: EOF
+2019/11/11 11:10:22 EOF
+2019/11/11 11:10:22 Client '' disconnected from 132.232.38.153:36124 (2 clients)
+2019/11/11 11:10:22 Client connected from 132.232.38.153:37246 (3 clients)
+2019/11/11 11:10:22 packet length above maximum allowed
+2019/11/11 11:10:22 Client '' disconnected from 132.232.38.153:37246 (2 clients)
+2019/11/11 11:10:23 Client connected from 132.232.38.153:37800 (3 clients)
+2019/11/11 11:10:23 packet length above maximum allowed
+2019/11/11 11:10:23 Client '' disconnected from 132.232.38.153:37800 (2 clients)
+2019/11/11 11:41:15 Client connected from 37.49.230.18:54907 (3 clients)
+2019/11/11 11:41:15 Read error: read tcp 192.168.1.92:80->37.49.230.18:54907: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/11 11:41:15 read tcp 192.168.1.92:80->37.49.230.18:54907: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/11 11:41:15 Client '' disconnected from 37.49.230.18:54907 (2 clients)
+2019/11/11 11:41:15 Client connected from 37.49.230.18:54993 (3 clients)
+2019/11/11 11:41:15 packet length above maximum allowed
+2019/11/11 11:41:15 Client '' disconnected from 37.49.230.18:54993 (2 clients)
+2019/11/11 11:54:18 Client connected from 79.143.181.172:61000 (3 clients)
+2019/11/11 11:54:20 packet length above maximum allowed
+2019/11/11 11:54:20 Client '' disconnected from 79.143.181.172:61000 (2 clients)
+2019/11/11 11:54:22 Client connected from 79.143.181.172:61000 (3 clients)
+2019/11/11 11:54:24 packet length above maximum allowed
+2019/11/11 11:54:24 Client '' disconnected from 79.143.181.172:61000 (2 clients)
+2019/11/11 11:54:25 Client connected from 79.143.181.172:61000 (3 clients)
+2019/11/11 11:54:27 packet length above maximum allowed
+2019/11/11 11:54:27 Client '' disconnected from 79.143.181.172:61000 (2 clients)
+2019/11/11 12:08:47 Client connected from 91.121.76.97:61000 (3 clients)
+2019/11/11 12:08:49 packet length above maximum allowed
+2019/11/11 12:08:49 Client '' disconnected from 91.121.76.97:61000 (2 clients)
+2019/11/11 12:08:50 Client connected from 91.121.76.97:61000 (3 clients)
+2019/11/11 12:08:52 packet length above maximum allowed
+2019/11/11 12:08:52 Client '' disconnected from 91.121.76.97:61000 (2 clients)
+2019/11/11 12:08:54 Client connected from 91.121.76.97:61000 (3 clients)
+2019/11/11 12:08:56 packet length above maximum allowed
+2019/11/11 12:08:56 Client '' disconnected from 91.121.76.97:61000 (2 clients)
+2019/11/11 12:11:19 Client connected from 82.148.68.100:61000 (3 clients)
+2019/11/11 12:11:21 packet length above maximum allowed
+2019/11/11 12:11:21 Client '' disconnected from 82.148.68.100:61000 (2 clients)
+2019/11/11 12:11:22 Client connected from 82.148.68.100:61000 (3 clients)
+2019/11/11 12:11:24 packet length above maximum allowed
+2019/11/11 12:11:24 Client '' disconnected from 82.148.68.100:61000 (2 clients)
+2019/11/11 12:11:25 Client connected from 82.148.68.100:61000 (3 clients)
+2019/11/11 12:11:27 packet length above maximum allowed
+2019/11/11 12:11:27 Client '' disconnected from 82.148.68.100:61000 (2 clients)
+2019/11/11 13:16:05 Client connected from 139.99.186.165:61000 (3 clients)
+2019/11/11 13:16:07 packet length above maximum allowed
+2019/11/11 13:16:07 Client '' disconnected from 139.99.186.165:61000 (2 clients)
+2019/11/11 13:16:08 Client connected from 139.99.186.165:61000 (3 clients)
+2019/11/11 13:16:10 packet length above maximum allowed
+2019/11/11 13:16:10 Client '' disconnected from 139.99.186.165:61000 (2 clients)
+2019/11/11 13:16:11 Client connected from 139.99.186.165:61000 (3 clients)
+2019/11/11 13:16:13 packet length above maximum allowed
+2019/11/11 13:16:13 Client '' disconnected from 139.99.186.165:61000 (2 clients)
+2019/11/11 13:34:25 Client connected from 112.74.169.198:58248 (3 clients)
+2019/11/11 13:34:25 Read error: read tcp 192.168.1.92:80->112.74.169.198:58248: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/11 13:34:25 read tcp 192.168.1.92:80->112.74.169.198:58248: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/11 13:34:25 Client '' disconnected from 112.74.169.198:58248 (2 clients)
+2019/11/11 13:34:28 Client connected from 112.74.169.198:42886 (3 clients)
+2019/11/11 13:34:28 packet length above maximum allowed
+2019/11/11 13:34:28 Client '' disconnected from 112.74.169.198:42886 (2 clients)
+2019/11/11 13:34:29 Client connected from 112.74.169.198:44688 (3 clients)
+2019/11/11 13:34:29 packet length above maximum allowed
+2019/11/11 13:34:29 Client '' disconnected from 112.74.169.198:44688 (2 clients)
+2019/11/11 13:35:01 Client connected from 67.242.173.125:52672 (3 clients)
+2019/11/11 13:35:01 Read error: EOF
+2019/11/11 13:35:01 EOF
+2019/11/11 13:35:01 Client '' disconnected from 67.242.173.125:52672 (2 clients)
+2019/11/11 13:35:01 Client connected from 67.242.173.125:52673 (3 clients)
+2019/11/11 13:35:01 packet length above maximum allowed
+2019/11/11 13:35:01 Client '' disconnected from 67.242.173.125:52673 (2 clients)
+2019/11/11 13:37:26 Client connected from 45.5.36.171:51331 (3 clients)
+2019/11/11 13:37:26 packet length above maximum allowed
+2019/11/11 13:37:26 Client '' disconnected from 45.5.36.171:51331 (2 clients)
+2019/11/11 14:29:29 Client connected from 46.105.123.189:61000 (3 clients)
+2019/11/11 14:29:31 packet length above maximum allowed
+2019/11/11 14:29:31 Client '' disconnected from 46.105.123.189:61000 (2 clients)
+2019/11/11 14:29:33 Client connected from 46.105.123.189:61000 (3 clients)
+2019/11/11 14:29:35 packet length above maximum allowed
+2019/11/11 14:29:35 Client '' disconnected from 46.105.123.189:61000 (2 clients)
+2019/11/11 14:29:36 Client connected from 46.105.123.189:61000 (3 clients)
+2019/11/11 14:29:38 packet length above maximum allowed
+2019/11/11 14:29:38 Client '' disconnected from 46.105.123.189:61000 (2 clients)
+2019/11/11 15:06:03 Client connected from 189.234.100.46:4758 (3 clients)
+2019/11/11 15:06:03 packet length above maximum allowed
+2019/11/11 15:06:03 Client '' disconnected from 189.234.100.46:4758 (2 clients)
+2019/11/11 15:47:05 Client connected from 187.57.64.89:57183 (3 clients)
+2019/11/11 15:47:05 packet length above maximum allowed
+2019/11/11 15:47:05 Client '' disconnected from 187.57.64.89:57183 (2 clients)
+2019/11/11 16:02:26 Client connected from 139.99.141.237:61000 (3 clients)
+2019/11/11 16:02:28 packet length above maximum allowed
+2019/11/11 16:02:28 Client '' disconnected from 139.99.141.237:61000 (2 clients)
+2019/11/11 16:02:29 Client connected from 139.99.141.237:61000 (3 clients)
+2019/11/11 16:02:31 packet length above maximum allowed
+2019/11/11 16:02:31 Client '' disconnected from 139.99.141.237:61000 (2 clients)
+2019/11/11 16:02:32 Client connected from 139.99.141.237:61000 (3 clients)
+2019/11/11 16:02:34 packet length above maximum allowed
+2019/11/11 16:02:34 Client '' disconnected from 139.99.141.237:61000 (2 clients)
+2019/11/11 16:22:51 Client connected from 61.219.11.153:64222 (3 clients)
+2019/11/11 16:23:24 Read error: read tcp 192.168.1.92:80->61.219.11.153:64222: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/11 16:23:24 read tcp 192.168.1.92:80->61.219.11.153:64222: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/11 16:23:24 Client '' disconnected from 61.219.11.153:64222 (2 clients)
+2019/11/11 16:37:53 Client connected from 190.13.136.237:61000 (3 clients)
+2019/11/11 16:37:55 packet length above maximum allowed
+2019/11/11 16:37:55 Client '' disconnected from 190.13.136.237:61000 (2 clients)
+2019/11/11 16:37:56 Client connected from 190.13.136.237:61000 (3 clients)
+2019/11/11 16:37:58 packet length above maximum allowed
+2019/11/11 16:37:58 Client '' disconnected from 190.13.136.237:61000 (2 clients)
+2019/11/11 16:37:59 Client connected from 190.13.136.237:61000 (3 clients)
+2019/11/11 16:38:01 packet length above maximum allowed
+2019/11/11 16:38:01 Client '' disconnected from 190.13.136.237:61000 (2 clients)
+2019/11/11 17:08:50 Client connected from 171.100.28.210:33509 (3 clients)
+2019/11/11 17:08:50 packet length above maximum allowed
+2019/11/11 17:08:50 Client '' disconnected from 171.100.28.210:33509 (2 clients)
+2019/11/11 17:11:23 Client connected from 39.104.89.157:58894 (3 clients)
+2019/11/11 17:11:23 Read error: read tcp 192.168.1.92:80->39.104.89.157:58894: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/11 17:11:23 read tcp 192.168.1.92:80->39.104.89.157:58894: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/11 17:11:23 Client '' disconnected from 39.104.89.157:58894 (2 clients)
+2019/11/11 17:11:26 Client connected from 39.104.89.157:33348 (3 clients)
+2019/11/11 17:11:26 Read error: read tcp 192.168.1.92:80->39.104.89.157:33348: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/11 17:11:26 read tcp 192.168.1.92:80->39.104.89.157:33348: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/11 17:11:26 Client '' disconnected from 39.104.89.157:33348 (2 clients)
+2019/11/11 17:56:16 Client connected from 103.1.94.196:40651 (3 clients)
+2019/11/11 17:56:16 packet length above maximum allowed
+2019/11/11 17:56:16 Client '' disconnected from 103.1.94.196:40651 (2 clients)
+2019/11/11 19:31:49 Client connected from 122.112.241.204:58848 (3 clients)
+2019/11/11 19:31:51 Read error: EOF
+2019/11/11 19:31:51 EOF
+2019/11/11 19:31:51 Client '' disconnected from 122.112.241.204:58848 (2 clients)
+2019/11/11 19:31:56 Client connected from 122.112.241.204:34372 (3 clients)
+2019/11/11 19:31:56 packet length above maximum allowed
+2019/11/11 19:31:56 Client '' disconnected from 122.112.241.204:34372 (2 clients)
+2019/11/11 19:31:57 Client connected from 122.112.241.204:35614 (3 clients)
+2019/11/11 19:31:57 packet length above maximum allowed
+2019/11/11 19:31:57 Client '' disconnected from 122.112.241.204:35614 (2 clients)
+2019/11/11 20:17:06 Client connected from 45.143.220.23:63486 (3 clients)
+2019/11/11 20:17:06 packet length above maximum allowed
+2019/11/11 20:17:06 Client '' disconnected from 45.143.220.23:63486 (2 clients)
+2019/11/11 20:17:06 Client connected from 45.143.220.23:63486 (3 clients)
+2019/11/11 20:17:06 packet length above maximum allowed
+2019/11/11 20:17:06 Client '' disconnected from 45.143.220.23:63486 (2 clients)
+2019/11/11 20:23:11 Client connected from 92.118.161.45:49851 (3 clients)
+2019/11/11 20:23:13 packet length above maximum allowed
+2019/11/11 20:23:13 Client '' disconnected from 92.118.161.45:49851 (2 clients)
+2019/11/11 20:32:29 Read error: EOF
+2019/11/11 20:32:29 EOF
+2019/11/11 20:32:29 Client 'meshy' disconnected from 81.157.236.207:60284 (1 clients)
+2019/11/11 20:32:39 Client connected from 81.157.236.207:57513 (2 clients)
+2019/11/11 20:32:40 User 'meshy' logged in.
+2019/11/11 20:33:01 Read error: EOF
+2019/11/11 20:33:01 EOF
+2019/11/11 20:33:01 Client 'meshy' disconnected from 81.157.236.207:57513 (1 clients)
+2019/11/11 20:33:12 Client connected from 81.157.236.207:57538 (2 clients)
+2019/11/11 20:33:13 User 'meshy' logged in.
+2019/11/11 20:33:24 Read error: EOF
+2019/11/11 20:33:24 EOF
+2019/11/11 20:33:24 Client 'meshy' disconnected from 81.157.236.207:57538 (1 clients)
+2019/11/11 20:33:52 Client connected from 81.157.236.207:57562 (2 clients)
+2019/11/11 20:33:53 User 'meshy' logged in.
+2019/11/11 20:34:18 Client connected from 62.173.141.11:61383 (3 clients)
+2019/11/11 20:34:19 packet length above maximum allowed
+2019/11/11 20:34:19 Client '' disconnected from 62.173.141.11:61383 (2 clients)
+2019/11/11 20:34:19 Client connected from 62.173.141.11:61461 (3 clients)
+2019/11/11 20:34:19 packet length above maximum allowed
+2019/11/11 20:34:19 Client '' disconnected from 62.173.141.11:61461 (2 clients)
+2019/11/11 20:39:37 Client connected from 185.153.196.52:2248 (3 clients)
+2019/11/11 20:40:37 Read error: read tcp 192.168.1.92:80->185.153.196.52:2248: i/o timeout
+2019/11/11 20:40:37 read tcp 192.168.1.92:80->185.153.196.52:2248: i/o timeout
+2019/11/11 20:40:37 Client '' disconnected from 185.153.196.52:2248 (2 clients)
+2019/11/11 21:18:46 Client connected from 103.15.83.88:48410 (3 clients)
+2019/11/11 21:18:46 packet length above maximum allowed
+2019/11/11 21:18:46 Client '' disconnected from 103.15.83.88:48410 (2 clients)
+2019/11/11 21:19:58 Client connected from 68.81.163.167:50367 (3 clients)
+2019/11/11 21:19:59 User 'flymario' login denied.
+2019/11/11 21:20:00 Read error: EOF
+2019/11/11 21:20:00 EOF
+2019/11/11 21:20:00 Client '' disconnected from 68.81.163.167:50367 (2 clients)
+2019/11/11 21:20:05 Client connected from 68.81.163.167:50374 (3 clients)
+2019/11/11 21:20:06 User 'flymario' login denied.
+2019/11/11 21:21:04 Read error: EOF
+2019/11/11 21:21:04 EOF
+2019/11/11 21:21:04 Client '' disconnected from 68.81.163.167:50374 (2 clients)
+2019/11/11 21:22:24 Connecting to database...
+2019/11/11 21:22:24 Connected.
+2019/11/11 21:22:24 Starting server...
+2019/11/11 21:22:24 Listening on :80
+2019/11/11 21:22:32 Client connected from 81.157.236.207:50378 (1 clients)
+2019/11/11 21:22:33 User 'meshy' logged in.
+2019/11/11 21:22:50 Client connected from 68.81.163.167:50469 (2 clients)
+2019/11/11 21:22:51 User 'flymario' logged in.
+2019/11/11 21:35:59 Client connected from 206.189.148.115:61000 (3 clients)
+2019/11/11 21:36:01 packet length above maximum allowed
+2019/11/11 21:36:01 Client '' disconnected from 206.189.148.115:61000 (2 clients)
+2019/11/11 21:36:02 Client connected from 206.189.148.115:61000 (3 clients)
+2019/11/11 21:36:04 packet length above maximum allowed
+2019/11/11 21:36:04 Client '' disconnected from 206.189.148.115:61000 (2 clients)
+2019/11/11 21:36:05 Client connected from 206.189.148.115:61000 (3 clients)
+2019/11/11 21:36:07 packet length above maximum allowed
+2019/11/11 21:36:07 Client '' disconnected from 206.189.148.115:61000 (2 clients)
+2019/11/11 21:58:41 Client connected from 60.191.52.254:51363 (3 clients)
+2019/11/11 21:58:41 Read error: EOF
+2019/11/11 21:58:41 EOF
+2019/11/11 21:58:41 Client '' disconnected from 60.191.52.254:51363 (2 clients)
+2019/11/11 21:58:41 Client connected from 60.191.52.254:51563 (3 clients)
+2019/11/11 21:58:41 packet length above maximum allowed
+2019/11/11 21:58:41 Client '' disconnected from 60.191.52.254:51563 (2 clients)
+2019/11/11 21:58:42 Client connected from 60.191.52.254:51994 (3 clients)
+2019/11/11 21:58:42 packet length above maximum allowed
+2019/11/11 21:58:42 Client '' disconnected from 60.191.52.254:51994 (2 clients)
+2019/11/11 21:59:32 Read error: EOF
+2019/11/11 21:59:32 EOF
+2019/11/11 21:59:32 Client 'meshy' disconnected from 81.157.236.207:50378 (1 clients)
+2019/11/11 22:00:48 Client connected from 81.157.236.207:61161 (2 clients)
+2019/11/11 22:00:49 User 'meshy' logged in.
+2019/11/11 22:04:10 Read error: EOF
+2019/11/11 22:04:10 EOF
+2019/11/11 22:04:10 Client 'meshy' disconnected from 81.157.236.207:61161 (1 clients)
+2019/11/11 22:04:20 Client connected from 81.157.236.207:61397 (2 clients)
+2019/11/11 22:04:21 User 'meshy' logged in.
+2019/11/11 22:04:54 Read error: read tcp 192.168.1.92:80->81.157.236.207:61397: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/11 22:04:54 read tcp 192.168.1.92:80->81.157.236.207:61397: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/11 22:04:54 Client 'meshy' disconnected from 81.157.236.207:61397 (1 clients)
+2019/11/11 22:05:03 Client connected from 207.180.211.108:61000 (2 clients)
+2019/11/11 22:05:05 packet length above maximum allowed
+2019/11/11 22:05:05 Client '' disconnected from 207.180.211.108:61000 (1 clients)
+2019/11/11 22:05:08 Client connected from 207.180.211.108:61000 (2 clients)
+2019/11/11 22:05:10 packet length above maximum allowed
+2019/11/11 22:05:10 Client '' disconnected from 207.180.211.108:61000 (1 clients)
+2019/11/11 22:06:15 Client connected from 81.157.236.207:61671 (2 clients)
+2019/11/11 22:06:17 User 'meshy' logged in.
+2019/11/11 22:06:53 Read error: EOF
+2019/11/11 22:06:53 EOF
+2019/11/11 22:06:53 Client 'flymario' disconnected from 68.81.163.167:50469 (1 clients)
+2019/11/11 22:08:32 Client connected from 68.81.163.167:63679 (2 clients)
+2019/11/11 22:08:33 User 'flymario' logged in.
+2019/11/11 22:33:07 Read error: EOF
+2019/11/11 22:33:07 EOF
+2019/11/11 22:33:07 Client 'meshy' disconnected from 81.157.236.207:61671 (1 clients)
+2019/11/11 22:33:13 Client connected from 81.157.236.207:62835 (2 clients)
+2019/11/11 22:33:14 User 'meshy' logged in.
+2019/11/11 22:36:38 Read error: EOF
+2019/11/11 22:36:38 EOF
+2019/11/11 22:36:38 Client 'meshy' disconnected from 81.157.236.207:62835 (1 clients)
+2019/11/11 22:36:49 Client connected from 81.157.236.207:64280 (2 clients)
+2019/11/11 22:36:50 User 'meshy' logged in.
+2019/11/11 22:39:44 Read error: EOF
+2019/11/11 22:39:44 EOF
+2019/11/11 22:39:44 Client 'meshy' disconnected from 81.157.236.207:64280 (1 clients)
+2019/11/11 22:39:51 Client connected from 81.157.236.207:64441 (2 clients)
+2019/11/11 22:39:52 User 'meshy' logged in.
+2019/11/11 22:40:20 Read error: EOF
+2019/11/11 22:40:20 EOF
+2019/11/11 22:40:20 Client 'meshy' disconnected from 81.157.236.207:64441 (1 clients)
+2019/11/11 22:40:38 Client connected from 81.157.236.207:64478 (2 clients)
+2019/11/11 22:40:39 User 'meshy' logged in.
+2019/11/11 22:40:54 Read error: EOF
+2019/11/11 22:40:54 EOF
+2019/11/11 22:40:54 Client 'meshy' disconnected from 81.157.236.207:64478 (1 clients)
+2019/11/11 22:41:50 Client connected from 81.157.236.207:64539 (2 clients)
+2019/11/11 22:41:51 User 'meshy' logged in.
+2019/11/11 22:42:08 Read error: EOF
+2019/11/11 22:42:08 EOF
+2019/11/11 22:42:08 Client 'meshy' disconnected from 81.157.236.207:64539 (1 clients)
+2019/11/11 22:42:56 Client connected from 81.157.236.207:64599 (2 clients)
+2019/11/11 22:42:57 User 'meshy' logged in.
+2019/11/11 22:43:07 Read error: EOF
+2019/11/11 22:43:07 EOF
+2019/11/11 22:43:07 Client 'meshy' disconnected from 81.157.236.207:64599 (1 clients)
+2019/11/11 22:44:17 Client connected from 81.157.236.207:64670 (2 clients)
+2019/11/11 22:44:18 User 'meshy' logged in.
+2019/11/11 22:44:30 Read error: EOF
+2019/11/11 22:44:30 EOF
+2019/11/11 22:44:30 Client 'meshy' disconnected from 81.157.236.207:64670 (1 clients)
+2019/11/11 22:46:31 Client connected from 81.157.236.207:64781 (2 clients)
+2019/11/11 22:46:32 User 'meshy' logged in.
+2019/11/11 22:46:59 Read error: EOF
+2019/11/11 22:46:59 EOF
+2019/11/11 22:46:59 Client 'flymario' disconnected from 68.81.163.167:63679 (1 clients)
+2019/11/11 22:48:18 Client connected from 68.81.163.167:58082 (2 clients)
+2019/11/11 22:48:19 User 'FlyMario' logged in.
+2019/11/11 22:52:02 Read error: EOF
+2019/11/11 22:52:02 EOF
+2019/11/11 22:52:02 Client 'meshy' disconnected from 81.157.236.207:64781 (1 clients)
+2019/11/11 22:52:09 Client connected from 81.157.236.207:65040 (2 clients)
+2019/11/11 22:52:10 User 'meshy' logged in.
+2019/11/11 22:52:12 Client connected from 68.81.163.167:63973 (3 clients)
+2019/11/11 22:52:13 failed to update
+2019/11/11 22:52:13 User 'flymario' login failed due to error.
+2019/11/11 22:52:13 Client connected from 68.81.163.167:63976 (4 clients)
+2019/11/11 22:52:15 Read error: EOF
+2019/11/11 22:52:15 EOF
+2019/11/11 22:52:15 Client '' disconnected from 68.81.163.167:63976 (3 clients)
+2019/11/11 22:52:20 Read error: EOF
+2019/11/11 22:52:20 EOF
+2019/11/11 22:52:20 Client '' disconnected from 68.81.163.167:63973 (2 clients)
+2019/11/11 22:54:09 Client connected from 68.81.163.167:64050 (3 clients)
+2019/11/11 22:54:10 failed to update
+2019/11/11 22:54:10 User 'flymario' login failed due to error.
+2019/11/11 22:54:12 Read error: EOF
+2019/11/11 22:54:12 EOF
+2019/11/11 22:54:12 Client '' disconnected from 68.81.163.167:64050 (2 clients)
+2019/11/11 22:59:50 Connecting to database...
+2019/11/11 22:59:50 Connected.
+2019/11/11 22:59:50 Starting server...
+2019/11/11 22:59:50 Listening on :80
+2019/11/11 22:59:59 Client connected from 81.157.236.207:65448 (1 clients)
+2019/11/11 23:00:00 User 'meshy' logged in.
+2019/11/11 23:05:43 Connecting to database...
+2019/11/11 23:05:43 Connected.
+2019/11/11 23:05:43 Logging everyone off...
+2019/11/11 23:05:44 Starting server...
+2019/11/11 23:05:44 Listening on :80
+2019/11/11 23:06:03 Client connected from 81.157.236.207:49407 (1 clients)
+2019/11/11 23:06:04 User 'meshy' logged in.
+2019/11/11 23:07:37 Read error: EOF
+2019/11/11 23:07:37 EOF
+2019/11/11 23:07:37 Client 'meshy' disconnected from 81.157.236.207:49407 (0 clients)
+2019/11/11 23:10:00 Client connected from 68.81.163.167:64500 (1 clients)
+2019/11/11 23:10:01 User 'flymario' logged in.
+2019/11/11 23:11:04 Client connected from 81.157.236.207:57243 (2 clients)
+2019/11/11 23:11:06 User 'meshy' logged in.
+2019/11/11 23:11:10 Read error: EOF
+2019/11/11 23:11:10 EOF
+2019/11/11 23:11:10 Client 'meshy' disconnected from 81.157.236.207:57243 (1 clients)
+2019/11/11 23:11:24 Client connected from 81.157.236.207:57266 (2 clients)
+2019/11/11 23:11:25 User 'meshy' logged in.
+2019/11/11 23:38:30 Read error: EOF
+2019/11/11 23:38:30 EOF
+2019/11/11 23:38:30 Client 'meshy' disconnected from 81.157.236.207:57266 (1 clients)
+2019/11/11 23:38:44 Client connected from 81.157.236.207:50486 (2 clients)
+2019/11/11 23:38:45 User 'meshy' logged in.
+2019/11/11 23:39:57 Read error: EOF
+2019/11/11 23:39:57 EOF
+2019/11/11 23:39:57 Client 'meshy' disconnected from 81.157.236.207:50486 (1 clients)
+2019/11/11 23:40:08 Client connected from 81.157.236.207:50532 (2 clients)
+2019/11/11 23:40:09 User 'meshy' logged in.
+2019/11/11 23:41:09 Read error: EOF
+2019/11/11 23:41:09 EOF
+2019/11/11 23:41:09 Client 'meshy' disconnected from 81.157.236.207:50532 (1 clients)
+2019/11/11 23:42:46 Client connected from 81.157.236.207:50642 (2 clients)
+2019/11/11 23:42:47 User 'meshy' logged in.
+2019/11/11 23:43:40 Read error: EOF
+2019/11/11 23:43:40 EOF
+2019/11/11 23:43:40 Client 'flymario' disconnected from 68.81.163.167:64500 (1 clients)
+2019/11/11 23:45:02 Client connected from 68.81.163.167:49217 (2 clients)
+2019/11/11 23:45:03 User 'flymario' logged in.
+2019/11/11 23:52:11 Client connected from 128.199.221.30:61000 (3 clients)
+2019/11/11 23:52:13 packet length above maximum allowed
+2019/11/11 23:52:13 Client '' disconnected from 128.199.221.30:61000 (2 clients)
+2019/11/11 23:52:14 Client connected from 128.199.221.30:61000 (3 clients)
+2019/11/11 23:52:16 packet length above maximum allowed
+2019/11/11 23:52:16 Client '' disconnected from 128.199.221.30:61000 (2 clients)
+2019/11/11 23:52:17 Client connected from 128.199.221.30:61000 (3 clients)
+2019/11/11 23:52:19 packet length above maximum allowed
+2019/11/11 23:52:19 Client '' disconnected from 128.199.221.30:61000 (2 clients)
+2019/11/11 23:55:52 Read error: EOF
+2019/11/11 23:55:52 EOF
+2019/11/11 23:55:52 Client 'meshy' disconnected from 81.157.236.207:50642 (1 clients)
+2019/11/11 23:56:23 Client connected from 81.157.236.207:59044 (2 clients)
+2019/11/11 23:56:24 User 'meshy' logged in.
+2019/11/12 00:07:45 Client connected from 103.81.13.80:41288 (3 clients)
+2019/11/12 00:07:45 packet length above maximum allowed
+2019/11/12 00:07:45 Client '' disconnected from 103.81.13.80:41288 (2 clients)
+2019/11/12 01:08:30 Client connected from 195.162.70.238:54549 (3 clients)
+2019/11/12 01:08:30 packet length above maximum allowed
+2019/11/12 01:08:30 Client '' disconnected from 195.162.70.238:54549 (2 clients)
+2019/11/12 01:28:43 Client connected from 80.241.220.101:61000 (3 clients)
+2019/11/12 01:28:45 packet length above maximum allowed
+2019/11/12 01:28:45 Client '' disconnected from 80.241.220.101:61000 (2 clients)
+2019/11/12 01:28:47 Client connected from 80.241.220.101:61000 (3 clients)
+2019/11/12 01:28:49 packet length above maximum allowed
+2019/11/12 01:28:49 Client '' disconnected from 80.241.220.101:61000 (2 clients)
+2019/11/12 01:28:50 Client connected from 80.241.220.101:61000 (3 clients)
+2019/11/12 01:28:52 packet length above maximum allowed
+2019/11/12 01:28:52 Client '' disconnected from 80.241.220.101:61000 (2 clients)
+2019/11/12 01:33:37 Client connected from 185.153.196.52:2218 (3 clients)
+2019/11/12 01:34:37 Read error: read tcp 192.168.1.92:80->185.153.196.52:2218: i/o timeout
+2019/11/12 01:34:37 read tcp 192.168.1.92:80->185.153.196.52:2218: i/o timeout
+2019/11/12 01:34:37 Client '' disconnected from 185.153.196.52:2218 (2 clients)
+2019/11/12 01:46:00 Client connected from 89.248.169.17:56126 (3 clients)
+2019/11/12 01:46:00 packet length above maximum allowed
+2019/11/12 01:46:00 Client '' disconnected from 89.248.169.17:56126 (2 clients)
+2019/11/12 03:02:58 Client connected from 173.212.204.184:61000 (3 clients)
+2019/11/12 03:03:00 packet length above maximum allowed
+2019/11/12 03:03:00 Client '' disconnected from 173.212.204.184:61000 (2 clients)
+2019/11/12 03:03:03 Client connected from 173.212.204.184:61000 (3 clients)
+2019/11/12 03:03:05 packet length above maximum allowed
+2019/11/12 03:03:05 Client '' disconnected from 173.212.204.184:61000 (2 clients)
+2019/11/12 03:03:05 Client connected from 173.212.204.184:61000 (3 clients)
+2019/11/12 03:03:07 packet length above maximum allowed
+2019/11/12 03:03:07 Client '' disconnected from 173.212.204.184:61000 (2 clients)
+2019/11/12 03:13:38 Client connected from 91.123.204.139:61000 (3 clients)
+2019/11/12 03:13:40 packet length above maximum allowed
+2019/11/12 03:13:40 Client '' disconnected from 91.123.204.139:61000 (2 clients)
+2019/11/12 03:13:41 Client connected from 91.123.204.139:61000 (3 clients)
+2019/11/12 03:13:43 packet length above maximum allowed
+2019/11/12 03:13:43 Client '' disconnected from 91.123.204.139:61000 (2 clients)
+2019/11/12 03:13:44 Client connected from 91.123.204.139:61000 (3 clients)
+2019/11/12 03:13:46 packet length above maximum allowed
+2019/11/12 03:13:46 Client '' disconnected from 91.123.204.139:61000 (2 clients)
+2019/11/12 04:14:27 Client connected from 198.108.67.16:10292 (3 clients)
+2019/11/12 04:14:27 packet length above maximum allowed
+2019/11/12 04:14:27 Client '' disconnected from 198.108.67.16:10292 (2 clients)
+2019/11/12 04:57:37 Client connected from 128.199.84.41:61000 (3 clients)
+2019/11/12 04:57:39 packet length above maximum allowed
+2019/11/12 04:57:39 Client '' disconnected from 128.199.84.41:61000 (2 clients)
+2019/11/12 04:57:40 Client connected from 128.199.84.41:61000 (3 clients)
+2019/11/12 04:57:42 packet length above maximum allowed
+2019/11/12 04:57:42 Client '' disconnected from 128.199.84.41:61000 (2 clients)
+2019/11/12 04:57:43 Client connected from 128.199.84.41:61000 (3 clients)
+2019/11/12 04:57:45 packet length above maximum allowed
+2019/11/12 04:57:45 Client '' disconnected from 128.199.84.41:61000 (2 clients)
+2019/11/12 05:23:40 Client connected from 31.0.204.222:44240 (3 clients)
+2019/11/12 05:23:40 packet length above maximum allowed
+2019/11/12 05:23:40 Client '' disconnected from 31.0.204.222:44240 (2 clients)
+2019/11/12 06:17:18 Client connected from 169.197.108.6:53842 (3 clients)
+2019/11/12 06:17:18 packet length above maximum allowed
+2019/11/12 06:17:18 Client '' disconnected from 169.197.108.6:53842 (2 clients)
+2019/11/12 08:12:11 Client connected from 43.252.220.80:45388 (3 clients)
+2019/11/12 08:12:11 packet length above maximum allowed
+2019/11/12 08:12:11 Client '' disconnected from 43.252.220.80:45388 (2 clients)
+2019/11/12 09:33:13 Client connected from 173.249.28.191:61000 (3 clients)
+2019/11/12 09:33:15 packet length above maximum allowed
+2019/11/12 09:33:15 Client '' disconnected from 173.249.28.191:61000 (2 clients)
+2019/11/12 10:29:01 Client connected from 170.84.15.248:38483 (3 clients)
+2019/11/12 10:29:01 packet length above maximum allowed
+2019/11/12 10:29:01 Client '' disconnected from 170.84.15.248:38483 (2 clients)
+2019/11/12 10:38:27 Client connected from 45.143.220.23:59576 (3 clients)
+2019/11/12 10:38:27 packet length above maximum allowed
+2019/11/12 10:38:27 Client '' disconnected from 45.143.220.23:59576 (2 clients)
+2019/11/12 10:38:27 Client connected from 45.143.220.23:55561 (3 clients)
+2019/11/12 10:38:27 packet length above maximum allowed
+2019/11/12 10:38:27 Client '' disconnected from 45.143.220.23:55561 (2 clients)
+2019/11/12 10:44:06 Client connected from 191.241.46.26:35270 (3 clients)
+2019/11/12 10:44:06 packet length above maximum allowed
+2019/11/12 10:44:06 Client '' disconnected from 191.241.46.26:35270 (2 clients)
+2019/11/12 11:14:48 Client connected from 31.179.240.130:34633 (3 clients)
+2019/11/12 11:14:48 packet length above maximum allowed
+2019/11/12 11:14:48 Client '' disconnected from 31.179.240.130:34633 (2 clients)
+2019/11/12 12:50:07 Client connected from 45.125.65.67:61344 (3 clients)
+2019/11/12 12:50:07 packet length above maximum allowed
+2019/11/12 12:50:07 Client '' disconnected from 45.125.65.67:61344 (2 clients)
+2019/11/12 12:50:07 Client connected from 45.125.65.67:61992 (3 clients)
+2019/11/12 12:50:07 packet length above maximum allowed
+2019/11/12 12:50:07 Client '' disconnected from 45.125.65.67:61992 (2 clients)
+2019/11/12 13:34:48 Client connected from 45.143.220.23:59629 (3 clients)
+2019/11/12 13:34:48 packet length above maximum allowed
+2019/11/12 13:34:48 Client '' disconnected from 45.143.220.23:59629 (2 clients)
+2019/11/12 13:34:48 Client connected from 45.143.220.23:60061 (3 clients)
+2019/11/12 13:34:48 packet length above maximum allowed
+2019/11/12 13:34:48 Client '' disconnected from 45.143.220.23:60061 (2 clients)
+2019/11/12 14:18:03 Client connected from 79.155.52.91:38667 (3 clients)
+2019/11/12 14:18:03 packet length above maximum allowed
+2019/11/12 14:18:03 Client '' disconnected from 79.155.52.91:38667 (2 clients)
+2019/11/12 15:03:42 Client connected from 193.188.22.76:1154 (3 clients)
+2019/11/12 15:04:42 Read error: read tcp 192.168.1.92:80->193.188.22.76:1154: i/o timeout
+2019/11/12 15:04:42 read tcp 192.168.1.92:80->193.188.22.76:1154: i/o timeout
+2019/11/12 15:04:42 Client '' disconnected from 193.188.22.76:1154 (2 clients)
+2019/11/12 16:43:09 Client connected from 50.73.116.43:61000 (3 clients)
+2019/11/12 16:43:11 packet length above maximum allowed
+2019/11/12 16:43:11 Client '' disconnected from 50.73.116.43:61000 (2 clients)
+2019/11/12 16:43:12 Client connected from 50.73.116.43:61000 (3 clients)
+2019/11/12 16:43:14 packet length above maximum allowed
+2019/11/12 16:43:14 Client '' disconnected from 50.73.116.43:61000 (2 clients)
+2019/11/12 16:43:15 Client connected from 50.73.116.43:61000 (3 clients)
+2019/11/12 16:43:17 packet length above maximum allowed
+2019/11/12 16:43:17 Client '' disconnected from 50.73.116.43:61000 (2 clients)
+2019/11/12 17:03:33 Client connected from 178.238.238.221:61000 (3 clients)
+2019/11/12 17:03:35 packet length above maximum allowed
+2019/11/12 17:03:35 Client '' disconnected from 178.238.238.221:61000 (2 clients)
+2019/11/12 17:03:37 Client connected from 178.238.238.221:61000 (3 clients)
+2019/11/12 17:03:39 packet length above maximum allowed
+2019/11/12 17:03:39 Client '' disconnected from 178.238.238.221:61000 (2 clients)
+2019/11/12 17:03:39 Client connected from 178.238.238.221:61000 (3 clients)
+2019/11/12 17:03:41 packet length above maximum allowed
+2019/11/12 17:03:41 Client '' disconnected from 178.238.238.221:61000 (2 clients)
+2019/11/12 18:46:24 Client connected from 200.97.20.34:40943 (3 clients)
+2019/11/12 18:46:24 packet length above maximum allowed
+2019/11/12 18:46:24 Client '' disconnected from 200.97.20.34:40943 (2 clients)
+2019/11/12 19:02:10 Client connected from 172.105.23.36:50332 (3 clients)
+2019/11/12 19:02:10 packet length above maximum allowed
+2019/11/12 19:02:10 Client '' disconnected from 172.105.23.36:50332 (2 clients)
+2019/11/12 19:11:41 Client connected from 37.49.230.18:65259 (3 clients)
+2019/11/12 19:11:41 Read error: read tcp 192.168.1.92:80->37.49.230.18:65259: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/12 19:11:41 read tcp 192.168.1.92:80->37.49.230.18:65259: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/12 19:11:41 Client '' disconnected from 37.49.230.18:65259 (2 clients)
+2019/11/12 19:11:41 Client connected from 37.49.230.18:65325 (3 clients)
+2019/11/12 19:11:41 packet length above maximum allowed
+2019/11/12 19:11:41 Client '' disconnected from 37.49.230.18:65325 (2 clients)
+2019/11/12 19:41:21 Client connected from 93.79.71.12:58360 (3 clients)
+2019/11/12 19:41:21 packet length above maximum allowed
+2019/11/12 19:41:21 Client '' disconnected from 93.79.71.12:58360 (2 clients)
+2019/11/12 19:46:53 Client connected from 89.248.168.49:55008 (3 clients)
+2019/11/12 19:46:53 packet length above maximum allowed
+2019/11/12 19:46:53 Client '' disconnected from 89.248.168.49:55008 (2 clients)
+2019/11/12 20:37:30 Client connected from 213.193.7.185:54929 (3 clients)
+2019/11/12 20:37:30 packet length above maximum allowed
+2019/11/12 20:37:30 Client '' disconnected from 213.193.7.185:54929 (2 clients)
+2019/11/12 21:12:47 Client connected from 61.219.11.153:61753 (3 clients)
+2019/11/12 21:12:49 packet length above maximum allowed
+2019/11/12 21:12:49 Client '' disconnected from 61.219.11.153:61753 (2 clients)
+2019/11/12 21:20:41 Client connected from 68.81.163.167:53887 (3 clients)
+2019/11/12 21:20:43 User 'flymario' logged in.
+2019/11/12 21:46:52 Connecting to database...
+2019/11/12 21:46:52 Connected.
+2019/11/12 21:46:52 Logging everyone off...
+2019/11/12 21:46:53 Starting server...
+2019/11/12 21:46:53 Listening on :80
+2019/11/12 21:47:02 Client connected from 81.157.236.207:49409 (1 clients)
+2019/11/12 21:47:03 User 'meshy' logged in.
+2019/11/12 21:48:06 Client connected from 68.81.163.167:53322 (2 clients)
+2019/11/12 21:48:07 User 'flymario' logged in.
+2019/11/12 21:48:42 Client connected from 81.157.236.207:49474 (3 clients)
+2019/11/12 21:48:44 User 'meshy' logged in.
+2019/11/12 21:51:24 Read error: EOF
+2019/11/12 21:51:24 EOF
+2019/11/12 21:51:24 Client 'meshy' disconnected from 81.157.236.207:49474 (2 clients)
+2019/11/12 22:22:21 Client connected from 71.6.199.23:56134 (3 clients)
+2019/11/12 22:22:21 packet length above maximum allowed
+2019/11/12 22:22:21 Client '' disconnected from 71.6.199.23:56134 (2 clients)
+2019/11/12 22:35:12 Client connected from 81.157.236.207:49693 (3 clients)
+2019/11/12 22:35:13 User 'meshy' logged in.
+2019/11/12 22:36:56 Read error: EOF
+2019/11/12 22:36:56 EOF
+2019/11/12 22:36:56 Client 'meshy' disconnected from 81.157.236.207:49693 (2 clients)
+2019/11/12 22:37:17 Client connected from 81.157.236.207:49799 (3 clients)
+2019/11/12 22:37:18 User 'meshy' logged in.
+2019/11/12 22:41:36 Read error: EOF
+2019/11/12 22:41:36 EOF
+2019/11/12 22:41:36 Client 'meshy' disconnected from 81.157.236.207:49799 (2 clients)
+2019/11/12 23:12:32 Client connected from 177.87.70.2:61000 (3 clients)
+2019/11/12 23:12:34 packet length above maximum allowed
+2019/11/12 23:12:34 Client '' disconnected from 177.87.70.2:61000 (2 clients)
+2019/11/12 23:12:36 Client connected from 177.87.70.2:61000 (3 clients)
+2019/11/12 23:12:38 packet length above maximum allowed
+2019/11/12 23:12:38 Client '' disconnected from 177.87.70.2:61000 (2 clients)
+2019/11/12 23:12:39 Client connected from 177.87.70.2:61000 (3 clients)
+2019/11/12 23:12:41 packet length above maximum allowed
+2019/11/12 23:12:41 Client '' disconnected from 177.87.70.2:61000 (2 clients)
+2019/11/12 23:16:53 Client connected from 146.196.55.181:61000 (3 clients)
+2019/11/12 23:16:53 packet length above maximum allowed
+2019/11/12 23:16:53 Client '' disconnected from 146.196.55.181:61000 (2 clients)
+2019/11/12 23:16:57 Client connected from 146.196.55.181:61000 (3 clients)
+2019/11/12 23:16:57 packet length above maximum allowed
+2019/11/12 23:16:57 Client '' disconnected from 146.196.55.181:61000 (2 clients)
+2019/11/12 23:25:17 Client connected from 68.81.163.167:56861 (3 clients)
+2019/11/12 23:25:18 User 'flymario' logged in.
+2019/11/12 23:30:08 Client connected from 122.228.19.80:43291 (4 clients)
+2019/11/12 23:30:08 packet length above maximum allowed
+2019/11/12 23:30:08 Client '' disconnected from 122.228.19.80:43291 (3 clients)
+2019/11/12 23:35:13 Client connected from 81.157.236.207:53452 (4 clients)
+2019/11/12 23:35:15 User 'test' logged in.
+2019/11/12 23:37:39 Read error: EOF
+2019/11/12 23:37:39 EOF
+2019/11/12 23:37:39 Client 'test' disconnected from 81.157.236.207:53452 (3 clients)
+2019/11/12 23:41:06 Client connected from 81.157.236.207:62298 (4 clients)
+2019/11/12 23:41:07 User 'test' logged in.
+2019/11/12 23:45:06 Client connected from 186.84.20.110:11896 (5 clients)
+2019/11/12 23:45:06 packet length above maximum allowed
+2019/11/12 23:45:06 Client '' disconnected from 186.84.20.110:11896 (4 clients)
+2019/11/12 23:46:10 Read error: EOF
+2019/11/12 23:46:10 EOF
+2019/11/12 23:46:10 Client 'test' disconnected from 81.157.236.207:62298 (3 clients)
+2019/11/12 23:46:24 Client connected from 81.157.236.207:60436 (4 clients)
+2019/11/12 23:46:25 User 'test' logged in.
+2019/11/12 23:50:38 Read error: EOF
+2019/11/12 23:50:38 EOF
+2019/11/12 23:50:38 Client 'test' disconnected from 81.157.236.207:60436 (3 clients)
+2019/11/12 23:50:41 Read error: EOF
+2019/11/12 23:50:41 EOF
+2019/11/12 23:50:41 Client 'meshy' disconnected from 81.157.236.207:49409 (2 clients)
+2019/11/12 23:50:41 failed to update
+2019/11/12 23:50:41 Failed to logout user id '3' due to error.
+2019/11/12 23:52:50 Client connected from 81.157.236.207:60679 (3 clients)
+2019/11/12 23:52:52 User 'meshy' logged in.
+2019/11/12 23:55:31 Client connected from 176.58.124.134:34178 (4 clients)
+2019/11/12 23:55:31 packet length above maximum allowed
+2019/11/12 23:55:31 Client '' disconnected from 176.58.124.134:34178 (3 clients)
+2019/11/12 23:58:20 Read error: EOF
+2019/11/12 23:58:20 EOF
+2019/11/12 23:58:20 Client 'meshy' disconnected from 81.157.236.207:60679 (2 clients)
+2019/11/12 23:58:27 Client connected from 81.157.236.207:57326 (3 clients)
+2019/11/12 23:58:28 User 'meshy' logged in.
+2019/11/12 23:59:14 Read error: EOF
+2019/11/12 23:59:14 EOF
+2019/11/12 23:59:14 Client 'flymario' disconnected from 68.81.163.167:56861 (2 clients)
+2019/11/13 00:00:40 Client connected from 68.81.163.167:58028 (3 clients)
+2019/11/13 00:00:41 User 'flymario' logged in.
+2019/11/13 00:05:27 Read error: EOF
+2019/11/13 00:05:27 EOF
+2019/11/13 00:05:27 Client 'meshy' disconnected from 81.157.236.207:57326 (2 clients)
+2019/11/13 00:05:34 Client connected from 81.157.236.207:57646 (3 clients)
+2019/11/13 00:05:35 User 'meshy' logged in.
+2019/11/13 00:08:01 Read error: EOF
+2019/11/13 00:08:01 EOF
+2019/11/13 00:08:01 Client 'flymario' disconnected from 68.81.163.167:58028 (2 clients)
+2019/11/13 00:13:32 Client connected from 68.81.163.167:58455 (3 clients)
+2019/11/13 00:13:33 User 'flymario' logged in.
+2019/11/13 00:53:19 Client connected from 185.153.196.47:7831 (4 clients)
+2019/11/13 00:53:19 Read error: read tcp 192.168.1.92:80->185.153.196.47:7831: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/13 00:53:19 read tcp 192.168.1.92:80->185.153.196.47:7831: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/13 00:53:19 Client '' disconnected from 185.153.196.47:7831 (3 clients)
+2019/11/13 00:53:20 Client connected from 185.153.196.47:7979 (4 clients)
+2019/11/13 00:53:34 packet length above maximum allowed
+2019/11/13 00:53:34 Client '' disconnected from 185.153.196.47:7979 (3 clients)
+2019/11/13 01:08:59 Client connected from 134.175.167.218:38810 (4 clients)
+2019/11/13 01:08:59 Read error: EOF
+2019/11/13 01:08:59 EOF
+2019/11/13 01:08:59 Client '' disconnected from 134.175.167.218:38810 (3 clients)
+2019/11/13 01:08:59 Client connected from 134.175.167.218:38922 (4 clients)
+2019/11/13 01:08:59 packet length above maximum allowed
+2019/11/13 01:08:59 Client '' disconnected from 134.175.167.218:38922 (3 clients)
+2019/11/13 01:09:03 Client connected from 134.175.167.218:39358 (4 clients)
+2019/11/13 01:09:03 packet length above maximum allowed
+2019/11/13 01:09:03 Client '' disconnected from 134.175.167.218:39358 (3 clients)
+2019/11/13 01:09:04 Client connected from 134.175.167.218:39829 (4 clients)
+2019/11/13 01:09:04 packet length above maximum allowed
+2019/11/13 01:09:04 Client '' disconnected from 134.175.167.218:39829 (3 clients)
+2019/11/13 01:09:07 Client connected from 134.175.167.218:40272 (4 clients)
+2019/11/13 01:09:07 packet length above maximum allowed
+2019/11/13 01:09:07 Client '' disconnected from 134.175.167.218:40272 (3 clients)
+2019/11/13 01:09:08 Client connected from 134.175.167.218:40579 (4 clients)
+2019/11/13 01:09:08 packet length above maximum allowed
+2019/11/13 01:09:08 Client '' disconnected from 134.175.167.218:40579 (3 clients)
+2019/11/13 01:09:11 Client connected from 134.175.167.218:40976 (4 clients)
+2019/11/13 01:09:11 packet length above maximum allowed
+2019/11/13 01:09:11 Client '' disconnected from 134.175.167.218:40976 (3 clients)
+2019/11/13 01:09:12 Client connected from 134.175.167.218:41363 (4 clients)
+2019/11/13 01:09:12 packet length above maximum allowed
+2019/11/13 01:09:12 Client '' disconnected from 134.175.167.218:41363 (3 clients)
+2019/11/13 01:09:15 Client connected from 134.175.167.218:41731 (4 clients)
+2019/11/13 01:09:15 packet length above maximum allowed
+2019/11/13 01:09:15 Client '' disconnected from 134.175.167.218:41731 (3 clients)
+2019/11/13 01:09:16 Client connected from 134.175.167.218:42151 (4 clients)
+2019/11/13 01:09:16 packet length above maximum allowed
+2019/11/13 01:09:16 Client '' disconnected from 134.175.167.218:42151 (3 clients)
+2019/11/13 01:09:19 Client connected from 134.175.167.218:42582 (4 clients)
+2019/11/13 01:09:19 packet length above maximum allowed
+2019/11/13 01:09:19 Client '' disconnected from 134.175.167.218:42582 (3 clients)
+2019/11/13 01:09:20 Client connected from 134.175.167.218:42955 (4 clients)
+2019/11/13 01:09:20 packet length above maximum allowed
+2019/11/13 01:09:20 Client '' disconnected from 134.175.167.218:42955 (3 clients)
+2019/11/13 01:09:22 Client connected from 134.175.167.218:43249 (4 clients)
+2019/11/13 01:09:22 packet length above maximum allowed
+2019/11/13 01:09:22 Client '' disconnected from 134.175.167.218:43249 (3 clients)
+2019/11/13 01:09:23 Client connected from 134.175.167.218:43616 (4 clients)
+2019/11/13 01:09:23 packet length above maximum allowed
+2019/11/13 01:09:23 Client '' disconnected from 134.175.167.218:43616 (3 clients)
+2019/11/13 01:09:25 Client connected from 134.175.167.218:43943 (4 clients)
+2019/11/13 01:09:25 packet length above maximum allowed
+2019/11/13 01:09:25 Client '' disconnected from 134.175.167.218:43943 (3 clients)
+2019/11/13 01:09:26 Client connected from 134.175.167.218:44259 (4 clients)
+2019/11/13 01:09:26 packet length above maximum allowed
+2019/11/13 01:09:26 Client '' disconnected from 134.175.167.218:44259 (3 clients)
+2019/11/13 01:09:49 Client connected from 134.175.167.218:47603 (4 clients)
+2019/11/13 01:09:49 packet length above maximum allowed
+2019/11/13 01:09:49 Client '' disconnected from 134.175.167.218:47603 (3 clients)
+2019/11/13 01:09:51 Client connected from 134.175.167.218:47617 (4 clients)
+2019/11/13 01:09:51 packet length above maximum allowed
+2019/11/13 01:09:51 Client '' disconnected from 134.175.167.218:47617 (3 clients)
+2019/11/13 01:10:15 Client connected from 134.175.167.218:51839 (4 clients)
+2019/11/13 01:10:15 packet length above maximum allowed
+2019/11/13 01:10:15 Client '' disconnected from 134.175.167.218:51839 (3 clients)
+2019/11/13 01:10:15 Client connected from 134.175.167.218:52187 (4 clients)
+2019/11/13 01:10:15 packet length above maximum allowed
+2019/11/13 01:10:15 Client '' disconnected from 134.175.167.218:52187 (3 clients)
+2019/11/13 01:10:16 Client connected from 134.175.167.218:52293 (4 clients)
+2019/11/13 01:10:16 packet length above maximum allowed
+2019/11/13 01:10:16 Client '' disconnected from 134.175.167.218:52293 (3 clients)
+2019/11/13 01:10:16 Client connected from 134.175.167.218:52418 (4 clients)
+2019/11/13 01:10:16 packet length above maximum allowed
+2019/11/13 01:10:16 Client '' disconnected from 134.175.167.218:52418 (3 clients)
+2019/11/13 01:10:17 Client connected from 134.175.167.218:52504 (4 clients)
+2019/11/13 01:10:17 packet length above maximum allowed
+2019/11/13 01:10:17 Client '' disconnected from 134.175.167.218:52504 (3 clients)
+2019/11/13 01:10:17 Client connected from 134.175.167.218:52602 (4 clients)
+2019/11/13 01:10:17 packet length above maximum allowed
+2019/11/13 01:10:17 Client '' disconnected from 134.175.167.218:52602 (3 clients)
+2019/11/13 01:10:18 Client connected from 134.175.167.218:52764 (4 clients)
+2019/11/13 01:10:18 packet length above maximum allowed
+2019/11/13 01:10:18 Client '' disconnected from 134.175.167.218:52764 (3 clients)
+2019/11/13 01:10:18 Client connected from 134.175.167.218:52908 (4 clients)
+2019/11/13 01:10:18 packet length above maximum allowed
+2019/11/13 01:10:18 Client '' disconnected from 134.175.167.218:52908 (3 clients)
+2019/11/13 01:10:19 Client connected from 134.175.167.218:53118 (4 clients)
+2019/11/13 01:10:19 packet length above maximum allowed
+2019/11/13 01:10:19 Client '' disconnected from 134.175.167.218:53118 (3 clients)
+2019/11/13 01:10:19 Client connected from 134.175.167.218:53204 (4 clients)
+2019/11/13 01:10:19 packet length above maximum allowed
+2019/11/13 01:10:19 Client '' disconnected from 134.175.167.218:53204 (3 clients)
+2019/11/13 01:10:20 Client connected from 134.175.167.218:53298 (4 clients)
+2019/11/13 01:10:20 packet length above maximum allowed
+2019/11/13 01:10:20 Client '' disconnected from 134.175.167.218:53298 (3 clients)
+2019/11/13 01:10:21 Client connected from 134.175.167.218:53400 (4 clients)
+2019/11/13 01:10:21 packet length above maximum allowed
+2019/11/13 01:10:21 Client '' disconnected from 134.175.167.218:53400 (3 clients)
+2019/11/13 01:10:22 Client connected from 134.175.167.218:53835 (4 clients)
+2019/11/13 01:10:22 packet length above maximum allowed
+2019/11/13 01:10:22 Client '' disconnected from 134.175.167.218:53835 (3 clients)
+2019/11/13 01:10:22 Client connected from 134.175.167.218:53931 (4 clients)
+2019/11/13 01:10:22 packet length above maximum allowed
+2019/11/13 01:10:22 Client '' disconnected from 134.175.167.218:53931 (3 clients)
+2019/11/13 01:10:23 Client connected from 134.175.167.218:54062 (4 clients)
+2019/11/13 01:10:23 packet length above maximum allowed
+2019/11/13 01:10:23 Client '' disconnected from 134.175.167.218:54062 (3 clients)
+2019/11/13 01:10:24 Client connected from 134.175.167.218:54162 (4 clients)
+2019/11/13 01:10:24 packet length above maximum allowed
+2019/11/13 01:10:24 Client '' disconnected from 134.175.167.218:54162 (3 clients)
+2019/11/13 01:10:26 Client connected from 134.175.167.218:54595 (4 clients)
+2019/11/13 01:10:26 packet length above maximum allowed
+2019/11/13 01:10:26 Client '' disconnected from 134.175.167.218:54595 (3 clients)
+2019/11/13 01:10:26 Client connected from 134.175.167.218:54879 (4 clients)
+2019/11/13 01:10:26 packet length above maximum allowed
+2019/11/13 01:10:26 Client '' disconnected from 134.175.167.218:54879 (3 clients)
+2019/11/13 01:10:35 Client connected from 134.175.167.218:55492 (4 clients)
+2019/11/13 01:10:35 packet length above maximum allowed
+2019/11/13 01:10:35 Client '' disconnected from 134.175.167.218:55492 (3 clients)
+2019/11/13 01:10:35 Client connected from 134.175.167.218:55922 (4 clients)
+2019/11/13 01:10:35 packet length above maximum allowed
+2019/11/13 01:10:35 Client '' disconnected from 134.175.167.218:55922 (3 clients)
+2019/11/13 01:11:15 Client connected from 134.175.167.218:62108 (4 clients)
+2019/11/13 01:11:15 packet length above maximum allowed
+2019/11/13 01:11:15 Client '' disconnected from 134.175.167.218:62108 (3 clients)
+2019/11/13 01:11:15 Client connected from 134.175.167.218:62335 (4 clients)
+2019/11/13 01:11:15 packet length above maximum allowed
+2019/11/13 01:11:15 Client '' disconnected from 134.175.167.218:62335 (3 clients)
+2019/11/13 01:11:19 Client connected from 134.175.167.218:62670 (4 clients)
+2019/11/13 01:11:19 packet length above maximum allowed
+2019/11/13 01:11:19 Client '' disconnected from 134.175.167.218:62670 (3 clients)
+2019/11/13 01:11:23 Client connected from 134.175.167.218:63117 (4 clients)
+2019/11/13 01:11:23 packet length above maximum allowed
+2019/11/13 01:11:23 Client '' disconnected from 134.175.167.218:63117 (3 clients)
+2019/11/13 01:11:23 Client connected from 134.175.167.218:63460 (4 clients)
+2019/11/13 01:11:23 packet length above maximum allowed
+2019/11/13 01:11:23 Client '' disconnected from 134.175.167.218:63460 (3 clients)
+2019/11/13 01:11:24 Client connected from 134.175.167.218:63566 (4 clients)
+2019/11/13 01:11:24 packet length above maximum allowed
+2019/11/13 01:11:24 Client '' disconnected from 134.175.167.218:63566 (3 clients)
+2019/11/13 01:11:27 Client connected from 134.175.167.218:63998 (4 clients)
+2019/11/13 01:11:27 packet length above maximum allowed
+2019/11/13 01:11:27 Client '' disconnected from 134.175.167.218:63998 (3 clients)
+2019/11/13 01:11:27 Client connected from 134.175.167.218:64243 (4 clients)
+2019/11/13 01:11:27 packet length above maximum allowed
+2019/11/13 01:11:27 Client '' disconnected from 134.175.167.218:64243 (3 clients)
+2019/11/13 01:11:28 Client connected from 134.175.167.218:64389 (4 clients)
+2019/11/13 01:11:28 packet length above maximum allowed
+2019/11/13 01:11:28 Client '' disconnected from 134.175.167.218:64389 (3 clients)
+2019/11/13 01:11:28 Client connected from 134.175.167.218:64511 (4 clients)
+2019/11/13 01:11:28 packet length above maximum allowed
+2019/11/13 01:11:28 Client '' disconnected from 134.175.167.218:64511 (3 clients)
+2019/11/13 01:11:29 Client connected from 134.175.167.218:64609 (4 clients)
+2019/11/13 01:11:29 packet length above maximum allowed
+2019/11/13 01:11:29 Client '' disconnected from 134.175.167.218:64609 (3 clients)
+2019/11/13 01:11:29 Client connected from 134.175.167.218:64703 (4 clients)
+2019/11/13 01:11:29 packet length above maximum allowed
+2019/11/13 01:11:29 Client '' disconnected from 134.175.167.218:64703 (3 clients)
+2019/11/13 01:11:31 Client connected from 134.175.167.218:65038 (4 clients)
+2019/11/13 01:11:31 packet length above maximum allowed
+2019/11/13 01:11:31 Client '' disconnected from 134.175.167.218:65038 (3 clients)
+2019/11/13 01:11:31 Client connected from 134.175.167.218:65145 (4 clients)
+2019/11/13 01:11:31 packet length above maximum allowed
+2019/11/13 01:11:31 Client '' disconnected from 134.175.167.218:65145 (3 clients)
+2019/11/13 01:11:33 Client connected from 134.175.167.218:65257 (4 clients)
+2019/11/13 01:11:33 packet length above maximum allowed
+2019/11/13 01:11:33 Client '' disconnected from 134.175.167.218:65257 (3 clients)
+2019/11/13 01:11:33 Client connected from 134.175.167.218:1141 (4 clients)
+2019/11/13 01:11:33 packet length above maximum allowed
+2019/11/13 01:11:33 Client '' disconnected from 134.175.167.218:1141 (3 clients)
+2019/11/13 01:11:35 Client connected from 134.175.167.218:1360 (4 clients)
+2019/11/13 01:11:35 packet length above maximum allowed
+2019/11/13 01:11:35 Client '' disconnected from 134.175.167.218:1360 (3 clients)
+2019/11/13 01:11:35 Client connected from 134.175.167.218:1572 (4 clients)
+2019/11/13 01:11:35 packet length above maximum allowed
+2019/11/13 01:11:35 Client '' disconnected from 134.175.167.218:1572 (3 clients)
+2019/11/13 01:11:36 Client connected from 134.175.167.218:1666 (4 clients)
+2019/11/13 01:11:36 packet length above maximum allowed
+2019/11/13 01:11:36 Client '' disconnected from 134.175.167.218:1666 (3 clients)
+2019/11/13 01:11:36 Client connected from 134.175.167.218:1837 (4 clients)
+2019/11/13 01:11:36 packet length above maximum allowed
+2019/11/13 01:11:36 Client '' disconnected from 134.175.167.218:1837 (3 clients)
+2019/11/13 01:11:37 Client connected from 134.175.167.218:1977 (4 clients)
+2019/11/13 01:11:37 packet length above maximum allowed
+2019/11/13 01:11:37 Client '' disconnected from 134.175.167.218:1977 (3 clients)
+2019/11/13 01:11:38 Client connected from 134.175.167.218:2082 (4 clients)
+2019/11/13 01:11:38 packet length above maximum allowed
+2019/11/13 01:11:38 Client '' disconnected from 134.175.167.218:2082 (3 clients)
+2019/11/13 01:11:39 Client connected from 134.175.167.218:2392 (4 clients)
+2019/11/13 01:11:39 packet length above maximum allowed
+2019/11/13 01:11:39 Client '' disconnected from 134.175.167.218:2392 (3 clients)
+2019/11/13 01:11:39 Client connected from 134.175.167.218:2548 (4 clients)
+2019/11/13 01:11:39 packet length above maximum allowed
+2019/11/13 01:11:39 Client '' disconnected from 134.175.167.218:2548 (3 clients)
+2019/11/13 01:11:40 Client connected from 134.175.167.218:2668 (4 clients)
+2019/11/13 01:11:40 packet length above maximum allowed
+2019/11/13 01:11:40 Client '' disconnected from 134.175.167.218:2668 (3 clients)
+2019/11/13 01:11:40 Client connected from 134.175.167.218:2789 (4 clients)
+2019/11/13 01:11:40 packet length above maximum allowed
+2019/11/13 01:11:40 Client '' disconnected from 134.175.167.218:2789 (3 clients)
+2019/11/13 01:11:41 Client connected from 134.175.167.218:2883 (4 clients)
+2019/11/13 01:11:41 packet length above maximum allowed
+2019/11/13 01:11:41 Client '' disconnected from 134.175.167.218:2883 (3 clients)
+2019/11/13 01:11:41 Client connected from 134.175.167.218:2961 (4 clients)
+2019/11/13 01:11:41 packet length above maximum allowed
+2019/11/13 01:11:41 Client '' disconnected from 134.175.167.218:2961 (3 clients)
+2019/11/13 01:11:42 Client connected from 134.175.167.218:3032 (4 clients)
+2019/11/13 01:11:42 packet length above maximum allowed
+2019/11/13 01:11:42 Client '' disconnected from 134.175.167.218:3032 (3 clients)
+2019/11/13 01:11:42 Client connected from 134.175.167.218:3189 (4 clients)
+2019/11/13 01:11:42 packet length above maximum allowed
+2019/11/13 01:11:42 Client '' disconnected from 134.175.167.218:3189 (3 clients)
+2019/11/13 01:11:43 Client connected from 134.175.167.218:3374 (4 clients)
+2019/11/13 01:11:43 packet length above maximum allowed
+2019/11/13 01:11:43 Client '' disconnected from 134.175.167.218:3374 (3 clients)
+2019/11/13 01:11:43 Client connected from 134.175.167.218:3494 (4 clients)
+2019/11/13 01:11:43 packet length above maximum allowed
+2019/11/13 01:11:43 Client '' disconnected from 134.175.167.218:3494 (3 clients)
+2019/11/13 01:11:44 Client connected from 134.175.167.218:3579 (4 clients)
+2019/11/13 01:11:44 packet length above maximum allowed
+2019/11/13 01:11:44 Client '' disconnected from 134.175.167.218:3579 (3 clients)
+2019/11/13 01:11:44 Client connected from 134.175.167.218:3664 (4 clients)
+2019/11/13 01:11:44 packet length above maximum allowed
+2019/11/13 01:11:44 Client '' disconnected from 134.175.167.218:3664 (3 clients)
+2019/11/13 01:11:45 Client connected from 134.175.167.218:3743 (4 clients)
+2019/11/13 01:11:45 packet length above maximum allowed
+2019/11/13 01:11:45 Client '' disconnected from 134.175.167.218:3743 (3 clients)
+2019/11/13 01:11:46 Client connected from 134.175.167.218:3907 (4 clients)
+2019/11/13 01:11:46 packet length above maximum allowed
+2019/11/13 01:11:46 Client '' disconnected from 134.175.167.218:3907 (3 clients)
+2019/11/13 01:11:47 Client connected from 134.175.167.218:4295 (4 clients)
+2019/11/13 01:11:47 packet length above maximum allowed
+2019/11/13 01:11:47 Client '' disconnected from 134.175.167.218:4295 (3 clients)
+2019/11/13 01:11:47 Client connected from 134.175.167.218:4353 (4 clients)
+2019/11/13 01:11:47 packet length above maximum allowed
+2019/11/13 01:11:47 Client '' disconnected from 134.175.167.218:4353 (3 clients)
+2019/11/13 01:11:49 Client connected from 134.175.167.218:4429 (4 clients)
+2019/11/13 01:11:49 packet length above maximum allowed
+2019/11/13 01:11:49 Client '' disconnected from 134.175.167.218:4429 (3 clients)
+2019/11/13 01:11:49 Client connected from 134.175.167.218:4855 (4 clients)
+2019/11/13 01:11:49 packet length above maximum allowed
+2019/11/13 01:11:49 Client '' disconnected from 134.175.167.218:4855 (3 clients)
+2019/11/13 01:11:50 Client connected from 134.175.167.218:4945 (4 clients)
+2019/11/13 01:11:50 packet length above maximum allowed
+2019/11/13 01:11:50 Client '' disconnected from 134.175.167.218:4945 (3 clients)
+2019/11/13 01:11:50 Client connected from 134.175.167.218:5029 (4 clients)
+2019/11/13 01:11:50 packet length above maximum allowed
+2019/11/13 01:11:50 Client '' disconnected from 134.175.167.218:5029 (3 clients)
+2019/11/13 01:12:03 Client connected from 134.175.167.218:6081 (4 clients)
+2019/11/13 01:12:03 packet length above maximum allowed
+2019/11/13 01:12:03 Client '' disconnected from 134.175.167.218:6081 (3 clients)
+2019/11/13 01:12:03 Client connected from 134.175.167.218:6514 (4 clients)
+2019/11/13 01:12:03 packet length above maximum allowed
+2019/11/13 01:12:03 Client '' disconnected from 134.175.167.218:6514 (3 clients)
+2019/11/13 01:12:07 Client connected from 134.175.167.218:7027 (4 clients)
+2019/11/13 01:12:07 packet length above maximum allowed
+2019/11/13 01:12:07 Client '' disconnected from 134.175.167.218:7027 (3 clients)
+2019/11/13 01:12:07 Client connected from 134.175.167.218:7160 (4 clients)
+2019/11/13 01:12:07 packet length above maximum allowed
+2019/11/13 01:12:07 Client '' disconnected from 134.175.167.218:7160 (3 clients)
+2019/11/13 01:12:08 Client connected from 134.175.167.218:7292 (4 clients)
+2019/11/13 01:12:08 packet length above maximum allowed
+2019/11/13 01:12:08 Client '' disconnected from 134.175.167.218:7292 (3 clients)
+2019/11/13 01:12:08 Client connected from 134.175.167.218:7384 (4 clients)
+2019/11/13 01:12:08 packet length above maximum allowed
+2019/11/13 01:12:08 Client '' disconnected from 134.175.167.218:7384 (3 clients)
+2019/11/13 01:12:11 Client connected from 134.175.167.218:7513 (4 clients)
+2019/11/13 01:12:11 packet length above maximum allowed
+2019/11/13 01:12:11 Client '' disconnected from 134.175.167.218:7513 (3 clients)
+2019/11/13 01:12:11 Client connected from 134.175.167.218:7843 (4 clients)
+2019/11/13 01:12:11 packet length above maximum allowed
+2019/11/13 01:12:11 Client '' disconnected from 134.175.167.218:7843 (3 clients)
+2019/11/13 01:12:12 Client connected from 134.175.167.218:7950 (4 clients)
+2019/11/13 01:12:12 packet length above maximum allowed
+2019/11/13 01:12:12 Client '' disconnected from 134.175.167.218:7950 (3 clients)
+2019/11/13 01:12:12 Client connected from 134.175.167.218:8029 (4 clients)
+2019/11/13 01:12:12 packet length above maximum allowed
+2019/11/13 01:12:12 Client '' disconnected from 134.175.167.218:8029 (3 clients)
+2019/11/13 01:12:15 Client connected from 134.175.167.218:8292 (4 clients)
+2019/11/13 01:12:15 packet length above maximum allowed
+2019/11/13 01:12:15 Client '' disconnected from 134.175.167.218:8292 (3 clients)
+2019/11/13 01:12:15 Client connected from 134.175.167.218:8507 (4 clients)
+2019/11/13 01:12:15 packet length above maximum allowed
+2019/11/13 01:12:15 Client '' disconnected from 134.175.167.218:8507 (3 clients)
+2019/11/13 01:12:16 Client connected from 134.175.167.218:8624 (4 clients)
+2019/11/13 01:12:16 packet length above maximum allowed
+2019/11/13 01:12:16 Client '' disconnected from 134.175.167.218:8624 (3 clients)
+2019/11/13 01:12:16 Client connected from 134.175.167.218:8844 (4 clients)
+2019/11/13 01:12:16 packet length above maximum allowed
+2019/11/13 01:12:16 Client '' disconnected from 134.175.167.218:8844 (3 clients)
+2019/11/13 01:12:19 Client connected from 134.175.167.218:9052 (4 clients)
+2019/11/13 01:12:19 packet length above maximum allowed
+2019/11/13 01:12:19 Client '' disconnected from 134.175.167.218:9052 (3 clients)
+2019/11/13 01:12:19 Client connected from 134.175.167.218:9297 (4 clients)
+2019/11/13 01:12:19 packet length above maximum allowed
+2019/11/13 01:12:19 Client '' disconnected from 134.175.167.218:9297 (3 clients)
+2019/11/13 01:12:20 Client connected from 134.175.167.218:9419 (4 clients)
+2019/11/13 01:12:20 packet length above maximum allowed
+2019/11/13 01:12:20 Client '' disconnected from 134.175.167.218:9419 (3 clients)
+2019/11/13 01:12:20 Client connected from 134.175.167.218:9510 (4 clients)
+2019/11/13 01:12:20 packet length above maximum allowed
+2019/11/13 01:12:20 Client '' disconnected from 134.175.167.218:9510 (3 clients)
+2019/11/13 01:12:21 Client connected from 134.175.167.218:9597 (4 clients)
+2019/11/13 01:12:21 packet length above maximum allowed
+2019/11/13 01:12:21 Client '' disconnected from 134.175.167.218:9597 (3 clients)
+2019/11/13 01:12:47 Client connected from 134.175.167.218:13575 (4 clients)
+2019/11/13 01:12:47 packet length above maximum allowed
+2019/11/13 01:12:47 Client '' disconnected from 134.175.167.218:13575 (3 clients)
+2019/11/13 01:12:47 Client connected from 134.175.167.218:14000 (4 clients)
+2019/11/13 01:12:47 packet length above maximum allowed
+2019/11/13 01:12:47 Client '' disconnected from 134.175.167.218:14000 (3 clients)
+2019/11/13 01:12:51 Client connected from 134.175.167.218:14350 (4 clients)
+2019/11/13 01:12:51 packet length above maximum allowed
+2019/11/13 01:12:51 Client '' disconnected from 134.175.167.218:14350 (3 clients)
+2019/11/13 01:12:51 Client connected from 134.175.167.218:14552 (4 clients)
+2019/11/13 01:12:51 packet length above maximum allowed
+2019/11/13 01:12:51 Client '' disconnected from 134.175.167.218:14552 (3 clients)
+2019/11/13 01:12:52 Client connected from 134.175.167.218:14673 (4 clients)
+2019/11/13 01:12:52 packet length above maximum allowed
+2019/11/13 01:12:52 Client '' disconnected from 134.175.167.218:14673 (3 clients)
+2019/11/13 01:12:52 Client connected from 134.175.167.218:14881 (4 clients)
+2019/11/13 01:12:52 packet length above maximum allowed
+2019/11/13 01:12:52 Client '' disconnected from 134.175.167.218:14881 (3 clients)
+2019/11/13 01:12:55 Client connected from 134.175.167.218:15061 (4 clients)
+2019/11/13 01:12:55 packet length above maximum allowed
+2019/11/13 01:12:55 Client '' disconnected from 134.175.167.218:15061 (3 clients)
+2019/11/13 01:12:55 Client connected from 134.175.167.218:15377 (4 clients)
+2019/11/13 01:12:55 packet length above maximum allowed
+2019/11/13 01:12:55 Client '' disconnected from 134.175.167.218:15377 (3 clients)
+2019/11/13 01:12:56 Client connected from 134.175.167.218:15499 (4 clients)
+2019/11/13 01:12:56 packet length above maximum allowed
+2019/11/13 01:12:56 Client '' disconnected from 134.175.167.218:15499 (3 clients)
+2019/11/13 01:13:19 Client connected from 134.175.167.218:19510 (4 clients)
+2019/11/13 01:13:19 packet length above maximum allowed
+2019/11/13 01:13:19 Client '' disconnected from 134.175.167.218:19510 (3 clients)
+2019/11/13 01:13:19 Client connected from 134.175.167.218:19757 (4 clients)
+2019/11/13 01:13:19 packet length above maximum allowed
+2019/11/13 01:13:19 Client '' disconnected from 134.175.167.218:19757 (3 clients)
+2019/11/13 01:13:20 Client connected from 134.175.167.218:19845 (4 clients)
+2019/11/13 01:13:20 packet length above maximum allowed
+2019/11/13 01:13:20 Client '' disconnected from 134.175.167.218:19845 (3 clients)
+2019/11/13 01:13:20 Client connected from 134.175.167.218:19946 (4 clients)
+2019/11/13 01:13:20 packet length above maximum allowed
+2019/11/13 01:13:20 Client '' disconnected from 134.175.167.218:19946 (3 clients)
+2019/11/13 01:13:21 Client connected from 134.175.167.218:20021 (4 clients)
+2019/11/13 01:13:21 packet length above maximum allowed
+2019/11/13 01:13:21 Client '' disconnected from 134.175.167.218:20021 (3 clients)
+2019/11/13 01:13:21 Client connected from 134.175.167.218:20094 (4 clients)
+2019/11/13 01:13:21 packet length above maximum allowed
+2019/11/13 01:13:21 Client '' disconnected from 134.175.167.218:20094 (3 clients)
+2019/11/13 01:13:23 Client connected from 134.175.167.218:20461 (4 clients)
+2019/11/13 01:13:23 packet length above maximum allowed
+2019/11/13 01:13:23 Client '' disconnected from 134.175.167.218:20461 (3 clients)
+2019/11/13 01:13:23 Client connected from 134.175.167.218:20566 (4 clients)
+2019/11/13 01:13:23 packet length above maximum allowed
+2019/11/13 01:13:23 Client '' disconnected from 134.175.167.218:20566 (3 clients)
+2019/11/13 01:13:24 Client connected from 134.175.167.218:20650 (4 clients)
+2019/11/13 01:13:24 packet length above maximum allowed
+2019/11/13 01:13:24 Client '' disconnected from 134.175.167.218:20650 (3 clients)
+2019/11/13 01:13:24 Client connected from 134.175.167.218:20753 (4 clients)
+2019/11/13 01:13:24 packet length above maximum allowed
+2019/11/13 01:13:24 Client '' disconnected from 134.175.167.218:20753 (3 clients)
+2019/11/13 01:13:26 Client connected from 134.175.167.218:21122 (4 clients)
+2019/11/13 01:13:26 packet length above maximum allowed
+2019/11/13 01:13:26 Client '' disconnected from 134.175.167.218:21122 (3 clients)
+2019/11/13 01:13:39 Client connected from 134.175.167.218:22564 (4 clients)
+2019/11/13 01:13:39 packet length above maximum allowed
+2019/11/13 01:13:39 Client '' disconnected from 134.175.167.218:22564 (3 clients)
+2019/11/13 01:13:43 Client connected from 134.175.167.218:23218 (4 clients)
+2019/11/13 01:13:43 packet length above maximum allowed
+2019/11/13 01:13:43 Client '' disconnected from 134.175.167.218:23218 (3 clients)
+2019/11/13 01:13:47 Client connected from 134.175.167.218:23710 (4 clients)
+2019/11/13 01:13:47 packet length above maximum allowed
+2019/11/13 01:13:47 Client '' disconnected from 134.175.167.218:23710 (3 clients)
+2019/11/13 01:13:48 Client connected from 134.175.167.218:24053 (4 clients)
+2019/11/13 01:13:48 packet length above maximum allowed
+2019/11/13 01:13:48 Client '' disconnected from 134.175.167.218:24053 (3 clients)
+2019/11/13 01:13:51 Client connected from 134.175.167.218:24423 (4 clients)
+2019/11/13 01:13:51 packet length above maximum allowed
+2019/11/13 01:13:51 Client '' disconnected from 134.175.167.218:24423 (3 clients)
+2019/11/13 01:13:52 Client connected from 134.175.167.218:24821 (4 clients)
+2019/11/13 01:13:52 packet length above maximum allowed
+2019/11/13 01:13:52 Client '' disconnected from 134.175.167.218:24821 (3 clients)
+2019/11/13 01:13:55 Client connected from 134.175.167.218:25188 (4 clients)
+2019/11/13 01:13:55 packet length above maximum allowed
+2019/11/13 01:13:55 Client '' disconnected from 134.175.167.218:25188 (3 clients)
+2019/11/13 01:13:55 Client connected from 134.175.167.218:25285 (4 clients)
+2019/11/13 01:13:55 packet length above maximum allowed
+2019/11/13 01:13:55 Client '' disconnected from 134.175.167.218:25285 (3 clients)
+2019/11/13 01:13:57 Client connected from 134.175.167.218:25584 (4 clients)
+2019/11/13 01:13:57 packet length above maximum allowed
+2019/11/13 01:13:57 Client '' disconnected from 134.175.167.218:25584 (3 clients)
+2019/11/13 01:13:59 Client connected from 134.175.167.218:25941 (4 clients)
+2019/11/13 01:13:59 packet length above maximum allowed
+2019/11/13 01:13:59 Client '' disconnected from 134.175.167.218:25941 (3 clients)
+2019/11/13 01:13:59 Client connected from 134.175.167.218:26065 (4 clients)
+2019/11/13 01:13:59 packet length above maximum allowed
+2019/11/13 01:13:59 Client '' disconnected from 134.175.167.218:26065 (3 clients)
+2019/11/13 01:14:01 Client connected from 134.175.167.218:26451 (4 clients)
+2019/11/13 01:14:01 packet length above maximum allowed
+2019/11/13 01:14:01 Client '' disconnected from 134.175.167.218:26451 (3 clients)
+2019/11/13 01:14:03 Client connected from 134.175.167.218:26807 (4 clients)
+2019/11/13 01:14:03 packet length above maximum allowed
+2019/11/13 01:14:03 Client '' disconnected from 134.175.167.218:26807 (3 clients)
+2019/11/13 01:14:04 Client connected from 134.175.167.218:27201 (4 clients)
+2019/11/13 01:14:04 packet length above maximum allowed
+2019/11/13 01:14:04 Client '' disconnected from 134.175.167.218:27201 (3 clients)
+2019/11/13 01:14:06 Client connected from 134.175.167.218:27471 (4 clients)
+2019/11/13 01:14:06 packet length above maximum allowed
+2019/11/13 01:14:06 Client '' disconnected from 134.175.167.218:27471 (3 clients)
+2019/11/13 01:14:15 Client connected from 134.175.167.218:28438 (4 clients)
+2019/11/13 01:14:15 packet length above maximum allowed
+2019/11/13 01:14:15 Client '' disconnected from 134.175.167.218:28438 (3 clients)
+2019/11/13 01:14:19 Client connected from 134.175.167.218:29104 (4 clients)
+2019/11/13 01:14:19 packet length above maximum allowed
+2019/11/13 01:14:19 Client '' disconnected from 134.175.167.218:29104 (3 clients)
+2019/11/13 01:14:19 Client connected from 134.175.167.218:29194 (4 clients)
+2019/11/13 01:14:19 packet length above maximum allowed
+2019/11/13 01:14:19 Client '' disconnected from 134.175.167.218:29194 (3 clients)
+2019/11/13 01:14:23 Client connected from 134.175.167.218:29360 (4 clients)
+2019/11/13 01:14:23 packet length above maximum allowed
+2019/11/13 01:14:23 Client '' disconnected from 134.175.167.218:29360 (3 clients)
+2019/11/13 01:14:23 Client connected from 134.175.167.218:29695 (4 clients)
+2019/11/13 01:14:23 packet length above maximum allowed
+2019/11/13 01:14:23 Client '' disconnected from 134.175.167.218:29695 (3 clients)
+2019/11/13 01:14:24 Client connected from 134.175.167.218:29795 (4 clients)
+2019/11/13 01:14:24 packet length above maximum allowed
+2019/11/13 01:14:24 Client '' disconnected from 134.175.167.218:29795 (3 clients)
+2019/11/13 01:14:24 Client connected from 134.175.167.218:29872 (4 clients)
+2019/11/13 01:14:24 packet length above maximum allowed
+2019/11/13 01:14:24 Client '' disconnected from 134.175.167.218:29872 (3 clients)
+2019/11/13 01:14:27 Client connected from 134.175.167.218:30210 (4 clients)
+2019/11/13 01:14:27 packet length above maximum allowed
+2019/11/13 01:14:27 Client '' disconnected from 134.175.167.218:30210 (3 clients)
+2019/11/13 01:14:27 Client connected from 134.175.167.218:30378 (4 clients)
+2019/11/13 01:14:27 packet length above maximum allowed
+2019/11/13 01:14:27 Client '' disconnected from 134.175.167.218:30378 (3 clients)
+2019/11/13 01:14:28 Client connected from 134.175.167.218:30491 (4 clients)
+2019/11/13 01:14:28 packet length above maximum allowed
+2019/11/13 01:14:28 Client '' disconnected from 134.175.167.218:30491 (3 clients)
+2019/11/13 01:14:28 Client connected from 134.175.167.218:30677 (4 clients)
+2019/11/13 01:14:28 packet length above maximum allowed
+2019/11/13 01:14:28 Client '' disconnected from 134.175.167.218:30677 (3 clients)
+2019/11/13 01:14:31 Client connected from 134.175.167.218:30925 (4 clients)
+2019/11/13 01:14:31 packet length above maximum allowed
+2019/11/13 01:14:31 Client '' disconnected from 134.175.167.218:30925 (3 clients)
+2019/11/13 01:14:31 Client connected from 134.175.167.218:31166 (4 clients)
+2019/11/13 01:14:31 packet length above maximum allowed
+2019/11/13 01:14:31 Client '' disconnected from 134.175.167.218:31166 (3 clients)
+2019/11/13 01:14:32 Client connected from 134.175.167.218:31287 (4 clients)
+2019/11/13 01:14:32 packet length above maximum allowed
+2019/11/13 01:14:32 Client '' disconnected from 134.175.167.218:31287 (3 clients)
+2019/11/13 01:14:32 Client connected from 134.175.167.218:31409 (4 clients)
+2019/11/13 01:14:32 packet length above maximum allowed
+2019/11/13 01:14:32 Client '' disconnected from 134.175.167.218:31409 (3 clients)
+2019/11/13 01:14:36 Client connected from 134.175.167.218:31690 (4 clients)
+2019/11/13 01:14:36 packet length above maximum allowed
+2019/11/13 01:14:36 Client '' disconnected from 134.175.167.218:31690 (3 clients)
+2019/11/13 01:14:36 Client connected from 134.175.167.218:32148 (4 clients)
+2019/11/13 01:14:36 packet length above maximum allowed
+2019/11/13 01:14:36 Client '' disconnected from 134.175.167.218:32148 (3 clients)
+2019/11/13 01:14:37 Client connected from 134.175.167.218:32254 (4 clients)
+2019/11/13 01:14:37 packet length above maximum allowed
+2019/11/13 01:14:37 Client '' disconnected from 134.175.167.218:32254 (3 clients)
+2019/11/13 01:14:37 Client connected from 134.175.167.218:32452 (4 clients)
+2019/11/13 01:14:37 packet length above maximum allowed
+2019/11/13 01:14:37 Client '' disconnected from 134.175.167.218:32452 (3 clients)
+2019/11/13 01:14:39 Client connected from 134.175.167.218:32721 (4 clients)
+2019/11/13 01:14:39 packet length above maximum allowed
+2019/11/13 01:14:39 Client '' disconnected from 134.175.167.218:32721 (3 clients)
+2019/11/13 01:14:39 Client connected from 134.175.167.218:32831 (4 clients)
+2019/11/13 01:14:39 packet length above maximum allowed
+2019/11/13 01:14:39 Client '' disconnected from 134.175.167.218:32831 (3 clients)
+2019/11/13 01:15:03 Client connected from 134.175.167.218:36110 (4 clients)
+2019/11/13 01:15:03 packet length above maximum allowed
+2019/11/13 01:15:03 Client '' disconnected from 134.175.167.218:36110 (3 clients)
+2019/11/13 01:15:03 Client connected from 134.175.167.218:36472 (4 clients)
+2019/11/13 01:15:03 packet length above maximum allowed
+2019/11/13 01:15:03 Client '' disconnected from 134.175.167.218:36472 (3 clients)
+2019/11/13 01:15:04 Client connected from 134.175.167.218:36609 (4 clients)
+2019/11/13 01:15:04 packet length above maximum allowed
+2019/11/13 01:15:04 Client '' disconnected from 134.175.167.218:36609 (3 clients)
+2019/11/13 01:15:04 Client connected from 134.175.167.218:36709 (4 clients)
+2019/11/13 01:15:04 packet length above maximum allowed
+2019/11/13 01:15:04 Client '' disconnected from 134.175.167.218:36709 (3 clients)
+2019/11/13 01:15:05 Client connected from 134.175.167.218:36906 (4 clients)
+2019/11/13 01:15:05 packet length above maximum allowed
+2019/11/13 01:15:05 Client '' disconnected from 134.175.167.218:36906 (3 clients)
+2019/11/13 01:15:05 Client connected from 134.175.167.218:37014 (4 clients)
+2019/11/13 01:15:05 packet length above maximum allowed
+2019/11/13 01:15:05 Client '' disconnected from 134.175.167.218:37014 (3 clients)
+2019/11/13 01:15:07 Client connected from 134.175.167.218:37215 (4 clients)
+2019/11/13 01:15:07 packet length above maximum allowed
+2019/11/13 01:15:07 Client '' disconnected from 134.175.167.218:37215 (3 clients)
+2019/11/13 01:15:07 Client connected from 134.175.167.218:37387 (4 clients)
+2019/11/13 01:15:07 packet length above maximum allowed
+2019/11/13 01:15:07 Client '' disconnected from 134.175.167.218:37387 (3 clients)
+2019/11/13 01:15:08 Client connected from 134.175.167.218:37597 (4 clients)
+2019/11/13 01:15:08 packet length above maximum allowed
+2019/11/13 01:15:08 Client '' disconnected from 134.175.167.218:37597 (3 clients)
+2019/11/13 01:15:08 Client connected from 134.175.167.218:37693 (4 clients)
+2019/11/13 01:15:08 packet length above maximum allowed
+2019/11/13 01:15:08 Client '' disconnected from 134.175.167.218:37693 (3 clients)
+2019/11/13 01:15:09 Client connected from 134.175.167.218:37826 (4 clients)
+2019/11/13 01:15:09 packet length above maximum allowed
+2019/11/13 01:15:09 Client '' disconnected from 134.175.167.218:37826 (3 clients)
+2019/11/13 01:15:09 Client connected from 134.175.167.218:37911 (4 clients)
+2019/11/13 01:15:09 packet length above maximum allowed
+2019/11/13 01:15:09 Client '' disconnected from 134.175.167.218:37911 (3 clients)
+2019/11/13 01:15:11 Client connected from 134.175.167.218:38220 (4 clients)
+2019/11/13 01:15:11 packet length above maximum allowed
+2019/11/13 01:15:11 Client '' disconnected from 134.175.167.218:38220 (3 clients)
+2019/11/13 01:15:11 Client connected from 134.175.167.218:38323 (4 clients)
+2019/11/13 01:15:11 packet length above maximum allowed
+2019/11/13 01:15:11 Client '' disconnected from 134.175.167.218:38323 (3 clients)
+2019/11/13 01:15:12 Client connected from 134.175.167.218:38459 (4 clients)
+2019/11/13 01:15:12 packet length above maximum allowed
+2019/11/13 01:15:12 Client '' disconnected from 134.175.167.218:38459 (3 clients)
+2019/11/13 01:15:12 Client connected from 134.175.167.218:38550 (4 clients)
+2019/11/13 01:15:12 packet length above maximum allowed
+2019/11/13 01:15:12 Client '' disconnected from 134.175.167.218:38550 (3 clients)
+2019/11/13 01:15:13 Client connected from 134.175.167.218:38672 (4 clients)
+2019/11/13 01:15:13 packet length above maximum allowed
+2019/11/13 01:15:13 Client '' disconnected from 134.175.167.218:38672 (3 clients)
+2019/11/13 01:15:13 Client connected from 134.175.167.218:38767 (4 clients)
+2019/11/13 01:15:13 packet length above maximum allowed
+2019/11/13 01:15:13 Client '' disconnected from 134.175.167.218:38767 (3 clients)
+2019/11/13 01:15:15 Client connected from 134.175.167.218:39024 (4 clients)
+2019/11/13 01:15:15 packet length above maximum allowed
+2019/11/13 01:15:15 Client '' disconnected from 134.175.167.218:39024 (3 clients)
+2019/11/13 01:15:15 Client connected from 134.175.167.218:39203 (4 clients)
+2019/11/13 01:15:15 packet length above maximum allowed
+2019/11/13 01:15:15 Client '' disconnected from 134.175.167.218:39203 (3 clients)
+2019/11/13 01:15:16 Client connected from 134.175.167.218:39339 (4 clients)
+2019/11/13 01:15:16 packet length above maximum allowed
+2019/11/13 01:15:16 Client '' disconnected from 134.175.167.218:39339 (3 clients)
+2019/11/13 01:15:16 Client connected from 134.175.167.218:39438 (4 clients)
+2019/11/13 01:15:16 packet length above maximum allowed
+2019/11/13 01:15:16 Client '' disconnected from 134.175.167.218:39438 (3 clients)
+2019/11/13 01:15:17 Client connected from 134.175.167.218:39643 (4 clients)
+2019/11/13 01:15:17 packet length above maximum allowed
+2019/11/13 01:15:17 Client '' disconnected from 134.175.167.218:39643 (3 clients)
+2019/11/13 01:15:17 Client connected from 134.175.167.218:39761 (4 clients)
+2019/11/13 01:15:17 packet length above maximum allowed
+2019/11/13 01:15:17 Client '' disconnected from 134.175.167.218:39761 (3 clients)
+2019/11/13 01:15:19 Client connected from 134.175.167.218:40088 (4 clients)
+2019/11/13 01:15:19 packet length above maximum allowed
+2019/11/13 01:15:19 Client '' disconnected from 134.175.167.218:40088 (3 clients)
+2019/11/13 01:15:19 Client connected from 134.175.167.218:40277 (4 clients)
+2019/11/13 01:15:19 packet length above maximum allowed
+2019/11/13 01:15:19 Client '' disconnected from 134.175.167.218:40277 (3 clients)
+2019/11/13 01:15:20 Client connected from 134.175.167.218:40399 (4 clients)
+2019/11/13 01:15:20 packet length above maximum allowed
+2019/11/13 01:15:20 Client '' disconnected from 134.175.167.218:40399 (3 clients)
+2019/11/13 01:15:20 Client connected from 134.175.167.218:40514 (4 clients)
+2019/11/13 01:15:20 packet length above maximum allowed
+2019/11/13 01:15:20 Client '' disconnected from 134.175.167.218:40514 (3 clients)
+2019/11/13 01:15:55 Client connected from 134.175.167.218:45135 (4 clients)
+2019/11/13 01:15:55 packet length above maximum allowed
+2019/11/13 01:15:55 Client '' disconnected from 134.175.167.218:45135 (3 clients)
+2019/11/13 01:16:23 Client connected from 134.175.167.218:49353 (4 clients)
+2019/11/13 01:16:23 packet length above maximum allowed
+2019/11/13 01:16:23 Client '' disconnected from 134.175.167.218:49353 (3 clients)
+2019/11/13 01:16:59 Client connected from 134.175.167.218:55303 (4 clients)
+2019/11/13 01:16:59 packet length above maximum allowed
+2019/11/13 01:16:59 Client '' disconnected from 134.175.167.218:55303 (3 clients)
+2019/11/13 01:16:59 Client connected from 134.175.167.218:55652 (4 clients)
+2019/11/13 01:16:59 packet length above maximum allowed
+2019/11/13 01:16:59 Client '' disconnected from 134.175.167.218:55652 (3 clients)
+2019/11/13 01:17:03 Client connected from 134.175.167.218:55845 (4 clients)
+2019/11/13 01:17:03 packet length above maximum allowed
+2019/11/13 01:17:03 Client '' disconnected from 134.175.167.218:55845 (3 clients)
+2019/11/13 01:17:03 Client connected from 134.175.167.218:56211 (4 clients)
+2019/11/13 01:17:03 packet length above maximum allowed
+2019/11/13 01:17:03 Client '' disconnected from 134.175.167.218:56211 (3 clients)
+2019/11/13 01:17:07 Client connected from 134.175.167.218:56640 (4 clients)
+2019/11/13 01:17:07 packet length above maximum allowed
+2019/11/13 01:17:07 Client '' disconnected from 134.175.167.218:56640 (3 clients)
+2019/11/13 01:17:07 Client connected from 134.175.167.218:56808 (4 clients)
+2019/11/13 01:17:07 packet length above maximum allowed
+2019/11/13 01:17:07 Client '' disconnected from 134.175.167.218:56808 (3 clients)
+2019/11/13 01:17:11 Client connected from 134.175.167.218:57114 (4 clients)
+2019/11/13 01:17:11 packet length above maximum allowed
+2019/11/13 01:17:11 Client '' disconnected from 134.175.167.218:57114 (3 clients)
+2019/11/13 01:17:11 Client connected from 134.175.167.218:57466 (4 clients)
+2019/11/13 01:17:11 packet length above maximum allowed
+2019/11/13 01:17:11 Client '' disconnected from 134.175.167.218:57466 (3 clients)
+2019/11/13 01:17:15 Client connected from 134.175.167.218:57848 (4 clients)
+2019/11/13 01:17:15 packet length above maximum allowed
+2019/11/13 01:17:15 Client '' disconnected from 134.175.167.218:57848 (3 clients)
+2019/11/13 01:17:16 Client connected from 134.175.167.218:58012 (4 clients)
+2019/11/13 01:17:16 packet length above maximum allowed
+2019/11/13 01:17:16 Client '' disconnected from 134.175.167.218:58012 (3 clients)
+2019/11/13 01:17:20 Client connected from 134.175.167.218:58629 (4 clients)
+2019/11/13 01:17:20 packet length above maximum allowed
+2019/11/13 01:17:20 Client '' disconnected from 134.175.167.218:58629 (3 clients)
+2019/11/13 01:17:20 Client connected from 134.175.167.218:59206 (4 clients)
+2019/11/13 01:17:20 packet length above maximum allowed
+2019/11/13 01:17:20 Client '' disconnected from 134.175.167.218:59206 (3 clients)
+2019/11/13 01:17:23 Client connected from 134.175.167.218:59422 (4 clients)
+2019/11/13 01:17:23 packet length above maximum allowed
+2019/11/13 01:17:23 Client '' disconnected from 134.175.167.218:59422 (3 clients)
+2019/11/13 01:17:23 Client connected from 134.175.167.218:59696 (4 clients)
+2019/11/13 01:17:23 packet length above maximum allowed
+2019/11/13 01:17:23 Client '' disconnected from 134.175.167.218:59696 (3 clients)
+2019/11/13 01:17:24 Client connected from 134.175.167.218:59819 (4 clients)
+2019/11/13 01:17:24 packet length above maximum allowed
+2019/11/13 01:17:24 Client '' disconnected from 134.175.167.218:59819 (3 clients)
+2019/11/13 01:17:24 Client connected from 134.175.167.218:59930 (4 clients)
+2019/11/13 01:17:24 packet length above maximum allowed
+2019/11/13 01:17:24 Client '' disconnected from 134.175.167.218:59930 (3 clients)
+2019/11/13 01:17:25 Client connected from 134.175.167.218:60039 (4 clients)
+2019/11/13 01:17:25 packet length above maximum allowed
+2019/11/13 01:17:25 Client '' disconnected from 134.175.167.218:60039 (3 clients)
+2019/11/13 01:17:27 Client connected from 134.175.167.218:60408 (4 clients)
+2019/11/13 01:17:27 packet length above maximum allowed
+2019/11/13 01:17:27 Client '' disconnected from 134.175.167.218:60408 (3 clients)
+2019/11/13 01:17:27 Client connected from 134.175.167.218:60604 (4 clients)
+2019/11/13 01:17:27 packet length above maximum allowed
+2019/11/13 01:17:27 Client '' disconnected from 134.175.167.218:60604 (3 clients)
+2019/11/13 01:17:29 Client connected from 134.175.167.218:60719 (4 clients)
+2019/11/13 01:17:29 packet length above maximum allowed
+2019/11/13 01:17:29 Client '' disconnected from 134.175.167.218:60719 (3 clients)
+2019/11/13 01:17:29 Client connected from 134.175.167.218:61142 (4 clients)
+2019/11/13 01:17:29 packet length above maximum allowed
+2019/11/13 01:17:29 Client '' disconnected from 134.175.167.218:61142 (3 clients)
+2019/11/13 01:17:32 Client connected from 134.175.167.218:61396 (4 clients)
+2019/11/13 01:17:32 packet length above maximum allowed
+2019/11/13 01:17:32 Client '' disconnected from 134.175.167.218:61396 (3 clients)
+2019/11/13 01:17:32 Client connected from 134.175.167.218:61864 (4 clients)
+2019/11/13 01:17:32 packet length above maximum allowed
+2019/11/13 01:17:32 Client '' disconnected from 134.175.167.218:61864 (3 clients)
+2019/11/13 01:17:33 Client connected from 134.175.167.218:61949 (4 clients)
+2019/11/13 01:17:33 packet length above maximum allowed
+2019/11/13 01:17:33 Client '' disconnected from 134.175.167.218:61949 (3 clients)
+2019/11/13 01:17:34 Client connected from 134.175.167.218:62058 (4 clients)
+2019/11/13 01:17:34 packet length above maximum allowed
+2019/11/13 01:17:34 Client '' disconnected from 134.175.167.218:62058 (3 clients)
+2019/11/13 01:17:35 Client connected from 134.175.167.218:62461 (4 clients)
+2019/11/13 01:17:35 packet length above maximum allowed
+2019/11/13 01:17:35 Client '' disconnected from 134.175.167.218:62461 (3 clients)
+2019/11/13 01:18:03 Client connected from 134.175.167.218:1866 (4 clients)
+2019/11/13 01:18:03 packet length above maximum allowed
+2019/11/13 01:18:03 Client '' disconnected from 134.175.167.218:1866 (3 clients)
+2019/11/13 01:18:03 Client connected from 134.175.167.218:2422 (4 clients)
+2019/11/13 01:18:03 packet length above maximum allowed
+2019/11/13 01:18:03 Client '' disconnected from 134.175.167.218:2422 (3 clients)
+2019/11/13 01:18:07 Client connected from 134.175.167.218:2828 (4 clients)
+2019/11/13 01:18:07 packet length above maximum allowed
+2019/11/13 01:18:07 Client '' disconnected from 134.175.167.218:2828 (3 clients)
+2019/11/13 01:18:07 Client connected from 134.175.167.218:2971 (4 clients)
+2019/11/13 01:18:07 packet length above maximum allowed
+2019/11/13 01:18:07 Client '' disconnected from 134.175.167.218:2971 (3 clients)
+2019/11/13 01:32:01 Client connected from 207.180.223.221:61000 (4 clients)
+2019/11/13 01:32:03 packet length above maximum allowed
+2019/11/13 01:32:03 Client '' disconnected from 207.180.223.221:61000 (3 clients)
+2019/11/13 03:08:27 Client connected from 104.152.52.23:53734 (4 clients)
+2019/11/13 03:08:29 packet length above maximum allowed
+2019/11/13 03:08:29 Client '' disconnected from 104.152.52.23:53734 (3 clients)
+2019/11/13 03:37:23 Client connected from 103.22.168.254:55443 (4 clients)
+2019/11/13 03:37:23 packet length above maximum allowed
+2019/11/13 03:37:23 Client '' disconnected from 103.22.168.254:55443 (3 clients)
+2019/11/13 04:06:36 Read error: read tcp 192.168.1.92:80->81.157.236.207:57646: i/o timeout
+2019/11/13 04:06:36 read tcp 192.168.1.92:80->81.157.236.207:57646: i/o timeout
+2019/11/13 04:06:36 Client 'meshy' disconnected from 81.157.236.207:57646 (2 clients)
+2019/11/13 04:15:16 Client connected from 159.203.201.209:44640 (3 clients)
+2019/11/13 04:15:16 packet length above maximum allowed
+2019/11/13 04:15:16 Client '' disconnected from 159.203.201.209:44640 (2 clients)
+2019/11/13 04:31:19 Client connected from 37.49.230.17:50635 (3 clients)
+2019/11/13 04:31:19 Read error: read tcp 192.168.1.92:80->37.49.230.17:50635: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/13 04:31:19 read tcp 192.168.1.92:80->37.49.230.17:50635: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/11/13 04:31:19 Client '' disconnected from 37.49.230.17:50635 (2 clients)
+2019/11/13 04:31:19 Client connected from 37.49.230.17:50676 (3 clients)
+2019/11/13 04:31:19 packet length above maximum allowed
+2019/11/13 04:31:19 Client '' disconnected from 37.49.230.17:50676 (2 clients)
+2019/11/13 04:50:02 Client connected from 41.216.186.89:1975 (3 clients)
+2019/11/13 04:51:02 Read error: read tcp 192.168.1.92:80->41.216.186.89:1975: i/o timeout
+2019/11/13 04:51:02 read tcp 192.168.1.92:80->41.216.186.89:1975: i/o timeout
+2019/11/13 04:51:02 Client '' disconnected from 41.216.186.89:1975 (2 clients)
+2019/11/13 06:19:46 Client connected from 45.143.220.23:55090 (3 clients)
+2019/11/13 06:19:46 packet length above maximum allowed
+2019/11/13 06:19:46 Client '' disconnected from 45.143.220.23:55090 (2 clients)
+2019/11/13 06:19:46 Client connected from 45.143.220.23:56613 (3 clients)
+2019/11/13 06:19:46 packet length above maximum allowed
+2019/11/13 06:19:46 Client '' disconnected from 45.143.220.23:56613 (2 clients)
+2019/11/13 06:25:45 Client connected from 173.212.233.69:61000 (3 clients)
+2019/11/13 06:25:47 packet length above maximum allowed
+2019/11/13 06:25:47 Client '' disconnected from 173.212.233.69:61000 (2 clients)
+2019/11/13 06:25:48 Client connected from 173.212.233.69:61000 (3 clients)
+2019/11/13 06:25:50 packet length above maximum allowed
+2019/11/13 06:25:50 Client '' disconnected from 173.212.233.69:61000 (2 clients)
+2019/11/13 06:25:52 Client connected from 173.212.233.69:61000 (3 clients)
+2019/11/13 06:25:54 packet length above maximum allowed
+2019/11/13 06:25:54 Client '' disconnected from 173.212.233.69:61000 (2 clients)
+2019/11/13 06:31:14 Client connected from 202.80.112.214:54864 (3 clients)
+2019/11/13 06:31:14 packet length above maximum allowed
+2019/11/13 06:31:14 Client '' disconnected from 202.80.112.214:54864 (2 clients)
+2019/11/13 08:21:37 Client connected from 46.101.167.221:61000 (3 clients)
+2019/11/13 08:21:39 packet length above maximum allowed
+2019/11/13 08:21:39 Client '' disconnected from 46.101.167.221:61000 (2 clients)
+2019/11/13 08:21:40 Client connected from 46.101.167.221:61000 (3 clients)
+2019/11/13 08:21:42 packet length above maximum allowed
+2019/11/13 08:21:42 Client '' disconnected from 46.101.167.221:61000 (2 clients)
+2019/11/13 08:21:43 Client connected from 46.101.167.221:61000 (3 clients)
+2019/11/13 08:21:45 packet length above maximum allowed
+2019/11/13 08:21:45 Client '' disconnected from 46.101.167.221:61000 (2 clients)
+2019/11/13 08:55:38 Client connected from 81.157.236.207:55931 (3 clients)
+2019/11/13 08:55:39 User 'meshy' login denied.
+2019/11/13 08:55:41 Read error: EOF
+2019/11/13 08:55:41 EOF
+2019/11/13 08:55:41 Client '' disconnected from 81.157.236.207:55931 (2 clients)
+2019/11/13 08:55:45 Client connected from 81.157.236.207:55940 (3 clients)
+2019/11/13 08:55:46 User 'meshy' logged in.
+2019/11/13 20:24:55 Connecting to database...
+2019/11/13 20:24:55 Connected.
+2019/11/13 20:24:55 Logging everyone off...
+2019/11/13 20:24:55 Starting server...
+2019/11/13 20:24:55 Listening on :80

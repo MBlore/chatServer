@@ -21,7 +21,7 @@ type OnClientDisconnect func(s *TCPServer, c *Client, addr string)
 type TCPServer struct {
 	listener           net.Listener
 	clients            []*Client
-	mutex              *sync.Mutex
+	mutex              *sync.RWMutex
 	onHandlePacket     OnHandlePacket
 	onClientConnect    OnClientConnect
 	onClientDisconnect OnClientDisconnect
@@ -30,7 +30,7 @@ type TCPServer struct {
 // NewTCPServer creates a new TCPServer instance.
 func NewTCPServer(h OnHandlePacket, c OnClientConnect, d OnClientDisconnect) *TCPServer {
 	return &TCPServer{
-		mutex:              &sync.Mutex{},
+		mutex:              &sync.RWMutex{},
 		onHandlePacket:     h,
 		onClientConnect:    c,
 		onClientDisconnect: d,
@@ -74,20 +74,29 @@ func (s *TCPServer) Run() {
 func (s *TCPServer) BroadcastPacket(p *Packet, c *Client) {
 	for _, client := range s.clients {
 		if client != c {
-			client.SendPacket(p)
+			go client.SendPacket(p)
 		}
 	}
 }
 
+// NumClients returns the number of connected clients.
+func (s *TCPServer) NumClients() int {
+	return len(s.clients)
+}
+
 func (s *TCPServer) accept(c net.Conn) *Client {
-	s.mutex.Lock()
+	defer func() {
+		if err := recover(); err != nil {
+			log.Println("Failed to accept client:", err)
+		}
+	}()
 
 	client := &Client{
 		conn: c,
 	}
 
+	s.mutex.Lock()
 	s.clients = append(s.clients, client)
-
 	s.mutex.Unlock()
 
 	s.onClientConnect(s, client, c.RemoteAddr().String())
@@ -96,14 +105,19 @@ func (s *TCPServer) accept(c net.Conn) *Client {
 }
 
 func (s *TCPServer) remove(client *Client) {
-	s.mutex.Lock()
-	defer s.mutex.Unlock()
+	defer func() {
+		if err := recover(); err != nil {
+			log.Println("Failed to remove client:", err)
+		}
+	}()
 
+	s.mutex.Lock()
 	for i, check := range s.clients {
 		if check == client {
 			s.clients = append(s.clients[:i], s.clients[i+1:]...)
 		}
 	}
+	s.mutex.Unlock()
 
 	s.onClientDisconnect(s, client, client.conn.RemoteAddr().String())
 
@@ -111,6 +125,12 @@ func (s *TCPServer) remove(client *Client) {
 }
 
 func (s *TCPServer) serve(client *Client) {
+	defer func() {
+		if err := recover(); err != nil {
+			log.Println("Failed to handle packet - client disconnected:", err)
+		}
+	}()
+
 	defer s.remove(client)
 
 	for {
@@ -122,4 +142,51 @@ func (s *TCPServer) serve(client *Client) {
 
 		s.onHandlePacket(s, client, packet)
 	}
+}
+
+// GetClientsByID finds all connected clients by their user id. This call is thread safe.
+func (s *TCPServer) GetClientsByID(userID int) []*Client {
+	s.mutex.RLock()
+	defer s.mutex.RUnlock()
+
+	clients := []*Client{}
+
+	for _, c := range s.clients {
+		if c.UserID == userID {
+			clients = append(clients, c)
+		}
+	}
+
+	return clients
+}
+
+// BroadcastPacketToUserID sends the specified packet to all connected clients with the specified user id.
+func (s *TCPServer) BroadcastPacketToUserID(userID int, p *Packet) {
+	s.mutex.RLock()
+	defer s.mutex.RUnlock()
+
+	for _, c := range s.clients {
+		if c.UserID == userID {
+			go c.SendPacket(p)
+		}
+	}
+}
+
+// IsClientMultiLogged returns true if the specified user ID has multiple logins.
+func (s *TCPServer) IsClientMultiLogged(userID int) bool {
+	s.mutex.RLock()
+	defer s.mutex.RUnlock()
+
+	cnt := 0
+
+	for _, c := range s.clients {
+		if c.UserID == userID {
+			cnt++
+			if cnt == 2 {
+				return true
+			}
+		}
+	}
+
+	return false
 }

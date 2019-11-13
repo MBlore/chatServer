@@ -10,9 +10,11 @@ import (
 
 // Client represents a connected user.
 type Client struct {
-	conn     net.Conn
-	Username string
-	LoggedIn bool
+	conn        net.Conn
+	Username    string
+	DisplayName *string
+	LoggedIn    bool
+	UserID      int
 }
 
 // SendPacket sends the specified packet to the connected client.

@@ -13,11 +13,19 @@ func (p *Packet) toBytes() *[]byte {
 	packetIDBytes := make([]byte, 4)
 	packetLengthBytes := make([]byte, 4)
 
+	var dataLength uint32 = 0
+	if p.Data != nil {
+		dataLength = uint32(len(*p.Data))
+	}
+
 	binary.LittleEndian.PutUint32(packetIDBytes, uint32(p.ID))
-	binary.LittleEndian.PutUint32(packetLengthBytes, uint32(len(*p.Data)))
+	binary.LittleEndian.PutUint32(packetLengthBytes, dataLength)
 
 	buffer := append(packetIDBytes, packetLengthBytes...)
-	buffer = append(buffer, *p.Data...)
+
+	if p.Data != nil {
+		buffer = append(buffer, *p.Data...)
+	}
 
 	return &buffer
 }
