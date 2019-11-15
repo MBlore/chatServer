@@ -1,6 +1,9 @@
 package main
 
-import "golang.org/x/crypto/bcrypt"
+import (
+	uuid "github.com/satori/go.uuid"
+	"golang.org/x/crypto/bcrypt"
+)
 
 // HashPassword returns a salted hash value of the specified password.
 func HashPassword(password string) (hash string) {
@@ -34,4 +37,10 @@ func bytesToInt64(b []byte) int64 {
 	val |= int64(b[3]) << 24
 
 	return val
+}
+
+// GenerateGUID returns a new random GUID in the string format of xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx.
+func GenerateGUID() string {
+	u1 := uuid.Must(uuid.NewV4())
+	return u1.String()
 }

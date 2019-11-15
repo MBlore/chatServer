@@ -27,12 +27,14 @@ func main() {
 	log.Println("Updating user statuses...")
 	DBAccess.ResetUserStatuses()
 
+	go RunAPIServer()
+
 	serv := server.NewTCPServer(
 		onHandlePacket,
 		onClientConnect,
 		onClientDisconnect)
 
-	log.Println("Starting server...")
+	log.Println("Starting chat server...")
 	serv.Listen(":80")
 	serv.Run()
 }

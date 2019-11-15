@@ -137,3 +137,28 @@ func (dbAccess) ResetUserStatuses() error {
 
 	return nil
 }
+
+func (dbAccess) CreateAccount(username string, password string, email string, displayName string, validationGUID string) error {
+	res, err := database.Exec(
+		"call createAccount(?,?,?,?,?)",
+		username,
+		email,
+		password,
+		displayName,
+		validationGUID)
+
+	if err != nil {
+		return err
+	}
+
+	ra, err := res.RowsAffected()
+	if err != nil {
+		return err
+	}
+
+	if ra != 1 {
+		return errors.New("failed to create")
+	}
+
+	return nil
+}

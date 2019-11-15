@@ -5,6 +5,7 @@ package server
 import (
 	"log"
 	"net"
+	"runtime/debug"
 	"sync"
 )
 
@@ -108,6 +109,7 @@ func (s *TCPServer) remove(client *Client) {
 	defer func() {
 		if err := recover(); err != nil {
 			log.Println("Failed to remove client:", err)
+			log.Println(debug.Stack())
 		}
 	}()
 
@@ -128,6 +130,7 @@ func (s *TCPServer) serve(client *Client) {
 	defer func() {
 		if err := recover(); err != nil {
 			log.Println("Failed to handle packet - client disconnected:", err)
+			log.Println(debug.Stack())
 		}
 	}()
 
