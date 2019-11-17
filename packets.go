@@ -8,18 +8,30 @@ import (
 
 // Packet types supported in our client/server protocol.
 const (
-	PacketIDLogin            = 0
-	PacketIDLoginResult      = 1
-	PacketIDChat             = 2
-	PacketIDNudge            = 3
-	PacketIDAudio            = 4
-	PacketIDPing             = 5
-	PacketIDAction           = 6
-	PacketIDActionFrom       = 7
-	PacketIDSetDisplayName   = 8
-	PacketIDNudgeFrom        = 9
-	PacketIDUserStatusChange = 10
-	PacketIDChatFrom         = 11
+	PacketIDLogin              = 0
+	PacketIDLoginResult        = 1
+	PacketIDChat               = 2
+	PacketIDNudge              = 3
+	PacketIDAudio              = 4
+	PacketIDPing               = 5
+	PacketIDAction             = 6
+	PacketIDActionFrom         = 7
+	PacketIDSetDisplayName     = 8
+	PacketIDNudgeFrom          = 9
+	PacketIDUserStatusChange   = 10
+	PacketIDChatFrom           = 11
+	PacketIDAddContact         = 12
+	PacketIDAddContactResponse = 13
+	PacketIDNotifyAddRequest   = 14
+)
+
+// Result codes for an add contact request.
+const (
+	AddContactResultFailed             = 0
+	AddContactResultSuccess            = 1
+	AddContactResultUserNotFound       = 2
+	AddContactResultUserAlreadyContact = 3
+	AddContactResultUserAlreadyPending = 4
 )
 
 // Writes a string to the specified buffer prefixed by its length. If the string is nill, a length of 0 is written and no string data.
@@ -174,6 +186,25 @@ func NewNudgeFromPacket(fromUserID int) *server.Packet {
 
 	packet := server.Packet{
 		ID:   PacketIDNudgeFrom,
+		Data: &bytes,
+	}
+
+	return &packet
+}
+
+// NewAddContactResponsePacket creates a new add contact response packet.
+func NewAddContactResponsePacket(resultCode int) *server.Packet {
+	/*
+		ResultCode (int32)
+	*/
+	buf := new(bytes.Buffer)
+
+	writeInt32(buf, resultCode)
+
+	bytes := buf.Bytes()
+
+	packet := server.Packet{
+		ID:   PacketIDAddContactResponse,
 		Data: &bytes,
 	}
 

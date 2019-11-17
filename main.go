@@ -27,7 +27,11 @@ func main() {
 	log.Println("Updating user statuses...")
 	DBAccess.ResetUserStatuses()
 
-	go RunAPIServer()
+	localTesting := true
+
+	if !localTesting {
+		go RunWebServer()
+	}
 
 	serv := server.NewTCPServer(
 		onHandlePacket,
@@ -35,7 +39,7 @@ func main() {
 		onClientDisconnect)
 
 	log.Println("Starting chat server...")
-	serv.Listen(":80")
+	serv.Listen(":5035")
 	serv.Run()
 }
 
@@ -149,6 +153,64 @@ func onHandlePacket(s *server.TCPServer, client *server.Client, packet *server.P
 
 			name := string(*packet.Data)
 			client.DisplayName = &name
+
+		case PacketIDAddContact:
+			if packet.Data != nil {
+				reader := bytes.NewReader(*packet.Data)
+
+				usernameToAdd := readLenString(reader)
+				message := readLenString(reader)
+
+				if usernameToAdd == nil {
+					client.SendPacket(NewAddContactResponsePacket(AddContactResultUserNotFound))
+					break
+				}
+
+				// Verify user exists.
+				user, err := DBAccess.GetUserByUsername(*usernameToAdd)
+				if err != nil {
+					client.SendPacket(NewAddContactResponsePacket(AddContactResultFailed))
+					break
+				}
+
+				if user == nil {
+					client.SendPacket(NewAddContactResponsePacket(AddContactResultUserNotFound))
+					break
+				}
+
+				// Verify user is not already a contact.
+				rowID, err := DBAccess.GetUserContactByContactUserID(client.UserID, user.ID)
+				if err != nil {
+					client.SendPacket(NewAddContactResponsePacket(AddContactResultFailed))
+					break
+				}
+
+				if rowID != nil {
+					client.SendPacket(NewAddContactResponsePacket(AddContactResultUserAlreadyContact))
+					break
+				}
+
+				// Verify user is not already a pending contact.
+				rowID, err = DBAccess.GetPendingContact(client.UserID, user.ID)
+				if err != nil {
+					client.SendPacket(NewAddContactResponsePacket(AddContactResultFailed))
+					break
+				}
+
+				if rowID != nil {
+					client.SendPacket(NewAddContactResponsePacket(AddContactResultUserAlreadyPending))
+					break
+				}
+
+				// Validations passed - add the contact as pending.
+				err = DBAccess.AddPendingContact(client.UserID, user.ID, message)
+				if err != nil {
+					client.SendPacket(NewAddContactResponsePacket(AddContactResultFailed))
+					break
+				}
+
+				client.SendPacket(NewAddContactResponsePacket(AddContactResultSuccess))
+			}
 		}
 	}
 }
@@ -187,25 +249,4 @@ func onClientDisconnect(s *server.TCPServer, c *server.Client, addr string) {
 	}
 
 	log.Printf("Client '%v' disconnected from %v (%v clients)", c.Username, addr, s.NumClients())
-}
-
-func readInt32(r *bytes.Reader) int64 {
-	numBytes := make([]byte, 4)
-	r.Read(numBytes)
-	num := bytesToInt64(numBytes)
-
-	return num
-}
-
-func readLenString(r *bytes.Reader) *string {
-	len := readInt32(r)
-	if len == 0 {
-		return nil
-	}
-
-	strBytes := make([]byte, len)
-	r.Read(strBytes)
-	str := string(strBytes)
-
-	return &str
 }

@@ -162,3 +162,62 @@ func (dbAccess) CreateAccount(username string, password string, email string, di
 
 	return nil
 }
+
+func (dbAccess) AddPendingContact(userID int, userAddingID int, message *string) error {
+	res, err := database.Exec(
+		"call addPendingContact(?,?,?)",
+		userID,
+		userAddingID,
+		message)
+
+	if err != nil {
+		return err
+	}
+
+	ra, err := res.RowsAffected()
+	if err != nil {
+		return err
+	}
+
+	if ra != 1 {
+		return errors.New("failed to add pending contact")
+	}
+
+	return nil
+}
+
+func (dbAccess) GetPendingContact(userID int, contactUserID int) (*int, error) {
+	row := database.QueryRow("call getPendingContact(?,?)", userID, contactUserID)
+
+	var rowID int
+
+	err := row.Scan(&rowID)
+
+	if err == sql.ErrNoRows {
+		return nil, nil
+	}
+
+	if err != nil {
+		return nil, err
+	}
+
+	return &rowID, nil
+}
+
+func (dbAccess) GetUserContactByContactUserID(userID int, contactUserID int) (*int, error) {
+	row := database.QueryRow("call getUserContactByContactUserID(?,?)", userID, contactUserID)
+
+	var rowID int
+
+	err := row.Scan(&rowID)
+
+	if err == sql.ErrNoRows {
+		return nil, nil
+	}
+
+	if err != nil {
+		return nil, err
+	}
+
+	return &rowID, nil
+}

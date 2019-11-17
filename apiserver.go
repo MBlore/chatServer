@@ -26,13 +26,27 @@ type signupResponse struct {
 	ErrorCode int  `json:"errorCode"`
 }
 
-// RunAPIServer opens a HTTP server port for serving API requests.
-func RunAPIServer() {
-	log.Println("Starting API service on :8000...")
-	http.HandleFunc("/hash", hashRequest)
-	http.HandleFunc("/signup", signupRequest)
+// RunWebServer opens a HTTP server port for serving HTTPS/API requests.
+func RunWebServer() {
+	log.Println("Starting web server on :80 and :443...")
 
-	http.ListenAndServe(":8000", nil)
+	go func() {
+		if err := http.ListenAndServe(":80", http.HandlerFunc(redirectTLS)); err != nil {
+			log.Fatalf("ListenAndServe error: %v", err)
+		}
+	}()
+
+	http.Handle("/", http.FileServer(http.Dir("./static")))
+	//http.HandleFunc("/hash", hashRequest)
+	http.HandleFunc("/dosignup", signupRequest)
+	if err := http.ListenAndServeTLS(":443", "domain.crt", "domain.key", nil); err != nil {
+		log.Fatalf("ListenAndServeTLS error: %v", err)
+	}
+	//http.ListenAndServe(":80", nil)
+}
+
+func redirectTLS(w http.ResponseWriter, r *http.Request) {
+	http.Redirect(w, r, "https://"+r.Host+r.RequestURI, http.StatusMovedPermanently)
 }
 
 func hashRequest(w http.ResponseWriter, req *http.Request) {

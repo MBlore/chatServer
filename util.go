@@ -1,6 +1,8 @@
 package main
 
 import (
+	"bytes"
+
 	uuid "github.com/satori/go.uuid"
 	"golang.org/x/crypto/bcrypt"
 )
@@ -43,4 +45,25 @@ func bytesToInt64(b []byte) int64 {
 func GenerateGUID() string {
 	u1 := uuid.Must(uuid.NewV4())
 	return u1.String()
+}
+
+func readInt32(r *bytes.Reader) int64 {
+	numBytes := make([]byte, 4)
+	r.Read(numBytes)
+	num := bytesToInt64(numBytes)
+
+	return num
+}
+
+func readLenString(r *bytes.Reader) *string {
+	len := readInt32(r)
+	if len == 0 {
+		return nil
+	}
+
+	strBytes := make([]byte, len)
+	r.Read(strBytes)
+	str := string(strBytes)
+
+	return &str
 }

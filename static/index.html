@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chatzorz - Sign Up</title>
+    <link rel="stylesheet" href="./styles2.css">
+</head>
+<body>
+    <div>
+        <h1>Chatzorz</h1>
+        <blockquote>The chat application that never stores your chats or data, and makes any feature you ask for!</blockquote>
+		<p>We are currently open for BETA - join now to help shape the future of the product!</p>
+        <hr/>
+    </div>
+    
+    <p id="success">Your account was created. You can now login to the app!</p>
+    <fieldset>
+        <legend>Download</legend>
+        <p>For Windows: <a href="">Download</a></p>
+    </fieldset>
+    <fieldset id="fs">
+        <legend>Sign Up</legend>
+        <form id="form" action="/dosignup">
+            <input id="email" name="email" type="email" maxlength="320" placeholder="Email Address" autocomplete="off" />
+            <p>We need your email for account recovery. We will never share this with anyone!</p>
+            <input id="username" name="username" type="text" minlength="1" maxlength="15" pattern="^[A-Za-z0-9_]{5,15}$" placeholder="Username (1-15 Characters)" autocomplete="off" title="Username should only contains letters and numbers and be between 1 and 15 characters in length."/>
+            <p>This has to be unique. You use this to login.</p>
+            <input id="password" name="password" type="password" minlength="8" maxlength="20" placeholder="Password (8-20 Characters)" autocomplete="off" title="Password should only contain letters, numbers, symbols and be between 8 and 20 characters in length." />
+            <p>You can use letters, numbers and symbols in your password.</p>
+            <input id="password2" type="password" placeholder="Confirm Password" autocomplete="off" />
+            <p>Ensure this matches the password above.</p>
+            <input id="displayname" name="displayname" type="text" minlength="1" maxlength="20" placeholder="Display Name (1-20 Characters)" autocomplete="off" title="Display name should be between 1 and 20 characters in length." />
+            <p>This is the name as shown to your contacts - use anything you like!</p>
+            
+            <button id="signup" class="btn btn-m" type="submit">Sign Up</button>
+            <p id="error">Woops, something went wrong. Please try again.</p>
+            <p id="validate">Please correct the errors on the form.</p>
+        </form>
+    </fieldset>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script2.js"></script>
+</body>
+</html>
