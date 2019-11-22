@@ -1,7 +1,8 @@
-package main
+package builders
 
 import (
 	"bytes"
+	"chatServer/models"
 	"chatServer/server"
 	"encoding/binary"
 )
@@ -23,6 +24,8 @@ const (
 	PacketIDAddContact         = 12
 	PacketIDAddContactResponse = 13
 	PacketIDNotifyAddRequest   = 14
+	PacketIDConfirmContact     = 15
+	PacketIDRejectContact      = 16
 )
 
 // Result codes for an add contact request.
@@ -54,12 +57,21 @@ func writeInt32(buf *bytes.Buffer, val int) {
 }
 
 // NewLoginResultPacket creates a new login result packet.
-func NewLoginResultPacket(success bool, userID int, displayName *string, friends []FriendModel) *server.Packet {
+func NewLoginResultPacket(
+	success bool,
+	userID int,
+	displayName *string,
+	statusText *string,
+	friends []models.FriendModel,
+	pendingContacts []models.PendingContactModel) *server.Packet {
 	/*
 		Success (byte)
 		UserId (int32)
 		DisplayNameLength (int32)
 		DisplayName (string)
+		StatusTextLen (int32)
+		StatusText
+
 		FriendsCount (int32)
 
 		(For each friend...)
@@ -73,6 +85,19 @@ func NewLoginResultPacket(success bool, userID int, displayName *string, friends
 		ImageURL (string)
 		StatusTextLength (int32)
 		StatusText (string)
+
+		PendingContactsCount (int32)
+
+		(For each pending contant)
+		ID (int32)
+		UsernameLength (int32)
+		Username (string)
+		DisplayNameLength (int32)
+		DisplayName (string)
+		ImageURLLength (int32)
+		ImageURL (string)
+		MessageLength (int32)
+		Message (string)
 	*/
 
 	buf := new(bytes.Buffer)
@@ -82,10 +107,10 @@ func NewLoginResultPacket(success bool, userID int, displayName *string, friends
 	if success {
 		writeInt32(buf, userID)
 		writeString(buf, displayName)
+		writeString(buf, statusText)
 
 		if friends != nil {
 			writeInt32(buf, len(friends))
-
 			for _, f := range friends {
 				writeInt32(buf, f.ID)
 				writeString(buf, &f.Username)
@@ -94,6 +119,21 @@ func NewLoginResultPacket(success bool, userID int, displayName *string, friends
 				writeString(buf, f.ImageURL)
 				writeString(buf, f.StatusText)
 			}
+		} else {
+			writeInt32(buf, 0)
+		}
+
+		if pendingContacts != nil {
+			writeInt32(buf, len(pendingContacts))
+			for _, c := range pendingContacts {
+				writeInt32(buf, c.ID)
+				writeString(buf, &c.Username)
+				writeString(buf, c.DisplayName)
+				writeString(buf, c.ImageURL)
+				writeString(buf, c.Message)
+			}
+		} else {
+			writeInt32(buf, len(pendingContacts))
 		}
 	}
 
@@ -205,6 +245,34 @@ func NewAddContactResponsePacket(resultCode int) *server.Packet {
 
 	packet := server.Packet{
 		ID:   PacketIDAddContactResponse,
+		Data: &bytes,
+	}
+
+	return &packet
+}
+
+// NewNotifyAddRequestPacket creates a new notify add request packet.
+func NewNotifyAddRequestPacket(userID int, username *string, displayName *string, message *string) *server.Packet {
+	/*
+		RequestedUserID (int32)
+		UsernameLen (int32)
+		Username (string)
+		DisplayNameLen (int32)
+		DisplayName (string)
+		MessageLen (int32)
+		Message (string)
+	*/
+	buf := new(bytes.Buffer)
+
+	writeInt32(buf, userID)
+	writeString(buf, username)
+	writeString(buf, displayName)
+	writeString(buf, message)
+
+	bytes := buf.Bytes()
+
+	packet := server.Packet{
+		ID:   PacketIDNotifyAddRequest,
 		Data: &bytes,
 	}
 

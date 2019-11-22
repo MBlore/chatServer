@@ -1,4 +1,4 @@
-package main
+package utils
 
 import (
 	"bytes"
@@ -6,6 +6,8 @@ import (
 	uuid "github.com/satori/go.uuid"
 	"golang.org/x/crypto/bcrypt"
 )
+
+
 
 // HashPassword returns a salted hash value of the specified password.
 func HashPassword(password string) (hash string) {
@@ -47,7 +49,7 @@ func GenerateGUID() string {
 	return u1.String()
 }
 
-func readInt32(r *bytes.Reader) int64 {
+func ReadInt32(r *bytes.Reader) int64 {
 	numBytes := make([]byte, 4)
 	r.Read(numBytes)
 	num := bytesToInt64(numBytes)
@@ -55,8 +57,8 @@ func readInt32(r *bytes.Reader) int64 {
 	return num
 }
 
-func readLenString(r *bytes.Reader) *string {
-	len := readInt32(r)
+func ReadLenString(r *bytes.Reader) *string {
+	len := ReadInt32(r)
 	if len == 0 {
 		return nil
 	}

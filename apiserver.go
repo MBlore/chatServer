@@ -1,6 +1,8 @@
 package main
 
 import (
+	"chatServer/dbaccess"
+	"chatServer/utils"
 	"encoding/json"
 	"fmt"
 	"log"
@@ -37,12 +39,10 @@ func RunWebServer() {
 	}()
 
 	http.Handle("/", http.FileServer(http.Dir("./static")))
-	//http.HandleFunc("/hash", hashRequest)
 	http.HandleFunc("/dosignup", signupRequest)
 	if err := http.ListenAndServeTLS(":443", "domain.crt", "domain.key", nil); err != nil {
 		log.Fatalf("ListenAndServeTLS error: %v", err)
 	}
-	//http.ListenAndServe(":80", nil)
 }
 
 func redirectTLS(w http.ResponseWriter, r *http.Request) {
@@ -57,7 +57,7 @@ func hashRequest(w http.ResponseWriter, req *http.Request) {
 	}()
 
 	password := strings.TrimSpace(req.URL.Query()["password"][0])
-	hashed := HashPassword(password)
+	hashed := utils.HashPassword(password)
 	fmt.Fprintf(w, "%v", hashed)
 }
 
@@ -89,7 +89,7 @@ func signupRequest(w http.ResponseWriter, req *http.Request) {
 		return
 	}
 
-	u, err := DBAccess.GetUserByUsername(username)
+	u, err := dbaccess.DBAccess.GetUserByUsername(username)
 	if err != nil {
 		signupFailed(w, signupResponseCodeUnknownError)
 		return
@@ -121,7 +121,7 @@ func signupRequest(w http.ResponseWriter, req *http.Request) {
 	}
 
 	// Now we can save, but the username could still clash after this point.
-	err = DBAccess.CreateAccount(username, HashPassword(password), email, displayName, GenerateGUID())
+	err = dbaccess.DBAccess.CreateAccount(username, utils.HashPassword(password), email, displayName, utils.GenerateGUID())
 	if err != nil {
 		signupFailed(w, signupResponseCodeUnknownError)
 		return

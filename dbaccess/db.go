@@ -1,6 +1,7 @@
-package main
+package dbaccess
 
 import (
+	"chatServer/models"
 	"database/sql"
 	"errors"
 	"log"
@@ -13,25 +14,6 @@ const (
 	StatusOffline = 0
 	StatusOnline  = 1
 )
-
-// UserModel is a model of a user in the data store.
-type UserModel struct {
-	ID          int
-	Username    string
-	Password    string
-	DisplayName *string
-	Status      int
-}
-
-// FriendModel is a model of users friend.
-type FriendModel struct {
-	ID          int
-	Username    string
-	DisplayName *string
-	Status      int
-	ImageURL    *string
-	StatusText  *string
-}
 
 type dbAccess struct{}
 
@@ -56,15 +38,15 @@ func (dbAccess) CloseConnection() {
 }
 
 // GetUserByUsername returns a user model from the data store by username.
-func (dbAccess) GetUserByUsername(username string) (*UserModel, error) {
+func (dbAccess) GetUserByUsername(username string) (*models.UserModel, error) {
 	rows, err := database.Query("call getUserByUsername(?)", username)
 	if err != nil {
 		return nil, err
 	}
 
 	if rows.Next() {
-		user := UserModel{}
-		err := rows.Scan(&user.ID, &user.Username, &user.Password, &user.DisplayName, &user.Status)
+		user := models.UserModel{}
+		err := rows.Scan(&user.ID, &user.Username, &user.Password, &user.DisplayName, &user.Status, &user.StatusText)
 		if err != nil {
 			return nil, err
 		}
@@ -105,16 +87,16 @@ func (dbAccess) LogoutUser(userID int) error {
 }
 
 // GetFriends returns a list of friends that the specified user has.
-func (dbAccess) GetFriends(userID int) ([]FriendModel, error) {
+func (dbAccess) GetFriends(userID int) ([]models.FriendModel, error) {
 	rows, err := database.Query("call getFriends(?)", userID)
 	if err != nil {
 		return nil, err
 	}
 
-	friends := []FriendModel{}
+	friends := []models.FriendModel{}
 
 	for rows.Next() {
-		friend := FriendModel{}
+		friend := models.FriendModel{}
 
 		err := rows.Scan(&friend.ID, &friend.Username, &friend.DisplayName, &friend.Status, &friend.ImageURL, &friend.StatusText)
 		if err != nil {
@@ -220,4 +202,72 @@ func (dbAccess) GetUserContactByContactUserID(userID int, contactUserID int) (*i
 	}
 
 	return &rowID, nil
+}
+
+// GetUserPendingContacts returns a list of a users pending contact requests.
+func (dbAccess) GetUserPendingContacts(userID int) ([]models.PendingContactModel, error) {
+	rows, err := database.Query("call getUserPendingContacts(?)", userID)
+	if err != nil {
+		return nil, err
+	}
+
+	contacts := []models.PendingContactModel{}
+
+	for rows.Next() {
+		c := models.PendingContactModel{}
+
+		err := rows.Scan(&c.ID, &c.Username, &c.DisplayName, &c.ImageURL, &c.Message)
+		if err != nil {
+			log.Printf("Failed to map pending contact model.")
+			continue
+		}
+
+		contacts = append(contacts, c)
+	}
+
+	return contacts, nil
+}
+
+func (dbAccess) ConfirmContactRequest(requestedUserID int, addingUserID int) error {
+	res, err := database.Exec(
+		"call confirmContact(?,?)",
+		requestedUserID,
+		addingUserID)
+
+	if err != nil {
+		return err
+	}
+
+	ra, err := res.RowsAffected()
+	if err != nil {
+		return err
+	}
+
+	if ra != 1 {
+		return errors.New("failed to confirm pending contact")
+	}
+
+	return nil
+}
+
+func (dbAccess) RejectContactRequest(requestedUserID int, addingUserID int) error {
+	res, err := database.Exec(
+		"call rejectContact(?,?)",
+		requestedUserID,
+		addingUserID)
+
+	if err != nil {
+		return err
+	}
+
+	ra, err := res.RowsAffected()
+	if err != nil {
+		return err
+	}
+
+	if ra != 1 {
+		return errors.New("failed to reject pending contact")
+	}
+
+	return nil
 }
