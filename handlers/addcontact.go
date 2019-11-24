@@ -22,7 +22,7 @@ func HandleAddContact(s *server.TCPServer, client *server.Client, packet *server
 		}
 
 		// Verify user exists.
-		user, err := dbaccess.DBAccess.GetUserByUsername(*usernameToAdd)
+		user, err := dbaccess.GetUserByUsername(*usernameToAdd)
 		if err != nil {
 			go client.SendPacket(builders.NewAddContactResponsePacket(builders.AddContactResultFailed))
 			return
@@ -40,7 +40,7 @@ func HandleAddContact(s *server.TCPServer, client *server.Client, packet *server
 		}
 
 		// Verify user is not already a contact.
-		rowID, err := dbaccess.DBAccess.GetUserContactByContactUserID(client.UserID, user.ID)
+		rowID, err := dbaccess.GetUserContactByContactUserID(client.UserID, user.ID)
 		if err != nil {
 			go client.SendPacket(builders.NewAddContactResponsePacket(builders.AddContactResultFailed))
 			return
@@ -52,7 +52,7 @@ func HandleAddContact(s *server.TCPServer, client *server.Client, packet *server
 		}
 
 		// Verify user is not already a pending contact.
-		rowID, err = dbaccess.DBAccess.GetPendingContact(client.UserID, user.ID)
+		rowID, err = dbaccess.GetPendingContact(client.UserID, user.ID)
 		if err != nil {
 			go client.SendPacket(builders.NewAddContactResponsePacket(builders.AddContactResultFailed))
 			return
@@ -64,7 +64,7 @@ func HandleAddContact(s *server.TCPServer, client *server.Client, packet *server
 		}
 
 		// Validations passed - add the contact as pending.
-		err = dbaccess.DBAccess.AddPendingContact(client.UserID, user.ID, message)
+		err = dbaccess.AddPendingContact(client.UserID, user.ID, message)
 		if err != nil {
 			go client.SendPacket(builders.NewAddContactResponsePacket(builders.AddContactResultFailed))
 			return

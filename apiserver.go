@@ -89,7 +89,7 @@ func signupRequest(w http.ResponseWriter, req *http.Request) {
 		return
 	}
 
-	u, err := dbaccess.DBAccess.GetUserByUsername(username)
+	u, err := dbaccess.GetUserByUsername(username)
 	if err != nil {
 		signupFailed(w, signupResponseCodeUnknownError)
 		return
@@ -121,7 +121,7 @@ func signupRequest(w http.ResponseWriter, req *http.Request) {
 	}
 
 	// Now we can save, but the username could still clash after this point.
-	err = dbaccess.DBAccess.CreateAccount(username, utils.HashPassword(password), email, displayName, utils.GenerateGUID())
+	err = dbaccess.CreateAccount(username, utils.HashPassword(password), email, displayName, utils.GenerateGUID())
 	if err != nil {
 		signupFailed(w, signupResponseCodeUnknownError)
 		return

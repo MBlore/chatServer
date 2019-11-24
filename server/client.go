@@ -15,6 +15,9 @@ type Client struct {
 	DisplayName *string
 	LoggedIn    bool
 	UserID      int
+	Status      int
+	StatusText  *string
+	ImageURL    *string
 }
 
 // SendPacket sends the specified packet to the connected client.
@@ -22,7 +25,11 @@ func (c *Client) SendPacket(p *Packet) error {
 	bytes := p.toBytes()
 
 	c.conn.SetWriteDeadline(time.Now().Add(writeTimeoutDuration))
-	_, err := c.conn.Write(*bytes)
+	numBytes, err := c.conn.Write(*bytes)
+
+	if numBytes != len(*bytes) {
+		log.Printf("Failed to write full packet length.")
+	}
 
 	return err
 }
@@ -70,11 +77,16 @@ func readFourBytes(c *Client) (val int64, err error) {
 	c.conn.SetReadDeadline(time.Now().Add(readTimeoutDuration))
 
 	reader := io.LimitReader(c.conn, 4)
-	_, e := reader.Read(bytes)
+
+	numRead, e := io.ReadFull(reader, bytes)
 
 	if e != nil {
 		log.Printf("Read error: %v", e)
 		return 0, e
+	}
+
+	if int64(numRead) != 4 {
+		log.Printf("Failed to read 4 bytes.")
 	}
 
 	return bytesToInt64(bytes), nil
@@ -91,11 +103,15 @@ func readPacketData(c *Client, length int64) (data *[]byte, err error) {
 
 	reader := io.LimitReader(c.conn, length)
 
-	_, e := reader.Read(bytes)
+	numRead, e := io.ReadFull(reader, bytes)
 
 	if e != nil {
 		log.Printf("Read error: %v", e)
 		return nil, e
+	}
+
+	if int64(numRead) != length {
+		log.Printf("Failed to read entire packet data.")
 	}
 
 	return &bytes, nil

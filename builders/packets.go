@@ -9,23 +9,28 @@ import (
 
 // Packet types supported in our client/server protocol.
 const (
-	PacketIDLogin              = 0
-	PacketIDLoginResult        = 1
-	PacketIDChat               = 2
-	PacketIDNudge              = 3
-	PacketIDAudio              = 4
-	PacketIDPing               = 5
-	PacketIDAction             = 6
-	PacketIDActionFrom         = 7
-	PacketIDSetDisplayName     = 8
-	PacketIDNudgeFrom          = 9
-	PacketIDUserStatusChange   = 10
-	PacketIDChatFrom           = 11
-	PacketIDAddContact         = 12
-	PacketIDAddContactResponse = 13
-	PacketIDNotifyAddRequest   = 14
-	PacketIDConfirmContact     = 15
-	PacketIDRejectContact      = 16
+	PacketIDLogin                  = 0
+	PacketIDLoginResult            = 1
+	PacketIDChat                   = 2
+	PacketIDNudge                  = 3
+	PacketIDAudio                  = 4
+	PacketIDPing                   = 5
+	PacketIDAction                 = 6
+	PacketIDActionFrom             = 7
+	PacketIDSetDisplayName         = 8
+	PacketIDNudgeFrom              = 9
+	PacketIDUserStatusChange       = 10
+	PacketIDChatFrom               = 11
+	PacketIDAddContact             = 12
+	PacketIDAddContactResponse     = 13
+	PacketIDNotifyAddRequest       = 14
+	PacketIDConfirmContact         = 15
+	PacketIDConfirmContactResponse = 16
+	PacketIDRejectContact          = 17
+	PacketIDRejectContactResponse  = 18
+	PacketIDAddContactAccepted     = 19
+	PacketIDImage                  = 20
+	PacketIDImageFrom              = 21
 )
 
 // Result codes for an add contact request.
@@ -35,6 +40,20 @@ const (
 	AddContactResultUserNotFound       = 2
 	AddContactResultUserAlreadyContact = 3
 	AddContactResultUserAlreadyPending = 4
+)
+
+// Result codes for a confirm contact request.
+const (
+	ConfirmContactResultSuccess    = 0
+	ConfirmContactResultNotPending = 1
+	ConfirmContactResultFailed     = 2
+)
+
+// Result codes for a reject contact request.
+const (
+	RejectContactResultSuccess    = 0
+	RejectContactResultNotPending = 1
+	RejectContactResultFailed     = 2
 )
 
 // Writes a string to the specified buffer prefixed by its length. If the string is nill, a length of 0 is written and no string data.
@@ -273,6 +292,106 @@ func NewNotifyAddRequestPacket(userID int, username *string, displayName *string
 
 	packet := server.Packet{
 		ID:   PacketIDNotifyAddRequest,
+		Data: &bytes,
+	}
+
+	return &packet
+}
+
+// NewConfirmContactResponsePacket creates a new confirm contact response packet.
+func NewConfirmContactResponsePacket(resultCode int, requestedUserID int, user *models.UserModel) *server.Packet {
+	/*
+		ResultCode (jnt32)
+		RequestedUserID (int32)
+
+		(If successfull...)
+		UsernameLen (int32)
+		Username (string)
+		DisplayNameLen (int32)
+		DisplayName (string)
+		Status (int32)
+		ImageURLLen (int32)
+		ImageURL (string)
+		StatusTextLen (int32)
+		StatusText (string)
+	*/
+	buf := new(bytes.Buffer)
+
+	writeInt32(buf, resultCode)
+	writeInt32(buf, requestedUserID)
+
+	if user != nil {
+		writeString(buf, &user.Username)
+		writeString(buf, user.DisplayName)
+		writeInt32(buf, user.Status)
+		writeString(buf, user.ImageURL)
+		writeString(buf, user.StatusText)
+	}
+
+	bytes := buf.Bytes()
+
+	packet := server.Packet{
+		ID:   PacketIDConfirmContactResponse,
+		Data: &bytes,
+	}
+
+	return &packet
+}
+
+// NewRejectContactResponsePacket creates a new reject contact response packet.
+func NewRejectContactResponsePacket(resultCode int, requestedUserID int) *server.Packet {
+	buf := new(bytes.Buffer)
+
+	writeInt32(buf, resultCode)
+	writeInt32(buf, requestedUserID)
+
+	bytes := buf.Bytes()
+
+	packet := server.Packet{
+		ID:   PacketIDRejectContactResponse,
+		Data: &bytes,
+	}
+
+	return &packet
+}
+
+// NewAddContactAcceptedPacket creates a new contact accepted packet.
+func NewAddContactAcceptedPacket(userID int, username *string, displayName *string, status int, imageURL *string, statusText *string) *server.Packet {
+	buf := new(bytes.Buffer)
+
+	writeInt32(buf, userID)
+	writeString(buf, username)
+	writeString(buf, displayName)
+	writeInt32(buf, status)
+	writeString(buf, imageURL)
+	writeString(buf, statusText)
+
+	bytes := buf.Bytes()
+
+	packet := server.Packet{
+		ID:   PacketIDAddContactAccepted,
+		Data: &bytes,
+	}
+
+	return &packet
+}
+
+// NewImageFromPacket creates a new image from user packet.
+func NewImageFromPacket(fromUserID int, imageData *string) *server.Packet {
+	/*
+		FromUserId (int32)
+		ImageDataLen (int32)
+		ImageData (string)
+	*/
+	buf := new(bytes.Buffer)
+
+	writeInt32(buf, fromUserID)
+	writeString(buf, imageData)
+
+	bytes := buf.Bytes()
+
+	packet := server.Packet{
+		ID:   PacketIDImageFrom,
 		Data: &bytes,
 	}
 

@@ -22,15 +22,15 @@ func main() {
 	log.SetOutput(mw)
 
 	log.Println("Connecting to database...")
-	dbaccess.DBAccess.OpenConnection()
-	defer dbaccess.DBAccess.CloseConnection()
+	dbaccess.OpenConnection()
+	defer dbaccess.CloseConnection()
 
 	log.Println("Connected.")
 
 	log.Println("Updating user statuses...")
-	dbaccess.DBAccess.ResetUserStatuses()
+	dbaccess.ResetUserStatuses()
 
-	localTesting := true
+	localTesting := false
 
 	if !localTesting {
 		go RunWebServer()
@@ -108,6 +108,25 @@ func onHandlePacket(s *server.TCPServer, client *server.Client, packet *server.P
 
 		case builders.PacketIDAddContact:
 			handlers.HandleAddContact(s, client, packet)
+
+		case builders.PacketIDConfirmContact:
+			handlers.HandleConfirmContact(s, client, packet)
+
+		case builders.PacketIDRejectContact:
+			handlers.HandleRejectContact(s, client, packet)
+
+		case builders.PacketIDImage:
+			if packet.Data != nil {
+				reader := bytes.NewReader(*packet.Data)
+
+				userIDTo := utils.ReadInt32(reader)
+				imageData := utils.ReadLenString(reader)
+
+				if imageData != nil {
+					// TODO: Validate this client is the senders friend.
+					go s.BroadcastPacketToUserID(int(userIDTo), builders.NewImageFromPacket(client.UserID, imageData))
+				}
+			}
 		}
 	}
 }
@@ -121,7 +140,7 @@ func onClientDisconnect(s *server.TCPServer, c *server.Client, addr string) {
 		// Only log out the user (set offline) if its the last client login instance.
 
 		go func() {
-			err := dbaccess.DBAccess.LogoutUser(c.UserID)
+			err := dbaccess.LogoutUser(c.UserID)
 			if err != nil {
 				log.Print(err.Error())
 				log.Printf("Failed to logout user id '%v' due to error.", c.UserID)
@@ -130,7 +149,7 @@ func onClientDisconnect(s *server.TCPServer, c *server.Client, addr string) {
 
 		// Notify this contacts friends, if they are logged in, that this user went offline.
 		go func() {
-			friends, err := dbaccess.DBAccess.GetFriends(c.UserID)
+			friends, err := dbaccess.GetFriends(c.UserID)
 			if err != nil {
 				log.Printf("Failed to get friends for user id '%v'.", c.UserID)
 			} else {

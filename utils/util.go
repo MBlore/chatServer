@@ -7,8 +7,6 @@ import (
 	"golang.org/x/crypto/bcrypt"
 )
 
-
-
 // HashPassword returns a salted hash value of the specified password.
 func HashPassword(password string) (hash string) {
 	hashVal, err := bcrypt.GenerateFromPassword([]byte(password), bcrypt.MinCost)
@@ -49,6 +47,7 @@ func GenerateGUID() string {
 	return u1.String()
 }
 
+// ReadInt32 reads 4 byutes from the specified reader to make an int64.
 func ReadInt32(r *bytes.Reader) int64 {
 	numBytes := make([]byte, 4)
 	r.Read(numBytes)
@@ -57,6 +56,7 @@ func ReadInt32(r *bytes.Reader) int64 {
 	return num
 }
 
+// ReadLenString reads 4 bytes (int32) to determine a string length, and then the string data itself using the known length.
 func ReadLenString(r *bytes.Reader) *string {
 	len := ReadInt32(r)
 	if len == 0 {

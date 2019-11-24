@@ -10,5 +10,5 @@ const (
 	writeTimeoutDuration = 30 * time.Second
 
 	// Maximum packet length size allowed. Anything higher is considered a DDOS and a client will be forcefully disconnected.
-	maxPacketLength = 65535
+	maxPacketLength = 20000000 // 20mb - accounts for very large images.
 )

@@ -16,7 +16,7 @@ func HandleLogin(s *server.TCPServer, client *server.Client, packet *server.Pack
 	username := parts[0]
 	password := parts[1]
 
-	user, err := dbaccess.DBAccess.GetUserByUsername(username)
+	user, err := dbaccess.GetUserByUsername(username)
 	if err != nil {
 		panic(err.Error())
 	}
@@ -26,7 +26,7 @@ func HandleLogin(s *server.TCPServer, client *server.Client, packet *server.Pack
 	var pendingContacts []models.PendingContactModel
 
 	if user != nil && utils.ComparePasswordHashes(password, user.Password) {
-		err := dbaccess.DBAccess.LoginUser(user.ID)
+		err := dbaccess.LoginUser(user.ID)
 		if err != nil {
 			log.Print(err.Error())
 			log.Printf("User '%v' login failed due to error.", username)
@@ -36,16 +36,20 @@ func HandleLogin(s *server.TCPServer, client *server.Client, packet *server.Pack
 			client.DisplayName = user.DisplayName
 			client.LoggedIn = true
 			client.UserID = user.ID
+			client.Status = 1 // Default status set from the LoginUser proc.
+			client.ImageURL = user.ImageURL
+			client.StatusText = user.StatusText
+
 			log.Printf("User '%v' logged in.", username)
 
-			f, err := dbaccess.DBAccess.GetFriends(user.ID)
+			f, err := dbaccess.GetFriends(user.ID)
 			if err != nil {
 				log.Printf("Failed to get friends list for user ID '%v'.", user.ID)
 			} else {
 				friends = f
 			}
 
-			pc, err := dbaccess.DBAccess.GetUserPendingContacts(user.ID)
+			pc, err := dbaccess.GetUserPendingContacts(user.ID)
 			if err != nil {
 				log.Printf("Failed to get pending contacts list for user ID '%v'.", user.ID)
 			} else {

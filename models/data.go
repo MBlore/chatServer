@@ -8,6 +8,7 @@ type UserModel struct {
 	DisplayName *string
 	Status      int
 	StatusText  *string
+	ImageURL    *string
 }
 
 // FriendModel is a model of users friend.

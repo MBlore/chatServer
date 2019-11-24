@@ -6,6 +6,7 @@ import (
 	"errors"
 	"log"
 
+	// We use the mysql driver.
 	_ "github.com/go-sql-driver/mysql"
 )
 
@@ -15,15 +16,10 @@ const (
 	StatusOnline  = 1
 )
 
-type dbAccess struct{}
-
-// DBAccess provides database access functions.
-var DBAccess dbAccess
-
 var database *sql.DB
 
 // OpenConnection opens a connection to the database.
-func (dbAccess) OpenConnection() {
+func OpenConnection() {
 	db, err := sql.Open("mysql", "")
 	if err != nil {
 		panic(err.Error())
@@ -33,12 +29,12 @@ func (dbAccess) OpenConnection() {
 }
 
 // CloseConnection closes the database connection.
-func (dbAccess) CloseConnection() {
+func CloseConnection() {
 	database.Close()
 }
 
 // GetUserByUsername returns a user model from the data store by username.
-func (dbAccess) GetUserByUsername(username string) (*models.UserModel, error) {
+func GetUserByUsername(username string) (*models.UserModel, error) {
 	rows, err := database.Query("call getUserByUsername(?)", username)
 	if err != nil {
 		return nil, err
@@ -57,8 +53,28 @@ func (dbAccess) GetUserByUsername(username string) (*models.UserModel, error) {
 	return nil, nil
 }
 
+// GetUserByID returns a user model from the data store by id.
+func GetUserByID(userID int) (*models.UserModel, error) {
+	rows, err := database.Query("call getUserById(?)", userID)
+	if err != nil {
+		return nil, err
+	}
+
+	if rows.Next() {
+		user := models.UserModel{}
+		err := rows.Scan(&user.ID, &user.Username, &user.DisplayName, &user.Status, &user.ImageURL, &user.StatusText)
+		if err != nil {
+			return nil, err
+		}
+
+		return &user, nil
+	}
+
+	return nil, nil
+}
+
 // LoginUser logs a user in and sets their status to online.
-func (dbAccess) LoginUser(userID int) error {
+func LoginUser(userID int) error {
 	_, err := database.Exec("call loginUser(?)", userID)
 	if err != nil {
 		return err
@@ -68,7 +84,7 @@ func (dbAccess) LoginUser(userID int) error {
 }
 
 // LogoutUser logs a user out and sets their status to offline.
-func (dbAccess) LogoutUser(userID int) error {
+func LogoutUser(userID int) error {
 	res, err := database.Exec("call logoffUser(?)", userID)
 	if err != nil {
 		return err
@@ -87,7 +103,7 @@ func (dbAccess) LogoutUser(userID int) error {
 }
 
 // GetFriends returns a list of friends that the specified user has.
-func (dbAccess) GetFriends(userID int) ([]models.FriendModel, error) {
+func GetFriends(userID int) ([]models.FriendModel, error) {
 	rows, err := database.Query("call getFriends(?)", userID)
 	if err != nil {
 		return nil, err
@@ -111,7 +127,7 @@ func (dbAccess) GetFriends(userID int) ([]models.FriendModel, error) {
 }
 
 // ResetUserStatuses sets all users to be offline.
-func (dbAccess) ResetUserStatuses() error {
+func ResetUserStatuses() error {
 	_, err := database.Exec("call resetUserStatuses()")
 	if err != nil {
 		return err
@@ -120,7 +136,8 @@ func (dbAccess) ResetUserStatuses() error {
 	return nil
 }
 
-func (dbAccess) CreateAccount(username string, password string, email string, displayName string, validationGUID string) error {
+// CreateAccount creates a new account.
+func CreateAccount(username string, password string, email string, displayName string, validationGUID string) error {
 	res, err := database.Exec(
 		"call createAccount(?,?,?,?,?)",
 		username,
@@ -145,7 +162,8 @@ func (dbAccess) CreateAccount(username string, password string, email string, di
 	return nil
 }
 
-func (dbAccess) AddPendingContact(userID int, userAddingID int, message *string) error {
+// AddPendingContact adds a contact request for the requested user.
+func AddPendingContact(userID int, userAddingID int, message *string) error {
 	res, err := database.Exec(
 		"call addPendingContact(?,?,?)",
 		userID,
@@ -168,8 +186,9 @@ func (dbAccess) AddPendingContact(userID int, userAddingID int, message *string)
 	return nil
 }
 
-func (dbAccess) GetPendingContact(userID int, contactUserID int) (*int, error) {
-	row := database.QueryRow("call getPendingContact(?,?)", userID, contactUserID)
+// GetPendingContact retreives a pending contact by user and requested user.
+func GetPendingContact(requestedUserID int, addingUserID int) (*int, error) {
+	row := database.QueryRow("call getPendingContact(?,?)", requestedUserID, addingUserID)
 
 	var rowID int
 
@@ -186,7 +205,8 @@ func (dbAccess) GetPendingContact(userID int, contactUserID int) (*int, error) {
 	return &rowID, nil
 }
 
-func (dbAccess) GetUserContactByContactUserID(userID int, contactUserID int) (*int, error) {
+// GetUserContactByContactUserID retreives a users contact.
+func GetUserContactByContactUserID(userID int, contactUserID int) (*int, error) {
 	row := database.QueryRow("call getUserContactByContactUserID(?,?)", userID, contactUserID)
 
 	var rowID int
@@ -205,7 +225,7 @@ func (dbAccess) GetUserContactByContactUserID(userID int, contactUserID int) (*i
 }
 
 // GetUserPendingContacts returns a list of a users pending contact requests.
-func (dbAccess) GetUserPendingContacts(userID int) ([]models.PendingContactModel, error) {
+func GetUserPendingContacts(userID int) ([]models.PendingContactModel, error) {
 	rows, err := database.Query("call getUserPendingContacts(?)", userID)
 	if err != nil {
 		return nil, err
@@ -228,7 +248,8 @@ func (dbAccess) GetUserPendingContacts(userID int) ([]models.PendingContactModel
 	return contacts, nil
 }
 
-func (dbAccess) ConfirmContactRequest(requestedUserID int, addingUserID int) error {
+// ConfirmContactRequest confirms a contact request.
+func ConfirmContactRequest(requestedUserID int, addingUserID int) error {
 	res, err := database.Exec(
 		"call confirmContact(?,?)",
 		requestedUserID,
@@ -250,7 +271,8 @@ func (dbAccess) ConfirmContactRequest(requestedUserID int, addingUserID int) err
 	return nil
 }
 
-func (dbAccess) RejectContactRequest(requestedUserID int, addingUserID int) error {
+// RejectContactRequest rejects a contact request.
+func RejectContactRequest(requestedUserID int, addingUserID int) error {
 	res, err := database.Exec(
 		"call rejectContact(?,?)",
 		requestedUserID,
