@@ -293,3 +293,26 @@ func RejectContactRequest(requestedUserID int, addingUserID int) error {
 
 	return nil
 }
+
+// SetStatus sets a users status.
+func SetStatus(userID int, statusID int) error {
+	res, err := database.Exec(
+		"call setStatus(?,?)",
+		userID,
+		statusID)
+
+	if err != nil {
+		return err
+	}
+
+	ra, err := res.RowsAffected()
+	if err != nil {
+		return err
+	}
+
+	if ra != 1 {
+		return errors.New("failed to set user status")
+	}
+
+	return nil
+}

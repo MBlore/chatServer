@@ -65,15 +65,8 @@ func HandleLogin(s *server.TCPServer, client *server.Client, packet *server.Pack
 			loggedIn, client.UserID, client.DisplayName, user.StatusText, friends, pendingContacts))
 
 		// Notify this contacts friends, if they are logged in, that this user came online.
-		go func() {
-			if friends != nil {
-				statusPacket := builders.NewUserStatusChangePacket(user.ID, dbaccess.StatusOnline)
-
-				for _, f := range friends {
-					go s.BroadcastPacketToUserID(f.ID, statusPacket)
-				}
-			}
-		}()
+		statusPacket := builders.NewUserStatusChangePacket(user.ID, dbaccess.StatusOnline)
+		go utils.BroadcastPacketToContacts(s, user.ID, statusPacket)
 	} else {
 		go client.SendPacket(builders.NewLoginResultPacket(false, 0, nil, nil, nil, nil))
 	}

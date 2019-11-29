@@ -30,7 +30,7 @@ func main() {
 	log.Println("Updating user statuses...")
 	dbaccess.ResetUserStatuses()
 
-	localTesting := false
+	localTesting := true
 
 	if !localTesting {
 		go RunWebServer()
@@ -127,6 +127,26 @@ func onHandlePacket(s *server.TCPServer, client *server.Client, packet *server.P
 					go s.BroadcastPacketToUserID(int(userIDTo), builders.NewImageFromPacket(client.UserID, imageData))
 				}
 			}
+		case builders.PacketIDUserStatusChange:
+			if packet.Data == nil {
+				break
+			}
+
+			reader := bytes.NewReader(*packet.Data)
+			statusID := utils.ReadInt32(reader)
+
+			if statusID < 0 || statusID > 3 {
+				break
+			}
+
+			err := dbaccess.SetStatus(client.UserID, int(statusID))
+
+			if err != nil {
+				log.Printf("Failed to status for user id '%v': %v", client.UserID, err)
+			} else {
+				packet := builders.NewUserStatusChangePacket(client.UserID, int(statusID))
+				go utils.BroadcastPacketToContacts(s, client.UserID, packet)
+			}
 		}
 	}
 }
@@ -148,20 +168,8 @@ func onClientDisconnect(s *server.TCPServer, c *server.Client, addr string) {
 		}()
 
 		// Notify this contacts friends, if they are logged in, that this user went offline.
-		go func() {
-			friends, err := dbaccess.GetFriends(c.UserID)
-			if err != nil {
-				log.Printf("Failed to get friends for user id '%v'.", c.UserID)
-			} else {
-				if friends != nil {
-					statusPacket := builders.NewUserStatusChangePacket(c.UserID, dbaccess.StatusOffline)
-
-					for _, f := range friends {
-						go s.BroadcastPacketToUserID(int(f.ID), statusPacket)
-					}
-				}
-			}
-		}()
+		statusPacket := builders.NewUserStatusChangePacket(c.UserID, dbaccess.StatusOffline)
+		go utils.BroadcastPacketToContacts(s, c.UserID, statusPacket)
 	}
 
 	log.Printf("Client '%v' disconnected from %v (%v clients)", c.Username, addr, s.NumClients())

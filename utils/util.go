@@ -2,6 +2,9 @@ package utils
 
 import (
 	"bytes"
+	"chatServer/dbaccess"
+	"chatServer/server"
+	"log"
 
 	uuid "github.com/satori/go.uuid"
 	"golang.org/x/crypto/bcrypt"
@@ -68,4 +71,22 @@ func ReadLenString(r *bytes.Reader) *string {
 	str := string(strBytes)
 
 	return &str
+}
+
+// BroadcastPacketToContacts sends the specified packet to a user contacts.
+func BroadcastPacketToContacts(s *server.TCPServer, userID int, packet *server.Packet) {
+
+	// Expensive to hit the DB for everytime we want to send to a known list of contacts.
+	// Future caching opportunity here to reduce DB load.
+	friends, err := dbaccess.GetFriends(userID)
+
+	if err != nil {
+		log.Printf("Failed to get contacts for user id '%v'.", userID)
+	} else {
+		if friends != nil {
+			for _, f := range friends {
+				go s.BroadcastPacketToUserID(f.ID, packet)
+			}
+		}
+	}
 }
